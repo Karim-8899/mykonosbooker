@@ -2256,7 +2256,11 @@ section
 {
 	height: 52px;
 }
-
+.copy-power 
+{
+	display: grid;
+	margin:auto;
+}
 	
 
 .footer_nav_list
