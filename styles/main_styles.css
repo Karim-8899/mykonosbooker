@@ -314,7 +314,7 @@ section
 {
 	width: 100%;
 	height: 36px;
-	background: #350a4e;
+	background: linear-gradient(to right, #4b4d8e 0%, #2d6a6b 100%);
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
@@ -1049,7 +1049,7 @@ section
 	color: #393333;
 	border-radius: 10px;
 	border-color: white;
-	background: linear-gradient(to right, #fa9d1b7b, #8d4fff7e);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	border-style: solid ;
 	margin-right: 10px;
 	display: flex;
@@ -1326,6 +1326,7 @@ section
 	height: 100%;
 	z-index: 2;
 	background: rgba(49, 18, 75, 0.55);
+	border-radius: 30px;
 }
 .intro_item_background
 {
@@ -1338,6 +1339,7 @@ section
 	background-size: cover;
 	background-position: center center;
 	z-index: 1;
+	border-radius: 30px;
 }
 .intro_item_content
 {
@@ -1566,6 +1568,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	border-radius: 30px;
 }
 .offer_name
 {
@@ -1902,6 +1905,7 @@ section
 	padding-right: 48px;
 	padding-bottom: 88px;
 	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 50%);
+	border-radius: 30px;
 }
 .contact_form
 {
@@ -2016,7 +2020,7 @@ section
 	width: 100%;
 	padding-top: 113px;
 	padding-bottom: 104px;
-	background: #31124b ;
+	background: linear-gradient(to right, #585ba9 0%, #3a8587 100%);
 }
 .footer_title
 {
@@ -2125,6 +2129,7 @@ section
 .footer_blog_image img
 {
 	width: 100%;
+	border-radius: 10px;
 }
 .footer_blog_content
 {
@@ -2231,7 +2236,7 @@ section
 
 .copyright
 {
-	background: #1f0733;
+	background: #252646 ;
 }
 .copyright_content
 {
@@ -2279,4 +2284,9 @@ section
 
 #downlogo {
 	width: 200px;
+}
+
+
+.check-in {
+	width: auto;
 }

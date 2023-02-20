@@ -259,6 +259,7 @@
 	.search_button
 	{
 		margin-top: 9px;
+		background: linear-gradient(to right, rgb(127, 131, 240) 0%, rgb(90, 210, 212) 35%);
 	}
 	.intro_col
 	{
@@ -341,7 +342,7 @@
 	.hamburger2 {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -380,7 +381,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -392,7 +393,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -405,7 +406,7 @@
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -418,7 +419,7 @@
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -430,7 +431,7 @@
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -442,7 +443,7 @@
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -454,7 +455,7 @@
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -467,7 +468,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		margin: 0 auto;	
@@ -477,7 +478,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		margin: 0 auto;	
@@ -488,7 +489,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		margin: 0 auto;	
@@ -498,7 +499,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		margin: 0 auto;	
@@ -508,7 +509,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		margin: 0 auto;	
@@ -521,7 +522,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -533,7 +534,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.913);
-		background: rgba(240, 233, 233, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -541,7 +542,7 @@
 	}
 
 	.ui-datepicker {
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border: 1px solid #555;
 		color: rgb(0, 0, 0);
 		display: flex;
@@ -678,7 +679,7 @@
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -897,7 +898,7 @@ table {
 	border-radius: 10px;
 	border-width: 0.5px;
 	border-color: white;
-	background: rgba(255, 255, 255, 0.35);
+	background: #0a2b2c99;
 	border-style: solid ;
 	margin-right: 10px;
 	display: block;
@@ -953,22 +954,22 @@ table {
 
 
 .menu-nav a:nth-child(1):hover{
-	background: linear-gradient(90deg, rgba(200,155,84,1) 18%, rgba(236,218,112,1) 52%, rgba(213,169,73,1) 84%);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	color: #ffffff;
 	transition: background-color 1s ease;
 }
 .menu-nav a:nth-child(2):hover{
-	background: linear-gradient(90deg, rgba(200,155,84,1) 18%, rgba(236,218,112,1) 52%, rgba(213,169,73,1) 84%);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	color: #ffffff;
 }
 .menu-nav a:nth-child(3):hover{
-	background: linear-gradient(90deg, rgba(200,155,84,1) 18%, rgba(236,218,112,1) 52%, rgba(213,169,73,1) 84%);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	color: #ffffff;
 }
 
 .menu-nav a:nth-child(1):active {
 	width: 500px;
-	background: linear-gradient(90deg, rgba(200,155,84,1) 18%, rgba(236,218,112,1) 52%, rgba(213,169,73,1) 84%);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	transition: background-color 1s ease;
 	color: #ffffff;
 	
@@ -1036,7 +1037,7 @@ table {
 	.hamburger2 {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -1073,7 +1074,7 @@ table {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -1086,7 +1087,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		
@@ -1102,7 +1103,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -1259,7 +1260,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -1476,7 +1477,7 @@ table {
 	border-radius: 10px;
 	border-width: 0.5px;
 	border-color: white;
-	background: rgba(255, 255, 255, 0.35);
+	background: #0a2b2c99;
 	border-style: solid ;
 	margin-right: 10px;
 	display: block;
@@ -1607,7 +1608,7 @@ table {
 	.hamburger2 {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -1648,7 +1649,7 @@ table {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -1661,7 +1662,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		
@@ -1677,7 +1678,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -1834,7 +1835,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -2051,7 +2052,7 @@ table {
 	border-radius: 10px;
 	border-width: 0.5px;
 	border-color: white;
-	background: rgba(255, 255, 255, 0.35);
+	background: #0a2b2c99;
 	border-style: solid ;
 	margin-right: 10px;
 	display: block;
@@ -2244,7 +2245,7 @@ table {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
 		border-width: 0.5px;
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
@@ -2257,7 +2258,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.982);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;	
@@ -2270,7 +2271,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.921);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
@@ -2415,7 +2416,7 @@ table {
 		border-radius: 10px;
 		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
-		background: rgba(255, 255, 255, 0.25);
+		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
 		opacity: 0.9;
@@ -2645,7 +2646,7 @@ table {
 	border-radius: 10px;
 	border-width: 0.5px;
 	border-color: white;
-	background: rgba(255, 255, 255, 0.35);
+	background: #0a2b2c99;
 	border-style: solid ;
 	margin-right: 10px;
 	display: block;
@@ -2864,6 +2865,7 @@ table {
 	.search_button
 	{
 		line-height: 44px;
+		background: linear-gradient(to right, rgb(127, 131, 240) 0%, rgb(90, 210, 212) 35%);
 	}
 	.intro_item
 	{
