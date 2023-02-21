@@ -464,6 +464,11 @@ section
 3.3 Main Nav
 *********************************/
 
+.las {
+	font-size: 30px;
+}
+
+
 .main_nav_container
 {
 	margin-right: 221px;
