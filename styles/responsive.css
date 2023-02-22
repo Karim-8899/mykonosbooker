@@ -357,7 +357,7 @@
 
 	
 	#reservlogo {
-		width: 24px;
+		width: 28px;
 		
 	}
 
@@ -638,7 +638,7 @@
 
 
 	#reservlogo {
-		width: 24px;
+		width: 28px;
 	}
 
 
@@ -997,7 +997,7 @@ table {
 
 
 #reservlogo {
-	width: 23px;
+	width: 28px;
 }
 
 
@@ -1052,7 +1052,7 @@ table {
 
 	
 	#reservlogo {
-		width: 24px;
+		width: 28px;
 	}
 
 
@@ -1218,7 +1218,7 @@ table {
 
 
 	#reservlogo {
-		width: 24px;
+		width: 28px;
 	}
 
 
@@ -1351,16 +1351,7 @@ table {
 
 
 
-.selec-p {
-	text-align: left;
-	height: 60px;
-	
-	
-	
-	
-	
-	
-}
+
 .maintr {
 	height: 40px;
 	
@@ -1581,7 +1572,7 @@ table {
 
 
 #reservlogo {
-	width: 24px;
+	width: 28px;
 }
 
 
@@ -1628,7 +1619,7 @@ table {
 
 	
 	#reservlogo {
-		width: 24px;
+		width: 28px;
 	}
 
 
@@ -1798,7 +1789,7 @@ table {
 
 
 	#reservlogo {
-		width: 24px;
+		width: 28px;
 	}
 
 
@@ -1926,16 +1917,7 @@ table {
 
 
 
-.selec-p {
-	text-align: left;
-	height: 60px;
-	
-	
-	
-	
-	
-	
-}
+
 .maintr {
 	height: 40px;
 	
@@ -2156,7 +2138,7 @@ table {
 
 
 #reservlogo {
-	width: 24px;
+	width: 28px;
 }
 
 
@@ -2224,7 +2206,7 @@ table {
 
 
 	#reservlogo {
-		width: 24px;
+		width: 28px;
 	}
 
 
@@ -2379,7 +2361,7 @@ table {
 
 
 	#reservlogo {
-		width: 24px;
+		width: 28px;
 		
 		
 	}
@@ -2509,16 +2491,7 @@ table {
 
 
 
-.selec-p {
-	text-align: left;
-	height: 60px;
-	
-	
-	
-	
-	
-	
-}
+
 .maintr {
 	height: 40px;
 	
@@ -3002,9 +2975,7 @@ table {
 @media only screen and (max-width: 479px)
 {
 
-	.stay-li {
-		margin-top: 20px;
-	}
+	
 
 
 	.search_item1 {

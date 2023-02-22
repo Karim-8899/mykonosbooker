@@ -591,6 +591,23 @@ section
 3.4 Menu
 *********************************/
 
+.selec-Children {
+	width: 42px;
+}
+
+select{
+	word-wrap: normal;
+    border-radius: 11px;
+}
+
+#reservlogo {
+	width: 28px;
+}
+
+#stays-tit {
+	margin-top: -4px;
+}
+
 .hamburger
 {
 	display: none;
