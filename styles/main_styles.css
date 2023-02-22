@@ -52,6 +52,9 @@
 2. Body and some general stuff
 *********************************/
 
+
+
+
 *
 {
 	margin: 0;
@@ -976,7 +979,7 @@ section
 }
 .search_tab img
 {
-	margin-right: 10px;
+	margin-right: 0px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -986,12 +989,12 @@ section
 .search_tab:first-child
 {
 	border-top-left-radius: 94px;
-	padding-left: 7px;
+	padding-left: 0px;
 }
 .search_tab:last-child
 {
 	border-top-right-radius: 94px;
-	padding-right: 7px;
+	padding-right: 0px;
 }
 
 
@@ -2302,4 +2305,8 @@ section
 
 .check-in {
 	width: auto;
+}
+
+.stays-wico {
+	width: 100%;
 }
