@@ -331,6 +331,11 @@
 @media only screen and (max-width: 1190px)
 {
 
+	#close-ignore {
+		height: 30px;
+		text-align: right;
+		font-weight: 800;
+	}
 
 	.search_item
 	{
@@ -658,11 +663,6 @@
 
 
 
-
-
-
-
-
 	.search_item-count {
 		
 		border-radius: 10px;
@@ -727,7 +727,7 @@
 	}
 	
 .persons-dash {
-	padding: 20px;
+	padding: 150px;
 	width: 100%;
 	height: 100%;
 	position:relative;
@@ -735,9 +735,19 @@
 	color: #ffffff;
 	font-weight: 600;
 	
-	
-	
 }
+
+#close-ignore {
+    height: 30px;
+    text-align: right;
+    font-weight: 800;
+}
+
+
+
+
+
+
 #room1 {
 	
 	height: 30px;
@@ -831,30 +841,24 @@ table {
 	border-radius: 5px;
 	background-color: rgba(243, 47, 47, 0.955);
 	width: 100%;
-	height: 40px;
+	height: 20px;
 	margin-bottom: 20px;
 }
 
 
 .notifi-red {
 	align-items: center;
-	width: 100%;
+	width: 40%;
 
 }
 
 .notifi-head {
 	
-	font-weight: 500;
+	font-weight: 300;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 8px;
 	
 }
-
-
-
-
-
-
 
 
 .done-p {
@@ -1321,10 +1325,15 @@ table {
 	
 	height: 30px;
 	text-align:left;
-	
 	font-weight: 800;
 	
 }
+#close-ignore {
+	height: 30px;
+	text-align:right;
+	font-weight: 800;
+}
+
 .counters-d {
 	text-align: right;
 	
@@ -1409,8 +1418,8 @@ table {
 	text-align: center;
 	border-radius: 5px;
 	background-color: rgba(243, 47, 47, 0.955);
-	width: 100%;
-	height: 40px;
+	width: 40%;
+	height: 20px;
 	margin-bottom: 20px;
 }
 
@@ -1425,7 +1434,7 @@ table {
 	
 	font-weight: 500;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 8px;
 	
 }
 
@@ -1984,8 +1993,8 @@ table {
 	text-align: center;
 	border-radius: 5px;
 	background-color: rgba(243, 47, 47, 0.955);
-	width: 100%;
-	height: 40px;
+	width: 40%;
+	height: 20px;
 	margin-bottom: 20px;
 }
 
@@ -2000,7 +2009,7 @@ table {
 	
 	font-weight: 500;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 8px;
 	
 }
 
@@ -2173,7 +2182,7 @@ table {
 	
 	
 	.home_slider_container {
-		display: flex;
+		display: inherit;
 		height: 350px;
 	}
 
@@ -2567,9 +2576,9 @@ table {
 	text-align: center;
 	border-radius: 5px;
 	background-color: rgba(243, 47, 47, 0.955);
-	width: 100%;
-	height: 40px;
-	margin-bottom: 20px;
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
 }
 
 
@@ -2583,7 +2592,7 @@ table {
 	
 	font-weight: 500;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 9px;
 	
 }
 

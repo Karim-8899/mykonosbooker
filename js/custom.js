@@ -350,7 +350,9 @@ $(document).ready(function()
 		}
 
 
-
+		$('#close-ignore').click(function(){
+			hideAll();
+		})
 
 
 

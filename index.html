@@ -346,16 +346,10 @@
 													</td>
 												  </tr>
 											</table>
-
-										
-											
-	
-										
-										
 									</div>
 									
 										
-									<button class="button search_button"  >search<span></span><span></span><span><a href="./hotels.html"></a></span></button>
+									<button class="button search_button"  >search<span></span><span></span><span><a href="#"></a></span></button>
 									
 	
 									<div class="menu2 trans_500" id="pmenu">
@@ -364,18 +358,16 @@
 											<div class="persons-dash">
 												<table>
 													<tr>
-														<td colspan="2" class="notifi-red"><div class="red-notification"><p class="notifi-head">Please provide Children age?</p></div></td>
+														<td colspan="2" id="close-ignore"> <a ><i class="fa-regular fa-circle-xmark"></i</a></td>
 													</tr>
 													<tr>
-														<td id="room1" colspan="2">  Room1</td>
+														<td id="room1" >   </td>
+														
 													</tr>
 													<tr class="maintr">
 														<td class="selec-p">Adults</td>
 														<td class="counters-d">
-																       
-															
 															<select id="qty1" value="" class="qty" >
-																
 																<option value="1">1</option>
 																<option value="2">2</option>
 																<option value="3">3</option>
@@ -388,12 +380,12 @@
 																<option value="10">10</option>
 																<option value="11">11</option>
 																<option value="12">12</option>
-															</select>
-															  
+															</select>  
 														</td>
 													</tr>
 													<tr class="maintr">
 														<td class="selec-p">Children</td>
+
 														<td class="counters-d">
 															<select class="selec-Children" value="">
 																<option value="0">0</option>
@@ -406,7 +398,9 @@
 															</select>
 														</td>
 													</tr>	
-													
+													<tr>
+														<td colspan="2" class="notifi-red"><div class="red-notification"><p class="notifi-head">Please provide Children age?</p></div></td>
+													</tr>
 												
 													<tr class="maintr">
 														<td class="selec-p ">
@@ -615,25 +609,31 @@
 
 
 									<div class="search_item">
-										<div>Adults</div>
-										<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-											<option>0</option>
-											<option>2</option>
-											<option>3</option>
-											<option>4</option>
-											<option>5</option>
-										</select>
+										<div class="hamburger2">
+										
+											<table class="tablez" id="smview-dash" >
+												<tr>
+													<th rowspan="2" style="white-space:nowrap; height: 10px; width: 40px;">
+														<div class="booking-person d-flex">
+															<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+																<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+															  </svg>
+															  
+														</div>
+													</th>
+													<td style="white-space:nowrap; height: 10px; font-size: 12px;">Travelers</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="travler-display" >
+															<p class="trav2"><p id="alrooms" value=" "> 1 </p>  Room,  <p id="aladults" value=" "> 1  </p>  Adults,  <p id="alkids" value=" "> 0  </p> Children</p>
+														</div>
+													</td>
+												  </tr>
+											</table>
 									</div>
-									<div class="search_item">
-										<div>children</div>
-										<select name="children" id="roundedk" class="dropdown_item_select search_input">
-											<option>0</option>
-											<option>2</option>
-											<option>3</option>
-											<option>4</option>
-											<option>5</option>
-										</select>
 									</div>
+									
 									<button class="button search_button">search<span></span><span></span><span></span></button>
 								</div>
 	
@@ -652,25 +652,31 @@
 									
 
 									<div class="search_item">
-										<div>Adults</div>
-										<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-											<option>0</option>
-											<option>2</option>
-											<option>3</option>
-											<option>4</option>
-											<option>5</option>
-										</select>
+										<div class="hamburger2 apartment-l">
+										
+											<table class="tablez" id="smview-dash" >
+												<tr>
+													<th rowspan="2" style="white-space:nowrap; height: 10px; width: 40px;">
+														<div class="booking-person d-flex">
+															<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+																<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+															  </svg>
+															  
+														</div>
+													</th>
+													<td style="white-space:nowrap; height: 10px; font-size: 12px;">Travelers</td>
+												</tr>
+												<tr>
+													<td>
+														<div class="travler-display" >
+															<p class="trav2"><p id="alrooms" value=" "> 1 </p>  Room,  <p id="aladults" value=" "> 1  </p>  Adults,  <p id="alkids" value=" "> 0  </p> Children</p>
+														</div>
+													</td>
+												  </tr>
+											</table>
 									</div>
-									<div class="search_item">
-										<div>children</div>
-										<select name="children" id="roundedk" class="dropdown_item_select search_input">
-											<option>0</option>
-											<option>2</option>
-											<option>3</option>
-											<option>4</option>
-											<option>5</option>
-										</select>
 									</div>
+									
 									<button class="button search_button"><a href="#">search<span></span><span></span><span></span></a></button>
 								</div>
 						
@@ -695,19 +701,33 @@
 									<a id="hotel-action" class="search_tab_lil" >Book a transfer</a>
 									<a id="appart-action" class="search_tab_lil">Hire a driver</a>	
 								</nav>
-
-								<select name="adults" id="roundedk1" class="dropdown_item_select search_input">
-									<option>Select Category</option>
-									<option value="search_item1" >Rent A Car</option>
-									<option value="search_item2">Book A Transfer</option>
-									<option>Hire A Driver</option>
-									<option>Airport transfer</option>
-									<option>Rent Supercars</option>
-									
-								</select>
 							</div>
-
-
+							<div>
+								<div class="check-in">
+									<div class="search_item">
+										<div>Pick Up</div>
+										<input id="roundedk-trans-in" type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
+									</div>
+									<div class="search_item">
+										<div>Drop-off</div>
+										<input id="roundedk-trans-out" type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
+									</div>
+								</div>
+								
+								<div>
+									<select name="adults" id="roundedk1" class="dropdown_item_select search_input">
+										<option>Select Category</option>
+										<option value="search_item1" >Rent A Car</option>
+										<option value="search_item2">Book A Transfer</option>
+										<option>Hire A Driver</option>
+										<option>Airport transfer</option>
+										<option>Rent Supercars</option>
+										
+									</select>
+								</div>
+							</div>
+							
+							
 
 
 							<div class="search_item1 box" id="car-rent" >
@@ -734,16 +754,7 @@
 							</div>
 
 
-							<div class="check-in">
-								<div class="search_item">
-									<div>Pick Up</div>
-									<input id="roundedk-trans-in" type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
-								</div>
-								<div class="search_item">
-									<div>Drop-off</div>
-									<input id="roundedk-trans-out" type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
-								</div>
-							</div>
+							
 
 							
 
