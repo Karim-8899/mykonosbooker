@@ -239,6 +239,7 @@
 		width: 100%;
 		display: flex;
 		align-items: center;
+		padding-bottom: 10px;
 		
 	}
 	.check-in>div:first-child{ 
@@ -345,6 +346,17 @@
 
 
 	.hamburger2 {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.871);
+		background: #0a2b2c99;
+		border-style: solid ;
+		color: rgb(255, 255, 255);
+		opacity: 0.9;
+		margin-top: 20px;
+		height: 50px;
+	}
+
+	.hamburger2-hotel {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: #0a2b2c99;
@@ -679,6 +691,16 @@
 	.hamburger2 {
 		border-radius: 10px;
 		border-width: 0.5px;
+		border-color: rgba(255, 255, 255, 0.871);
+		background: #0a2b2c99;
+		border-style: solid ;
+		color: rgb(255, 255, 255);
+		opacity: 0.9;
+		margin-top: 20px;
+		height: 50px;
+	}
+	.hamburger2-hotel {
+		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: #0a2b2c99;
 		border-style: solid ;
@@ -1049,6 +1071,16 @@ table {
 		margin-top: 20px;
 		height: 50px;
 	}
+	.hamburger2-hotel {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.871);
+		background: #0a2b2c99;
+		border-style: solid ;
+		color: rgb(255, 255, 255);
+		opacity: 0.9;
+		margin-top: 20px;
+		height: 50px;
+	}
 
 	
 	#reservlogo {
@@ -1272,7 +1304,16 @@ table {
 		margin-top: 20px;
 		height: 50px;
 	}
-
+	.hamburger2-hotel {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.871);
+		background: #0a2b2c99;
+		border-style: solid ;
+		color: rgb(255, 255, 255);
+		opacity: 0.9;
+		margin-top: 20px;
+		height: 50px;
+	}
 
 	#smview-dash {
 		position: relative;
@@ -1616,6 +1657,16 @@ table {
 		margin-top: 20px;
 		height: 50px;
 	}
+	.hamburger2-hotel {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.871);
+		background: #0a2b2c99;
+		border-style: solid ;
+		color: rgb(255, 255, 255);
+		opacity: 0.9;
+		margin-top: 20px;
+		height: 50px;
+	}
 
 	
 	#reservlogo {
@@ -1843,7 +1894,16 @@ table {
 		margin-top: 20px;
 		height: 50px;
 	}
-
+	.hamburger2-hotel {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.871);
+		background: #0a2b2c99;
+		border-style: solid ;
+		color: rgb(255, 255, 255);
+		opacity: 0.9;
+		margin-top: 20px;
+		height: 50px;
+	}
 
 	#smview-dash {
 		position: relative;
@@ -2417,7 +2477,16 @@ table {
 		margin-top: 20px;
 		height: 50px;
 	}
-
+	.hamburger2-hotel {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.871);
+		background: #0a2b2c99;
+		border-style: solid ;
+		color: rgb(255, 255, 255);
+		opacity: 0.9;
+		margin-top: 20px;
+		height: 50px;
+	}
 
 	#smview-dash {
 		position: relative;
