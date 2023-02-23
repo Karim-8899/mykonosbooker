@@ -55,6 +55,8 @@ $(function() {
 	$('.mkids-age5').hide();
 	$('.mkids-age6').hide();
 	$('.red-notification').hide();
+	$('.dash-book-trans').hide();
+	$('.dash-hire-driv').hide();
  });
 
 
@@ -538,6 +540,30 @@ $(document).ready(function()
 
 
 
+	  $('#rental-action').click(function(){
+		$(".dash-renal-car").show(500);
+		$('.dash-book-trans').hide();
+		$('.dash-hire-driv').hide();
+	  });
+
+	  $('#tranfer-action').click(function(){
+		$('.dash-book-trans').show(500);
+		$(".dash-renal-car").hide();
+		$('.dash-hire-driv').hide();
+
+	  });
+
+	  $('#drive-action').click(function(){
+		$('.dash-hire-driv').show(500);
+		$(".dash-renal-car").hide();
+		$('.dash-book-trans').hide();
+	  })
+
+
+
+
+
+
 
 
 	  $("#roundedk1").change(function(){
@@ -613,6 +639,18 @@ $(document).ready(function()
 
 
 	
+
+
+
+
+
+
+
+
+
+
+
+
 	"use strict";
 
 	/* 
@@ -620,6 +658,14 @@ $(document).ready(function()
 	1. Vars and Inits
 
 	*/
+
+
+
+
+
+
+
+
 
 
 

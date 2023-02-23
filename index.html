@@ -697,12 +697,43 @@
 							<div class="search_item">
 								<div>Category</div>
 								<nav class="menu-nav d-flex flex-lg-row">
-									<a id="vill-action" class="search_tab_lil active flex-row" >Rental cars</a>
-									<a id="hotel-action" class="search_tab_lil" >Book a transfer</a>
-									<a id="appart-action" class="search_tab_lil">Hire a driver</a>	
+									<a id="rental-action" class="search_tab_lil active flex-row" >Rental cars</a>
+									<a id="tranfer-action" class="search_tab_lil" >Book a transfer</a>
+									<a id="drive-action" class="search_tab_lil">Hire a driver</a>	
 								</nav>
 							</div>
-							<div>
+
+							<div class="dash-renal-car">
+
+								<div class="check-in">
+									<div class="search_item">
+										<div>Pick Up</div>
+										<input id="roundedk-trans-in" type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
+									</div>
+									<div class="search_item">
+										<div>Drop-off</div>
+										<input id="roundedk-trans-out" type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
+									</div>
+								</div>
+
+								<div>
+									<select name="car-type" id="roundedk1" class="dropdown_item_select search_input">
+										<option>Select Car Type</option>
+										<option>Cabrio</option>
+										<option>Suv</option>
+										<option>Sedan</option>
+										<option>Small car</option>
+										<option>See all</option>
+										
+									</select>
+								</div>
+
+								
+
+							</div>
+
+							<div class="dash-book-trans">
+								
 								<div class="check-in">
 									<div class="search_item">
 										<div>Pick Up</div>
@@ -725,59 +756,124 @@
 										
 									</select>
 								</div>
+
+								<div class="search_item1 box" id="car-rent" >
+									<div>Vechicle Type</div>
+									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+										<option>Select Category</option>
+										<option>SUV</option>
+										<option>Crossover</option>
+										<option>Convertible</option>
+										<option>Station Wagon</option>
+										<option>Minivan</option>
+									</select>
+								</div>
+	
+	
+								<div class="search_item2 box" id="btransfer" style="display:none" >
+									<div>Transfer Type</div>
+									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+										<option>Select Category</option>
+										<option>Minivan</option>
+										<option>Business</option>
+										<option>Standard</option>
+									</select>
+								</div>
+	
+
+								<div class="search_item">
+									<div>adults</div>
+									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+										<option>01</option>
+										<option>02</option>
+										<option>03</option>
+										<option>4 or More</option>
+										
+									</select>
+								</div>
+								<div class="search_item">
+									<div>children</div>
+									<select name="children" id="roundedk" class="dropdown_item_select search_input">
+										<option>0</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4 or More</option>
+									</select>
+								</div>
+
+							</div>
+
+							<div class="dash-hire-driv">
+								
+								<div class="check-in">
+									<div class="search_item">
+										<div>Pick Up</div>
+										<input id="roundedk-trans-in" type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
+									</div>
+									<div class="search_item">
+										<div>Drop-off</div>
+										<input id="roundedk-trans-out" type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
+									</div>
+								</div>
+
+								<div>
+									<select name="adults" id="roundedk1" class="dropdown_item_select search_input">
+										<option>Select Category</option>
+										<option value="search_item1" >Rent A Car</option>
+										<option value="search_item2">Book A Transfer</option>
+										<option>Hire A Driver</option>
+										<option>Airport transfer</option>
+										<option>Rent Supercars</option>
+										
+									</select>
+								</div>
+
+								<div class="search_item1 box" id="car-rent" >
+									<div>Vechicle Type</div>
+									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+										<option>Select Category</option>
+										<option>SUV</option>
+										<option>Crossover</option>
+										<option>Convertible</option>
+										<option>Station Wagon</option>
+										<option>Minivan</option>
+									</select>
+								</div>
+	
+	
+								<div class="search_item2 box" id="btransfer" style="display:none" >
+									<div>Transfer Type</div>
+									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+										<option>Select Category</option>
+										<option>Minivan</option>
+										<option>Business</option>
+										<option>Standard</option>
+									</select>
+								</div>
+	
+
+								<div class="search_item">
+									<div>adults</div>
+									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+										<option>01</option>
+										<option>02</option>
+										<option>03</option>
+										<option>4 or More</option>
+										
+									</select>
+								</div>
+								<div class="search_item">
+									<div>children</div>
+									<select name="children" id="roundedk" class="dropdown_item_select search_input">
+										<option>0</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4 or More</option>
+									</select>
+								</div>
+
 							</div>
 							
-							
-
-
-							<div class="search_item1 box" id="car-rent" >
-								<div>Vechicle Type</div>
-								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-									<option>Select Category</option>
-									<option>SUV</option>
-									<option>Crossover</option>
-									<option>Convertible</option>
-									<option>Station Wagon</option>
-									<option>Minivan</option>
-								</select>
-							</div>
-
-
-							<div class="search_item2 box" id="btransfer" style="display:none" >
-								<div>Transfer Type</div>
-								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-									<option>Select Category</option>
-									<option>Minivan</option>
-									<option>Business</option>
-									<option>Standard</option>
-								</select>
-							</div>
-
-
-							
-
-							
-
-
-							<div class="search_item">
-								<div>adults</div>
-								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
-									<option>4 or More</option>
-									
-								</select>
-							</div>
-							<div class="search_item">
-								<div>children</div>
-								<select name="children" id="roundedk" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>2</option>
-									<option>3</option>
-									<option>4 or More</option>
-								</select>
-							</div>
 							<button class="button search_button"  >search<span></span><span></span><span></span></button>
 						</form>
 					</div>
