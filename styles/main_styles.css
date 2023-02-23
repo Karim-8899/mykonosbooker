@@ -611,6 +611,12 @@ select{
 	width: 44px;
 }
 
+.service-persons {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
 .hamburger
 {
 	display: none;
