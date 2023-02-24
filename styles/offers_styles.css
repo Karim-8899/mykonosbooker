@@ -1410,6 +1410,13 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	background-size: 100%;
+	}
+
+	#all-serchs {
+		opacity: 0.8;
+		margin-top: -20px;
+	}
 }
 .offer_name
 {

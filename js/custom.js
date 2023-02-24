@@ -639,7 +639,7 @@ $(document).ready(function()
 
 	$('#date-book-trans').Zebra_DatePicker({
 		format: 'Y-m-d H:i',
-		direction: 0,
+		direction: 1,
 	});
 	
 
