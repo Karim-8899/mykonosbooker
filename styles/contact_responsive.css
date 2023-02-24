@@ -101,6 +101,9 @@
 
 @media only screen and (max-width: 991px)
 {
+	#up-logo {
+		width: 120px;
+	}
 	.main_nav_container
 	{
 		display: none;
@@ -194,6 +197,7 @@
 	{
 		padding-left: 30px;
 		padding-right: 30px;
+		border-radius: 20px;
 	}
 }
 
@@ -307,7 +311,8 @@
 	}
 	.menu_logo a img
 	{
-		width: 28px !important;
+		width: 125px !important;
+		
 	}
 	.menu_item a
 	{
@@ -401,6 +406,7 @@
 	{
 		padding-left: 15px;
 		padding-right: 15px;
+		border-radius: 20px;
 	}
 }
 

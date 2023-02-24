@@ -470,6 +470,7 @@ section
 	-ms-transform: translateY(2px);
 	-o-transform: translateY(2px);
 	transform: translateY(2px);
+	width: 250px;
 }
 
 /*********************************
@@ -632,7 +633,7 @@ section
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background: linear-gradient(to right, #2e3087 0%, #3a8d8f 60%);
 	z-index: 100;
 	opacity: 0;
 	visibility: hidden;
@@ -798,7 +799,7 @@ section
 	padding-left: 98px;
 	padding-right: 98px;
 	padding-bottom: 88px;
-	background: linear-gradient(to top right, #fa9e1b, #8d4fff);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 }
 .contact_title
 {
