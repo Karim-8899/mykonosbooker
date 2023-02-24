@@ -481,6 +481,35 @@
 		height: 45px;	
 	}
 
+	.check_in {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.982);
+		border-width: 0.5px;
+		background: #0a2b2c99;
+		border-style: solid ;
+		color: rgba(255, 255, 255, 0.961);
+		width: 100%;
+		margin: 0 auto;
+		height: 45px;
+		width: inherit;
+	}
+
+	.Zebra_DatePicker_Icon_Wrapper {
+		width: inherit;
+	}
+
+	#date-book-trans {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.982);
+		border-width: 0.5px;
+		background: #0a2b2c99;
+		border-style: solid ;
+		color: rgba(255, 255, 255, 0.961);
+		width: 100%;
+		margin: 0 auto;
+		height: 45px;
+	}
+
 
 	#roundedk-out {
 		border-radius: 10px;
@@ -533,7 +562,9 @@
 		margin: 0 auto;	
 	}
 
-
+	.tranfer-bok {
+		margin-right: 10px;
+	}
 
 
 	#roundedk1 {
@@ -3064,8 +3095,8 @@ table {
 .search_item
 	{
 		width: 100% !important;
-		margin-bottom: -1px;
-		margin-top: -1px;
+		
+		margin-top: 6px;
 		
 	}
 	
