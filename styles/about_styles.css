@@ -636,7 +636,7 @@ section
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	z-index: 100;
 	opacity: 0;
 	visibility: hidden;
