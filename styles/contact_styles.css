@@ -1167,6 +1167,7 @@ section
 .footer_blog_image img
 {
 	width: 100%;
+	border-radius: 10px;
 }
 .footer_blog_content
 {
@@ -1215,6 +1216,7 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	border-radius: 10px;
 }
 .tag_item:hover
 {
