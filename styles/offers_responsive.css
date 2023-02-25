@@ -335,6 +335,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;
+		border-radius: 20px;
 	}
 	.footer_column
 	{
