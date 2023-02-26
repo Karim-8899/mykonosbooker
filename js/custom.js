@@ -505,6 +505,11 @@ $(document).ready(function()
 			
 		});
 		
+		$('.hamburger2-hotel').click(function(){
+			$('.menu-hotel2').show();
+			
+		});
+		
 		
 
 
