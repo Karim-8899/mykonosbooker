@@ -592,6 +592,27 @@ section
 3.4 Menu
 *********************************/
 
+.hotel-room-result {
+	color: #ffffff;
+	font-weight: 700;
+}
+.hotel-adults-result {
+	color: #ffff;
+	font-weight: 700;
+}
+.hotel-adults-result {
+	color: #ffff;
+	font-weight: 700;
+}
+.hotel-kids-result {
+	color: #ffff;
+	font-weight: 700;
+}
+
+
+
+
+
 .selec-Children {
 	width: 42px;
 }

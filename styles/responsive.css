@@ -338,6 +338,22 @@
 		font-weight: 800;
 	}
 
+	#close-ignore-hotel {
+		height: 30px;
+		text-align: right;
+		font-weight: 800;
+	}
+
+	#close-ignore-apart {
+		height: 30px;
+		text-align: right;
+		font-weight: 800;
+	}
+
+
+
+
+
 	.search_item
 	{
 		width: 100% !important;
@@ -667,7 +683,28 @@
 	margin-left: 5px;
 }
 
+#aladults-hotel {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: -3.5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+
+
 #alkids {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: -3.5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#alkids-hotel {
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 15px;
@@ -683,6 +720,12 @@
 .travler-display {
 	margin-bottom: -30px;
 	display: inline-flex;
+}
+
+
+.travler-display-hotel {
+	display: flex;
+	color: white;
 }
 
 .booking-person {
@@ -798,6 +841,23 @@
 		z-index:4;
 }
 
+.menu2-apart {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	z-index:4;
+}
+
+
 
 	.menu_content {
 		width: 100%;
@@ -821,7 +881,11 @@
     text-align: right;
     font-weight: 800;
 }
-
+#close-ignore-apart {
+	height: 30px;
+	text-align: right;
+	font-weight: 800;
+}
 
 
 
@@ -947,6 +1011,18 @@ table {
 }
 
 .done-close {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+		
+}
+
+.done-close-hotel {
 	text-align: center;
 	background: #722df3;
 		color: #ffffff;
@@ -1282,6 +1358,15 @@ table {
 	margin-left: 5px;
 }
 
+#aladults-hotel {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: -3.5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
 #alkids {
 	color: #ffffff;
 	font-weight: 600;
@@ -1291,6 +1376,14 @@ table {
 	margin-left: 5px;
 }
 
+#alkids-hotel {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: -3.5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
 
 
 
@@ -1385,7 +1478,7 @@ table {
 
 
 	.menu2 {
-		
+		display: none;
 		width: 100%;
 		height: 100%;
 		position: fixed;
@@ -1401,6 +1494,22 @@ table {
 }
 
 .menu2-hotel {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	z-index:4;
+}
+
+.menu2-apart {
 	display: none;
 	width: 100%;
 	height: 100%;
@@ -1445,6 +1554,12 @@ table {
 #close-ignore {
 	height: 30px;
 	text-align:right;
+	font-weight: 800;
+}
+
+#close-ignore-apart {
+	height: 30px;
+	text-align: right;
 	font-weight: 800;
 }
 
@@ -1557,6 +1672,18 @@ table {
 }
 
 .done-close {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+		
+}
+
+.done-close-hotel {
 	text-align: center;
 	background: #722df3;
 		color: #ffffff;
@@ -1888,7 +2015,7 @@ table {
 	margin-left: 5px;
 }
 
-#alkids {
+#aladults-hotel {
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 15px;
@@ -1897,6 +2024,22 @@ table {
 	margin-left: 5px;
 }
 
+#alkids {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: -3.5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#alkids-hotel {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: -3.5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
 
 
 
@@ -1991,7 +2134,7 @@ table {
 
 
 	.menu2 {
-		
+		display: none;
 		width: 100%;
 		height: 100%;
 		position: fixed;
@@ -2006,6 +2149,22 @@ table {
 		z-index:4;
 }
 .menu2-hotel {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	z-index:4;
+}
+
+.menu2-apart {
 	display: none;
 	width: 100%;
 	height: 100%;
@@ -2157,6 +2316,18 @@ table {
 }
 
 .done-close {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+		
+}
+
+.done-close-hotel {
 	text-align: center;
 	background: #722df3;
 		color: #ffffff;
@@ -2484,7 +2655,7 @@ table {
 	margin-left: 5px;
 }
 
-#alkids {
+#aladults-hotel {
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 15px;
@@ -2493,6 +2664,22 @@ table {
 	margin-left: 5px;
 }
 
+#alkids {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: -3.5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#alkids-hotel {
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: -3.5px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
 
 
 
@@ -2589,7 +2776,7 @@ table {
 
 
 	.menu2 {
-		
+		display: none;
 		width: 100%;
 		height: 100%;
 		position: fixed;
@@ -2604,6 +2791,22 @@ table {
 		z-index:4;
 }
 .menu2-hotel {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	z-index:4;
+}
+
+.menu2-apart {
 	display: none;
 	width: 100%;
 	height: 100%;
@@ -2754,6 +2957,18 @@ table {
 }
 
 .done-close {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+		
+}
+
+.done-close-hotel {
 	text-align: center;
 	background: #722df3;
 		color: #ffffff;
