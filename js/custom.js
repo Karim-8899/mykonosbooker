@@ -346,13 +346,17 @@ $(document).ready(function()
 
 		$('.done-close-hotel').click(function(){
 			
-
-
 			allpersonsHotels();
 			hideHotels();
 		});
 
+		$('.done-close-apart').click(function(){
+			
+			allpersonsHotels();
+			hideApart();;
+		});
 
+		
 
 
 
@@ -374,6 +378,14 @@ $(document).ready(function()
 			
 		}
 
+		function allpersonsHotels() {
+			var tradults = $("#qty1-apart").val();
+			var allkids = $(".selec-Children-apart").val();
+
+			document.getElementById("aladults-apart").innerHTML = tradults;
+			document.getElementById("alkids-apart").innerHTML = allkids;
+			
+		}
 
 
 

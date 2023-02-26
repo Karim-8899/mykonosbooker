@@ -728,6 +728,11 @@
 	color: white;
 }
 
+.travler-display-apart {
+	display: flex;
+	color: white;
+}
+
 .booking-person {
 	margin-bottom: -30px;
 	margin-top: -20px;
