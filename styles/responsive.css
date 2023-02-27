@@ -663,16 +663,7 @@
 	font-size: 10px;
 }
 
-#alrooms {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	
-	
 
-}
 
 #aladults {
 	color: #ffffff;
@@ -683,14 +674,7 @@
 	margin-left: 5px;
 }
 
-#aladults-hotel {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
+
 
 
 
@@ -704,14 +688,7 @@
 	margin-left: 5px;
 }
 
-#alkids-hotel {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
+
 
 
 
@@ -1039,6 +1016,17 @@ table {
 		
 }
 
+.done-close-apart {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+}
+
 
 
 	#roundedk.active
@@ -1343,16 +1331,7 @@ table {
 	font-size: 10px;
 }
 
-#alrooms {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	
-	
 
-}
 
 #aladults {
 	color: #ffffff;
@@ -1363,14 +1342,6 @@ table {
 	margin-left: 5px;
 }
 
-#aladults-hotel {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
 
 #alkids {
 	color: #ffffff;
@@ -1381,14 +1352,6 @@ table {
 	margin-left: 5px;
 }
 
-#alkids-hotel {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
 
 
 
@@ -1699,6 +1662,16 @@ table {
 		font-size: 20px;
 		
 }
+.done-close-apart {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+}
 
 
 
@@ -2000,16 +1973,7 @@ table {
 	font-size: 10px;
 }
 
-#alrooms {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	
-	
 
-}
 
 #aladults {
 	color: #ffffff;
@@ -2020,24 +1984,9 @@ table {
 	margin-left: 5px;
 }
 
-#aladults-hotel {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
+
 
 #alkids {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
-#alkids-hotel {
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 15px;
@@ -2344,6 +2293,16 @@ table {
 		
 }
 
+.done-close-apart {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+}
 
 
 	#roundedk.active
@@ -2640,16 +2599,7 @@ table {
 	font-size: 10px;
 }
 
-#alrooms {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	
-	
 
-}
 
 #aladults {
 	color: #ffffff;
@@ -2660,14 +2610,7 @@ table {
 	margin-left: 5px;
 }
 
-#aladults-hotel {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
+
 
 #alkids {
 	color: #ffffff;
@@ -2677,14 +2620,7 @@ table {
 	margin-right: 5px;
 	margin-left: 5px;
 }
-#alkids-hotel {
-	color: #ffffff;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: -3.5px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
+
 
 
 
@@ -2985,6 +2921,16 @@ table {
 		
 }
 
+.done-close-apart {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+}
 
 
 	#roundedk.active

@@ -352,7 +352,7 @@ $(document).ready(function()
 
 		$('.done-close-apart').click(function(){
 			
-			allpersonsHotels();
+			allpersonsApart();
 			hideApart();;
 		});
 
@@ -378,7 +378,7 @@ $(document).ready(function()
 			
 		}
 
-		function allpersonsHotels() {
+		function allpersonsApart() {
 			var tradults = $("#qty1-apart").val();
 			var allkids = $(".selec-Children-apart").val();
 

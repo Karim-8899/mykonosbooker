@@ -592,21 +592,54 @@ section
 3.4 Menu
 *********************************/
 
+
+#alrooms {
+	color: #ffffff;
+	font-weight: 600;
+	margin-right: 5px;
+}
+
+#aladults-hotel {
+	color: #ffffff;
+	font-weight: 600;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#alkids-hotel {
+	color: #ffffff;
+	font-weight: 600;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
 .hotel-room-result {
 	color: #ffffff;
-	font-weight: 700;
+	font-weight: 600;
 }
 .hotel-adults-result {
 	color: #ffff;
-	font-weight: 700;
+	font-weight: 600;
 }
 .hotel-adults-result {
 	color: #ffff;
-	font-weight: 700;
+	font-weight: 600;
 }
 .hotel-kids-result {
 	color: #ffff;
-	font-weight: 700;
+	font-weight: 600;
+}
+#alkids-apart {
+	color: #ffff;
+	font-weight: 600;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#aladults-apart {
+	color: #ffff;
+	font-weight: 600;
+	margin-right: 5px;
 }
 
 
@@ -812,7 +845,7 @@ select{
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	background: #31124b;
+	background: #31124bbb;
 	
 
 }
@@ -836,7 +869,7 @@ select{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	opacity:0.5;
+	opacity:0.9;
 }
 .home_slider_content
 {
