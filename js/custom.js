@@ -85,6 +85,18 @@ $(document).ready(function()
 			else if ( $('.selec-Children').val() == '6' ) kid6();
 		  });
 
+		  $('.selec-Children-hotel').on('change', function() {
+    
+			if ( $('.selec-Children-hotel').val() == '0' ) kidz();
+			else if ( $('.selec-Children-hotel').val() == '1' ) kid1();
+			else if ( $('.selec-Children-hotel').val() == '2' ) kid2();
+			else if ( $('.selec-Children-hotel').val() == '3' ) kid3();
+			else if ( $('.selec-Children-hotel').val() == '4' ) kid4();
+			else if ( $('.selec-Children-hotel').val() == '5' ) kid5();
+			else if ( $('.selec-Children-hotel').val() == '6' ) kid6();
+		  });
+
+
 
 		  
 
@@ -433,6 +445,15 @@ $(document).ready(function()
 		$('.mkids-age5').hide()
 		$('.mkids-age6').hide()
 		$('.red-notification').hide();
+
+		function hotelKidz() {
+			$('.mkids-age1').hide()
+			$('.mkids-age2').hide()
+			$('.mkids-age3').hide()
+			$('.mkids-age4').hide()
+			$('.mkids-age5').hide()
+			$('.mkids-age6').hide()
+			$('.red-notification').hide();
 		
 		
 		  }

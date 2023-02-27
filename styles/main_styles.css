@@ -649,6 +649,10 @@ section
 .selec-Children {
 	width: 42px;
 }
+.selec-Children-hotel {
+	width: 42px;
+}
+
 
 select{
 	word-wrap: normal;
