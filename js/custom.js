@@ -446,7 +446,11 @@ $(document).ready(function()
 		$('.mkids-age6').hide()
 		$('.red-notification').hide();
 
-		function hotelKidz() {
+		}
+		
+
+
+		function hotelKsidz() {
 			$('.mkids-age1').hide()
 			$('.mkids-age2').hide()
 			$('.mkids-age3').hide()
