@@ -1171,6 +1171,11 @@ select{
 
 
 
+.transfer-personas-Reserv {
+	align-items: center;
+	width: 100%;
+	display: flex;
+}
 
 
 
@@ -1252,7 +1257,7 @@ select{
 }
 .search_item:first-child
 {
-	width: 15.961%;
+	width: 100%;
 }
 .search_item:nth-child(2)
 {
