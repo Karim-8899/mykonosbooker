@@ -552,6 +552,8 @@ $(document).ready(function()
 			$('.red-notification-hotel').hide();	
 		}
 
+
+
 		function hero1 () {
 		if ($('.1stkid').val() == '0' & $('.selec-Children').val() == '0' ) hideAll();
 		else if ($('.1stkid').val() == '0' & $('.selec-Children').val() >= '1' ) staystill();
@@ -578,8 +580,34 @@ $(document).ready(function()
 		}		
 
 
-
+/*Hotel Done Control*/
 		
+			function hero1Hotel () {
+			if ($('.1stkid-hotel').val() == '0' & $('.selec-Children-hotel').val() == '0' ) hideHotels();
+			else if ($('.1stkid-hotel').val() == '0' & $('.selec-Children-hotel').val() >= '1' ) staystillHotel();
+			else if ($('.1stkid-hotel').val() >= '1' & $('.selec-Children-hotel').val() >= '1' ) hideHotels();
+			}
+			function hero2Hotel () {
+				if ($('.2kid-hotel').val() == '0' & $('.selec-Children-hotel').val() >= '2' ) staystillHotel();
+				else if ($('.2kid-hotel').val() >= '1' & $('.selec-Children-hotel').val() >= '2' ) hideHotels();
+				
+				}
+			function hero3Hotel () {
+				if ($('.3rdkid-hotel').val() == '0' & $('.selec-Children-hotel').val() >= '3' ) staystillHotel();
+			}	
+
+			function hero4Hotel () {
+				if ($('.4rthkid-hotel').val() == '0' & $('.selec-Children-hotel').val() >= '4') staystillHotel();
+			}
+			function hero5Hotel() {
+				if ($('.5kid-hotel').val() == '0' & $('.selec-Children-hotel').val() >= '5') staystillHotel();
+			}
+			
+			function hero5Hotel() {
+				if ($('.6kid-hotel').val() == '0'  &  $('.selec-Children-hotel').val() >= '6') staystillHotel();
+			}
+
+/*End Done Control*/		
 
 
 		$('.done-close').click(function(){
@@ -591,16 +619,25 @@ $(document).ready(function()
 			allpersons();
 		});
 
+
 		$('.done-close-hotel').click(function(){
-			
+			hero1Hotel();
+			hero2Hotel();
+			hero3Hotel();
+			hero4Hotel();
+			hero5Hotel();
 			allpersonsHotels();
-			hideHotels();
+			
 		});
+
+
+
+
 
 		$('.done-close-apart').click(function(){
 			
 			allpersonsApart();
-			hideApart();;
+			hideApart();
 		});
 
 		
@@ -664,6 +701,10 @@ $(document).ready(function()
 		
 		function hideHotels(){
 			$('.menu2-hotel').hide();
+		}
+
+		function staystillHotel(){
+			$('.menu2-hotel').show();
 		}
 
 		function hideApart(){
