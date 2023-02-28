@@ -57,6 +57,15 @@ $(function() {
 	$('.mkids-age5').hide();
 	$('.mkids-age6').hide();
 	$('.red-notification').hide();
+
+	$('.mkids-hotel-age1').hide();
+	$('.mkids-hotel-age2').hide();
+	$('.mkids-hotel-age3').hide();
+	$('.mkids-hotel-age4').hide();
+	$('.mkids-hotel-age5').hide();
+	$('.mkids-hotel-age6').hide();
+	$('.red-notification-hotel').hide();
+
 	$('.dash-book-trans').hide();
 	$('.dash-hire-driv').hide();
  });
@@ -87,13 +96,13 @@ $(document).ready(function()
 
 		  $('.selec-Children-hotel').on('change', function() {
     
-			if ( $('.selec-Children-hotel').val() == '0' ) kidz();
-			else if ( $('.selec-Children-hotel').val() == '1' ) kid1();
-			else if ( $('.selec-Children-hotel').val() == '2' ) kid2();
-			else if ( $('.selec-Children-hotel').val() == '3' ) kid3();
-			else if ( $('.selec-Children-hotel').val() == '4' ) kid4();
-			else if ( $('.selec-Children-hotel').val() == '5' ) kid5();
-			else if ( $('.selec-Children-hotel').val() == '6' ) kid6();
+			if ( $('.selec-Children-hotel').val() == '0' ) kidzHotel();
+			else if ( $('.selec-Children-hotel').val() == '1' ) kid1Hotel();
+			else if ( $('.selec-Children-hotel').val() == '2' ) kid2Hotel();
+			else if ( $('.selec-Children-hotel').val() == '3' ) kid3Hotel();
+			else if ( $('.selec-Children-hotel').val() == '4' ) kid4Hotel();
+			else if ( $('.selec-Children-hotel').val() == '5' ) kid5Hotel();
+			else if ( $('.selec-Children-hotel').val() == '6' ) kid6Hotel();
 		  });
 
 
@@ -308,13 +317,19 @@ $(document).ready(function()
 
 
 		function doAge() {
-			$('.red-notification').show();
-			
+			$('.red-notification').show();	
 		}
 
 		function ageDone() {
-			$('.red-notification').hide();
-			
+			$('.red-notification').hide();	
+		}
+
+		function doAgeHotel() {
+			$('.red-notification-hotel').show();	
+		}
+
+		function ageDoneHotel() {
+			$('.red-notification-hotel').hide();	
 		}
 
 		function hero1 () {
@@ -447,20 +462,20 @@ $(document).ready(function()
 		$('.red-notification').hide();
 
 		}
+		function kidzHotel() {
+			$('.mkids-hotel-age1').hide()
+			$('.mkids-hotel-age2').hide()
+			$('.mkids-hotel-age3').hide()
+			$('.mkids-hotel-age4').hide()
+			$('.mkids-hotel-age5').hide()
+			$('.mkids-hotel-age6').hide()
+			$('.red-notification-hotel').hide();
+
+		}
 		
 
 
-		function hotelKsidz() {
-			$('.mkids-age1').hide()
-			$('.mkids-age2').hide()
-			$('.mkids-age3').hide()
-			$('.mkids-age4').hide()
-			$('.mkids-age5').hide()
-			$('.mkids-age6').hide()
-			$('.red-notification').hide();
 		
-		
-		  }
 		function kid1() {
 			$('.mkids-age1').show()
 			$('.mkids-age2').hide()
@@ -476,6 +491,26 @@ $(document).ready(function()
 			else if($('.1stkid').val() == '0') doAge();
 		}
 
+
+
+		function kid1Hotel() 
+		{
+			$('.mkids-hotel-age1').show()
+			$('.mkids-hotel-age2').hide()
+			$('.mkids-hotel-age3').hide()
+			$('.mkids-hotel-age4').hide()
+			$('.mkids-hotel-age5').hide()
+			$('.mkids-hotel-age6').hide()
+			ageNote1Hotel()
+		}
+
+		  function ageNote1Hotel() {
+			if($('.1stkid-hotel').val() >= '1') ageDoneHotel();
+			else if($('.1stkid-hotel').val() == '0') doAgeHotel();
+			}
+
+
+
 		function kid2() {
 			$('.mkids-age1').show();
 			$('.mkids-age2').show();
@@ -489,13 +524,30 @@ $(document).ready(function()
 			
 		}
 
+
 		function ageNote2() {
 			if ($('.2kid').val() == '0') doAge();
 			else if($('.2kid').val() >= '1') ageDone();
-			 
-			
 		}
 
+		
+		function kid2Hotel() 
+		{
+			$('.mkids-hotel-age1').show()
+			$('.mkids-hotel-age2').show()
+			$('.mkids-hotel-age3').hide()
+			$('.mkids-hotel-age4').hide()
+			$('.mkids-hotel-age5').hide()
+			$('.mkids-hotel-age6').hide()
+			
+			ageNote2Hotel()
+		}
+
+		function ageNote2Hotel() {
+			ageNote1Hotel();
+			if ($('.2kid-hotel').val() == '0') doAgeHotel();
+			else if($('.2kid-hotel').val() >= '1') ageDoneHotel();
+		}
 
 		
 
@@ -517,6 +569,28 @@ $(document).ready(function()
 		}
 
 
+		function kid3Hotel() 
+		{
+			$('.mkids-hotel-age1').show()
+			$('.mkids-hotel-age2').show()
+			$('.mkids-hotel-age3').show()
+			$('.mkids-hotel-age4').hide()
+			$('.mkids-hotel-age5').hide()
+			$('.mkids-hotel-age6').hide()
+			
+			ageNote3Hotel()
+		}
+
+		function ageNote3Hotel() {
+			ageNote1Hotel();
+			ageNote2Hotel();
+			if($('.3rdkid-hotel').val() == '0') doAgeHotel();
+			else if ($('.3rdkid-hotel').val() >= '1') ageDoneHotel();
+
+		}
+
+
+
 
 		function kid4() {
 			$('.mkids-age1').show()
@@ -534,6 +608,30 @@ $(document).ready(function()
 			if ($('.4rthkid').val() == '0') doAge();
 			else if ($('.4rthkid').val() >= '1') ageDone();
 		};
+
+
+
+		function kid4Hotel() 
+		{
+			$('.mkids-hotel-age1').show()
+			$('.mkids-hotel-age2').show()
+			$('.mkids-hotel-age3').show()
+			$('.mkids-hotel-age4').show()
+			$('.mkids-hotel-age5').hide()
+			$('.mkids-hotel-age6').hide()
+			
+			ageNote4Hotel()
+		}
+		function ageNote4Hotel() {
+			ageNote1Hotel();
+			ageNote2Hotel();
+			ageNote3Hotel();
+			
+			if ($('.4rthkid-hotel').val() == '0') doAgeHotel();
+			else if ($('.4rthkid-hotel').val() >= '1') ageDoneHotel();
+		};
+
+
 
 
 		function kid5() {
@@ -554,6 +652,27 @@ $(document).ready(function()
 			else if ($('.5kid').val() >= '1') ageDone();
 
 		};
+		function kid5Hotel() 
+		{
+			$('.mkids-hotel-age1').show()
+			$('.mkids-hotel-age2').show()
+			$('.mkids-hotel-age3').show()
+			$('.mkids-hotel-age4').show()
+			$('.mkids-hotel-age5').show()
+			$('.mkids-hotel-age6').hide()
+			
+			ageNote5Hotel()
+		}
+		function ageNote5Hotel() {
+			ageNote1Hotel();
+			ageNote2Hotel();
+			ageNote3Hotel();
+			ageNote4Hotel();
+			
+			if ($('.5kid-hotel').val() == '0') doAgeHotel();
+			else if ($('.5kid-hotel').val() >= '1') ageDoneHotel();
+		};
+
 
 
 		function kid6() {
@@ -574,6 +693,31 @@ $(document).ready(function()
 			if ($('.6kid').val() == '0') doAge();
 			else if ($('.6kid').val() >= '1') ageDone();
 		}
+
+		function kid6Hotel() 
+		{
+			$('.mkids-hotel-age1').show()
+			$('.mkids-hotel-age2').show()
+			$('.mkids-hotel-age3').show()
+			$('.mkids-hotel-age4').show()
+			$('.mkids-hotel-age5').show()
+			$('.mkids-hotel-age6').show()
+			
+			ageNote6Hotel()
+		}
+		function ageNote6Hotel() {
+			ageNote1Hotel();
+			ageNote2Hotel();
+			ageNote3Hotel();
+			ageNote4Hotel();
+			ageNote5Hotel();
+			
+			if ($('.6kid-hotel').val() == '0') doAgeHotel();
+			else if ($('.6kid-hotel').val() >= '1') ageDoneHotel();
+		};
+
+
+
 
 
 

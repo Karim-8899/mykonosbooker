@@ -916,19 +916,36 @@ table {
 
 
 .mkids-age1 {
-	
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
 	
 }
 
-.mkids-age2 {
-	
+.mkids-hotel-age1 {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
-	
+}
+
+.mkids-hotel-age2 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+
+
+.mkids-age2 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.mkids-hotel-age4 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
 }
 
 .mkids-age3 {
@@ -944,6 +961,11 @@ table {
 	border-color: #ffffff;
 	width: 100%;
 }
+.mkids-hotel-age3 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
 
 .mkids-age5 {
 	border-radius: 5px;
@@ -953,11 +975,23 @@ table {
 	
 }
 
+.mkids-hotel-age5 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+
+}
 .mkids-age6 {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
 	width: 100%;
+}
+
+.mkids-hotel-age6 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
 }
 
 .red-notification {
@@ -970,6 +1004,15 @@ table {
 	margin-bottom: 20px;
 }
 
+.red-notification-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
 
 .notifi-red {
 	align-items: center;
@@ -1557,20 +1600,36 @@ table {
 
 
 .mkids-age1 {
-	
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
-	
 }
 
-.mkids-age2 {
-	
+.mkids-hotel-age1 {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
-	
 }
+
+
+.mkids-age2 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.mkids-hotel-age2 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.mkids-hotel-age3 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
 
 .mkids-age3 {
 	border-radius: 5px;
@@ -1586,6 +1645,12 @@ table {
 	width: 100%;
 }
 
+.mkids-hotel-age4 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
 .mkids-age5 {
 	border-radius: 5px;
 	border-style: solid;
@@ -1593,14 +1658,23 @@ table {
 	width: 100%;
 	
 }
+.mkids-hotel-age5 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
 
+}
 .mkids-age6 {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
 	width: 100%;
 }
-
+.mkids-hotel-age6 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
 .red-notification {
 	align-items: center;
 	text-align: center;
@@ -1611,6 +1685,15 @@ table {
 	margin-bottom: 20px;
 }
 
+.red-notification-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
 
 .notifi-red {
 	align-items: center;
@@ -2194,12 +2277,24 @@ table {
 	
 }
 
+.mkids-hotel-age1 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
 .mkids-age2 {
 	
 	border-radius: 5px;
 	border-style: solid;
+	border-color: #ffffff;	
+}
+
+
+.mkids-hotel-age2 {
+	border-radius: 5px;
+	border-style: solid;
 	border-color: #ffffff;
-	
 }
 
 .mkids-age3 {
@@ -2209,11 +2304,24 @@ table {
 	width: 100%;
 }
 
+
+.mkids-hotel-age3 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
 .mkids-age4 {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
 	width: 100%;
+}
+
+.mkids-hotel-age4 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
 }
 
 .mkids-age5 {
@@ -2223,14 +2331,23 @@ table {
 	width: 100%;
 	
 }
+.mkids-hotel-age5 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
 
+}
 .mkids-age6 {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
 	width: 100%;
 }
-
+.mkids-hotel-age6 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
 .red-notification {
 	align-items: center;
 	text-align: center;
@@ -2240,7 +2357,15 @@ table {
 	height: 20px;
 	margin-bottom: 20px;
 }
-
+.red-notification-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
 
 .notifi-red {
 	align-items: center;
@@ -2815,11 +2940,15 @@ table {
 
 
 .mkids-age1 {
-	
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
-	
+}
+
+.mkids-hotel-age1 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
 }
 
 .mkids-age2 {
@@ -2827,7 +2956,17 @@ table {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
-	
+}
+
+.mkids-hotel-age4 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+.mkids-hotel-age2 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
 }
 
 .mkids-age3 {
@@ -2837,6 +2976,11 @@ table {
 	width: 100%;
 }
 
+.mkids-hotel-age3 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
 .mkids-age4 {
 	border-radius: 5px;
 	border-style: solid;
@@ -2851,24 +2995,43 @@ table {
 	width: 100%;
 	
 }
+.mkids-hotel-age5 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
 
+}
 .mkids-age6 {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
 	width: 100%;
 }
+.mkids-hotel-age6 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
 
 .red-notification {
 	align-items: center;
 	text-align: center;
 	border-radius: 5px;
-	background-color: rgba(243, 47, 47, 0.955);
+	background-color: rgba(197, 24, 24, 0.955);
 	width: 40%;
 	height: 20px;
 	margin-bottom: 10px;
 }
 
+.red-notification-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
 
 .notifi-red {
 	align-items: center;
