@@ -575,7 +575,7 @@ $(document).ready(function()
 			if ($('.5kid').val() == '0' & $('.selec-Children').val() >= '5') staystill();
 		}
 		
-		function hero5() {
+		function hero6() {
 			if ($('.6kid').val() == '0'  &  $('.selec-Children').val() >= '6') staystill();
 		}		
 
@@ -603,7 +603,7 @@ $(document).ready(function()
 				if ($('.5kid-hotel').val() == '0' & $('.selec-Children-hotel').val() >= '5') staystillHotel();
 			}
 			
-			function hero5Hotel() {
+			function hero6Hotel() {
 				if ($('.6kid-hotel').val() == '0'  &  $('.selec-Children-hotel').val() >= '6') staystillHotel();
 			}
 
@@ -616,6 +616,7 @@ $(document).ready(function()
 			hero3();
 			hero4();
 			hero5();
+			hero6();
 			allpersons();
 		});
 
@@ -626,6 +627,7 @@ $(document).ready(function()
 			hero3Hotel();
 			hero4Hotel();
 			hero5Hotel();
+			hero6Hotel();
 			allpersonsHotels();
 			
 		});
