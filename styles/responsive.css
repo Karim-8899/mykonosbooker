@@ -742,10 +742,15 @@
 	color: white;
 }
 
-.booking-person {
-	margin-bottom: -30px;
-	margin-top: -20px;
+.booking-person-villa {
+	margin-top: 4px;
+	padding-left: 15px;
 	}
+
+	.booking-person {
+		margin-top: -19px;
+		padding-left: 8px;
+		}
 
 
 	#reservlogo {
@@ -1435,11 +1440,14 @@ table {
 	display: inline-flex;
 }
 
-.booking-person {
-	margin-bottom: -30px;
-	margin-top: -20px;
+.booking-person-villa {
+	margin-top: 4px;
+	padding-left: 15px;
 	}
-
+	.booking-person {
+		margin-top: -19px;
+		padding-left: 8px;
+		}
 
 	#reservlogo {
 		width: 28px;
@@ -2117,12 +2125,14 @@ table {
 	display: inline-flex;
 }
 
-.booking-person {
-	margin-bottom: -30px;
-	margin-top: -20px;
+.booking-person-villa {
+	margin-top: 4px;
+	padding-left: 15px;
 	}
-
-
+	.booking-person {
+		margin-top: -19px;
+		padding-left: 8px;
+		}
 	#reservlogo {
 		width: 28px;
 	}
@@ -2785,11 +2795,14 @@ table {
 	display: inline-flex;
 }
 
-.booking-person {
-	margin-bottom: -30px;
-	margin-top: -20px;
+.booking-person-villa{
+	margin-top: 4px;
+	padding-left: 15px;
 	}
-
+	.booking-person {
+		margin-top: -19px;
+		padding-left: 8px;
+		}
 
 	#reservlogo {
 		width: 28px;
