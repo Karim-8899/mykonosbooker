@@ -1315,55 +1315,122 @@
 
 							<div class="dash-hire-driv">
 								
-								<div class="check-in">
+								<div class="check-in-hire justify-content-around">
 									<div class="search_item">
-										<div>Pick Up</div>
-										<input id="roundedk-trans-in" type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
+										<div>Start Date</div>
+										<input id="roundedk-trans-in-hire" type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
+									</div>
+									<div class="search_item" id="hire-dr-mid">
+										<div>Adult</div>
+										<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+											<option>0</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+											<option>7</option>
+											<option>8</option>
+											<option>9</option>
+											<option>10</option>
+											<option>11</option>
+											<option>12</option>
+											<option>13</option>
+											<option>14</option>
+											<option>15</option>
+											<option>16</option>
+											<option>17</option>
+											<option>18</option>
+											<option>19</option>
+											<option>20</option>
+										</select>
 									</div>
 									<div class="search_item">
-										<div>Drop-off</div>
-										<input id="roundedk-trans-out" type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
+										<div>kids</div>
+										
+										<select id="roundedk" class="dropdown_item_select search_input">
+											<option>0</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+											
+										</select>
+
 									</div>
+								</div>
+
+								<div class="check-in-hire justify-content-around">
+									<div class="search_item" id="hire-days">
+										<div>How Many Days ?</div>
+										<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+											<option>7</option>
+											<option>8</option>
+											<option>9</option>
+											<option>10</option>
+											<option>11</option>
+											<option>12</option>
+											<option>13</option>
+											<option>14</option>
+											<option>15</option>
+											<option>16</option>
+											<option>17</option>
+											<option>18</option>
+											<option>19</option>
+											<option>20</option>
+											<option>21</option>
+											<option>23</option>
+											<option>24</option>
+											<option>25</option>
+											<option>26</option>
+											<option>27</option>
+											<option>28</option>
+											<option>29</option>
+											<option>30</option>
+											
+										</select>
+									</div>
+									<div class="search_item" id="hire-hours">
+										<div>Hours Per Day</div>
+										<select name="children" id="roundedk" class="dropdown_item_select search_input">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+											<option>7</option>
+											<option>8</option>
+											<option>9</option>
+											<option>10</option>
+											<option>11</option>
+											<option>12</option>
+											<option>13</option>
+											<option>14</option>
+											<option>15</option>
+											<option>16</option>
+											<option>17</option>
+											<option>18</option>
+											<option>19</option>
+											<option>20</option>
+											<option>21</option>
+											<option>23</option>
+											<option>24</option>
+										</select>
+									</div>
+	
 								</div>
 
 								
-
-								<div class="search_item1 box" id="car-rent" >
-									
-								</div>
-	
-	
-								<div class="search_item2 box" id="btransfer" style="display:none" >
-									<div>Transfer Type</div>
-									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-										<option>Select Category</option>
-										<option>Minivan</option>
-										<option>Business</option>
-										<option>Standard</option>
-									</select>
-								</div>
-	
-
-								<div class="search_item">
-									<div>adults</div>
-									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-										<option>01</option>
-										<option>02</option>
-										<option>03</option>
-										<option>4 or More</option>
-										
-									</select>
-								</div>
-								<div class="search_item">
-									<div>children</div>
-									<select name="children" id="roundedk" class="dropdown_item_select search_input">
-										<option>0</option>
-										<option>2</option>
-										<option>3</option>
-										<option>4 or More</option>
-									</select>
-								</div>
-
 							</div>
 							
 							<button class="button search_button"  >search<span></span><span></span><span></span></button>
@@ -1479,22 +1546,28 @@
 								<div>Book a day</div>
 								<input type="text" id="roundedk-activity" class="check_out search_input" placeholder="YYYY-MM-DD">
 							</div>
-							<div class="search_item">
-								<div>adults</div>
-								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
+
+
+							<div class="dash-hire-activ">	
+								<div class="search_item" id="hire-days">
+									<div>adults</div>
+									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+										<option>01</option>
+										<option>02</option>
+										<option>03</option>
+									</select>
+								</div>
+								<div class="search_item" id="hire-hours">
+									<div>children</div>
+									<select name="children" id="roundedk" class="dropdown_item_select search_input">
+										<option>0</option>
+										<option>02</option>
+										<option>03</option>
+									</select>
+								</div>
 							</div>
-							<div class="search_item">
-								<div>children</div>
-								<select name="children" id="roundedk" class="dropdown_item_select search_input">
-									<option>0</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
+
+							
 							<button class="button search_button">search<span></span><span></span><span></span></button>
 						</form>
 					</div>

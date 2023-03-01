@@ -1138,8 +1138,11 @@ $(document).ready(function()
 	});
 	
 
-
-
+	
+	$('#roundedk-trans-in-hire').Zebra_DatePicker({
+		format: 'Y-m-d H:i',
+		direction: 1,
+	});
 
 
 

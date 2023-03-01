@@ -1134,6 +1134,15 @@ select{
 
 
 
+.dash-hire-driv {
+	
+	width: 100%;
+}
+
+.dash-hire-activ {
+	width: 100%;
+	display: flex;
+}
 
 
 .search_tab_lil {
@@ -1261,19 +1270,19 @@ select{
 }
 .search_item:nth-child(2)
 {
-	width: 13.961%;
+	width: 100%;
 }
 .search_item:nth-child(3)
 {
-	width: 13.961%;
+	width: 100%;
 }
 .search_item:nth-child(4)
 {
-	width: 9.947%;
+	width: 100%;
 }
 .search_item:nth-child(5)
 {
-	width: 9.947%;
+	width: 100%;
 }
 .search_item div
 {
@@ -2401,4 +2410,15 @@ select{
 
 .stays-wico {
 	width: 100%;
+}
+
+#hire-dr-mid {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#hire-days {
+	margin-right: 5px;
+}
+#hire-hours {
+	margin-left: 5px;
 }

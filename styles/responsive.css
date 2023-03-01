@@ -245,7 +245,13 @@
 	.check-in>div:first-child{ 
 		margin-right:10px;  
 	} 
-
+	.check-in-hire {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		padding-bottom: 10px;
+		
+	}
 
 	.search_item
 	{
@@ -507,6 +513,19 @@
 		margin: 0 auto;
 		height: 45px;	
 	}
+	#roundedk-trans-in-hire {
+		border-radius: 10px;
+		border-color: rgba(255, 255, 255, 0.982);
+		border-width: 0.5px;
+		background: #0a2b2c99;
+		border-style: solid ;
+		color: rgba(255, 255, 255, 0.961);
+		width: 100%;
+		margin: 0 auto;
+		height: 45px;	
+	}
+	
+
 
 	.check_in {
 		border-radius: 10px;
@@ -589,6 +608,11 @@
 		margin: 0 auto;	
 	}
 
+
+
+
+
+
 	.tranfer-bok {
 		margin-right: 10px;
 	}
@@ -603,7 +627,15 @@
 		color: rgb(255, 255, 255);
 		opacity: 0.7;
 	} 
-
+#roundedk-hire {
+	border-radius: 10px;
+	border-width: 0.5px;
+	border-color: rgba(255, 255, 255, 0.921);
+	background: #0a2b2c99;
+	border-style: solid ;
+	color: rgb(255, 255, 255);
+	opacity: 0.7;
+}
 
 
 	#roundedk24 {
@@ -1272,10 +1304,9 @@ table {
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
-		
-		
 	}
 
+	
 	#roundedk-in {
 		border-radius: 10px;
 		border-color: rgba(255, 255, 255, 0.982);
@@ -1955,8 +1986,8 @@ table {
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
 		
-		
 	}
+
 
 	#roundedk-in {
 		border-radius: 10px;
@@ -2637,7 +2668,6 @@ table {
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
-		
 		
 	}
 
