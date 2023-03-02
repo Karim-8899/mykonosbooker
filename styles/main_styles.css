@@ -1130,8 +1130,17 @@ select{
 	transform: translateX(-50%);
 }
 
+#myform {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.dash-renal-car {
+	width: 100%;
+}
 
-
+.dash-book-trans {
+	width: 100%;
+}
 
 
 .dash-hire-driv {

@@ -57,6 +57,8 @@ $(function() {
 	$('.mkids-age5').hide();
 	$('.mkids-age6').hide();
 	$('.red-notification').hide();
+	
+	$('#add-drop-location').hide();
 
 	$('.mkids-hotel-age1').hide();
 	$('.mkids-hotel-age2').hide();
@@ -1057,7 +1059,16 @@ $(document).ready(function()
 
 
 
-
+	  $('#myform :checkbox').change(function() {
+		// this will contain a reference to the checkbox   
+		if (this.checked) { 
+			// the checkbox is now checked 
+			$('#add-drop-location').show();
+		} else {
+			// the checkbox is now no longer checked
+			$('#add-drop-location').hide();
+		}
+	});
 
 
 
@@ -1117,13 +1128,13 @@ $(document).ready(function()
 
 
 	$('#roundedk-trans-in').Zebra_DatePicker({
-		format: 'Y-m-d H:i',
+		
 		direction: true,
 		pair: $('#roundedk-trans-out')
 	}); 
 	$('#roundedk-trans-out').Zebra_DatePicker({
 		direction: 1,
-		format: 'Y-m-d H:i',
+		
 	});
 
 
@@ -1140,7 +1151,7 @@ $(document).ready(function()
 
 	
 	$('#roundedk-trans-in-hire').Zebra_DatePicker({
-		format: 'Y-m-d H:i',
+		
 		direction: 1,
 	});
 
