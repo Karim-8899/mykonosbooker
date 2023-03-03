@@ -50,6 +50,7 @@ $(function() {
 	$('.menu2').addClass('hiddenm');
 	$('.menu2-hotel').addClass('hiddenm');
 	$('.menu2-apart').addClass('hiddenm');
+	$('.menu2-services').addClass('hiddenm')
 	$('.mkids-age1').hide();
 	$('.mkids-age2').hide();
 	$('.mkids-age3').hide();

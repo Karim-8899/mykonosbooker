@@ -1210,18 +1210,7 @@
 									<div class="search_item" id="hire-hours">
 										<div>Pick Up Time</div>
 										<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-											<option>00:00</option>
-											<option>00:30</option>
-											<option>01:00</option>
-											<option>01:30</option>
-											<option>02:00</option>
-											<option>02:30</option>
-											<option>03:00</option>
-											<option>03:30</option>
-											<option>04:00</option>
-											<option>04:30</option>
-											<option>05:00</option>
-											<option>05:30</option>
+											
 											<option>06:00</option>
 											<option>06:30</option>
 											<option>07:00</option>
@@ -1562,6 +1551,12 @@
 									</table>
 								</div>
 								
+
+
+
+
+
+
 							</div>
 							<div class="search_item">
 								<div>Special request</div>
@@ -1842,6 +1837,10 @@
 								</div>
 							</div>
 
+
+
+							
+
 							<div class="check-in-hire justify-content-around">
 								<div class="search_item" id="hire-days">
 									<div>Pick Up Time</div>
@@ -1955,37 +1954,270 @@
 							</div>
 
 							
-							<div class="service-persons">
-								<div class="search_item tranfer-bok">
-									<div>adults</div>
-									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-										<option>01</option>
-										<option>02</option>
-										<option>03</option>
-										<option>04</option>
-										<option>05</option>
-										<option>06</option>
-										<option>07</option>
-										<option>08</option>
-										<option>09</option>
-									</select>
-								</div>
-								<div class="search_item">
-									<div>children</div>
-									<select name="children" id="roundedk" class="dropdown_item_select search_input">
-										<option>0</option>
-										<option>01</option>
-										<option>02</option>
-										<option>03</option>
-										<option>04</option>
-										<option>05</option>
-										<option>06</option>
-										<option>07</option>
-										<option>08</option>
-										<option>09</option>
-									</select>
-								</div>
-							</div>
+							
+
+								
+									<div class="hamburger2-services">
+										
+										<table class="tablez" id="smview-dash" >
+											<tr>
+												<th rowspan="2" style="white-space:nowrap; height: 10px; width: 40px;">
+													<div class="booking-person-villa d-flex">
+														<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+															<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+														  </svg>
+														  
+													</div>
+												</th>
+												<td style="white-space:nowrap; height: 10px; font-size: 12px;">Travelers</td>
+											</tr>
+											<tr>
+												<td>
+													<div class="travler-display" >
+														<p id="aladults" value=" "> 1  </p>  Adults,  <p id="alkids" value=" "> 0  </p> Children</p>
+													</div>
+												</td>
+											  </tr>
+										</table>
+									</div>
+	
+									<div class="menu2 trans_500" id="pmenu">
+										<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+											
+											<div class="persons-dash">
+												<table>
+													<tr>
+														<td colspan="2" id="close-ignore"> <a ><i class="fa-regular fa-circle-xmark" style="font-size: 20px;"></i></a></td>
+													</tr>
+													<tr>
+														<td id="room1" >   </td>
+														
+													</tr>
+													<tr class="maintr">
+														<td class="selec-p">Adults</td>
+														<td class="counters-d">
+															<select id="qty1" value="" class="qty" >
+																<option value="1">1</option>
+																<option value="2">2</option>
+																<option value="3">3</option>
+																<option value="4">4</option>
+																<option value="5">5</option>
+																<option value="6">6</option>
+																<option value="7">7</option>
+																<option value="8">8</option>
+																<option value="9">9</option>
+																<option value="10">10</option>
+																<option value="11">11</option>
+																<option value="12">12</option>
+															</select>  
+														</td>
+													</tr>
+													<tr class="maintr">
+														<td class="selec-p">Children</td>
+		
+														<td class="counters-d">
+															<select class="selec-Children" value="">
+																<option value="0">0</option>
+																<option value="1">1</option>
+																<option value="2">2</option>
+																<option value="3">3</option>
+																<option value="4">4</option>
+																<option value="5">5</option>
+																<option value="6">6</option>
+															</select>
+														</td>
+													</tr>	
+													<tr>
+														<td colspan="2" class="notifi-red"><div class="red-notification"><p class="notifi-head">Please provide Children age?</p></div></td>
+													</tr>
+												
+													<tr class="maintr">
+														<td class="selec-p ">
+														<div class="mkids-age1">
+															<div class="mkids">Child 1 Age</div>
+															<div class="age-selc">
+																<select class="1stkid">
+																	<option value="0">0</option>
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																	<option value="5">5</option>
+																	<option value="6">6</option>
+																	<option value="7">7</option>
+																	<option value="8">8</option>
+																	<option value="9">9</option>
+																	<option value="10">10</option>
+																	<option value="11">11</option>
+																	<option value="12">12</option>
+																	<option value="13">13</option>
+																	<option value="14">14</option>
+																	<option value="15">15</option>
+																	<option value="16">16</option>
+																	<option value="17">17</option>
+																</select>
+															</div>
+														</div>
+														</td>
+														<td class="counters-d">
+															<div class="mkids-age2">
+																<div class="mkids">Child 2 Age</div>
+																<div class="age-selc">
+																	<select class="2kid">
+																		<option value="0">0</option>
+																		<option value="1">1</option>
+																		<option value="2">2</option>
+																		<option value="3">3</option>
+																		<option value="4">4</option>
+																		<option value="5">5</option>
+																		<option value="6">6</option>
+																		<option value="7">7</option>
+																		<option value="8">8</option>
+																		<option value="9">9</option>
+																		<option value="10">10</option>
+																		<option value="11">11</option>
+																		<option value="12">12</option>
+																		<option value="13">13</option>
+																		<option value="14">14</option>
+																		<option value="15">15</option>
+																		<option value="16">16</option>
+																		<option value="17">17</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														
+													</tr>
+													<tr class="maintr-kid">
+														<td class="selec-p">
+														<div class="mkids-age3">
+															<div class="mkids">Child 3 Age</div>
+															<div class="age-selc">
+																<select class="3rdkid">
+																	<option value="0">0</option>
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																	<option value="5">5</option>
+																	<option value="6">6</option>
+																	<option value="7">7</option>
+																	<option value="8">8</option>
+																	<option value="9">9</option>
+																	<option value="10">10</option>
+																	<option value="11">11</option>
+																	<option value="12">12</option>
+																	<option value="13">13</option>
+																	<option value="14">14</option>
+																	<option value="15">15</option>
+																	<option value="16">16</option>
+																	<option value="17">17</option>
+																</select>
+															</div>
+														</div>
+														</td>
+														<td class="counters-d">
+															<div class="mkids-age4">
+																<div class="mkids">Child 4 Age</div>
+																<div class="age-selc">
+																	<select class="4rthkid">
+																		<option value="0">0</option>
+																		<option value="1">1</option>
+																		<option value="2">2</option>
+																		<option value="3">3</option>
+																		<option value="4">4</option>
+																		<option value="5">5</option>
+																		<option value="6">6</option>
+																		<option value="7">7</option>
+																		<option value="8">8</option>
+																		<option value="9">9</option>
+																		<option value="10">10</option>
+																		<option value="11">11</option>
+																		<option value="12">12</option>
+																		<option value="13">13</option>
+																		<option value="14">14</option>
+																		<option value="15">15</option>
+																		<option value="16">16</option>
+																		<option value="17">17</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														
+													</tr>
+													
+													<tr class="maintr-kid">
+														<td class="selec-p ">
+															<div class="mkids-age5">
+																<div class="mkids">Child 5 Age</div>
+																<div class="age-selc">
+																	<select class="5kid">
+																	<option value="0">0</option>
+																	<option value="1">1</option>
+																	<option value="2">2</option>
+																	<option value="3">3</option>
+																	<option value="4">4</option>
+																	<option value="5">5</option>
+																	<option value="6">6</option>
+																	<option value="7">7</option>
+																	<option value="8">8</option>
+																	<option value="9">9</option>
+																	<option value="10">10</option>
+																	<option value="11">11</option>
+																	<option value="12">12</option>
+																	<option value="13">13</option>
+																	<option value="14">14</option>
+																	<option value="15">15</option>
+																	<option value="16">16</option>
+																	<option value="17">17</option>
+																</select>
+															</div>
+														</div>
+														</td>
+														<td class="counters-d">
+															<div class="mkids-age6">
+																<div class="mkids">Child 6 Age</div>
+																<div class="age-selc">
+																	<select class="6kid">
+																		<option value="0">0</option>
+																		<option value="1">1</option>
+																		<option value="2">2</option>
+																		<option value="3">3</option>
+																		<option value="4">4</option>
+																		<option value="5">5</option>
+																		<option value="6">6</option>
+																		<option value="7">7</option>
+																		<option value="8">8</option>
+																		<option value="9">9</option>
+																		<option value="10">10</option>
+																		<option value="11">11</option>
+																		<option value="12">12</option>
+																		<option value="13">13</option>
+																		<option value="14">14</option>
+																		<option value="15">15</option>
+																		<option value="16">16</option>
+																		<option value="17">17</option>
+																	</select>
+																</div>
+															</div>
+														</td>
+														
+													</tr>
+		
+		
+													<tr >
+														<td class="done-p" colspan="2"><div class="done-close">Done</div></td>
+													</tr>
+												</table>
+		
+											</div>
+											
+											
+											
+										</div>
+										
+									</div>
+							
 							
 							<button class="button search_button">search<span></span><span></span><span></span></button>
 						</form>
