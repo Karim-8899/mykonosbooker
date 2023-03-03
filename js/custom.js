@@ -60,7 +60,7 @@ $(function() {
 	$('.red-notification').hide();
 	
 	$('#add-drop-location').hide();
-
+	$('#add-drop-location-return').hide();
 	$('.mkids-hotel-age1').hide();
 	$('.mkids-hotel-age2').hide();
 	$('.mkids-hotel-age3').hide();
@@ -694,7 +694,9 @@ $(document).ready(function()
 			hideApart();
 		})
 
-
+		$('#close-ignore-services').click(function(){
+			hideAllServices();
+		})
 
 		function hideAll(){
 			$('.menu2').hide();
@@ -714,6 +716,13 @@ $(document).ready(function()
 
 		function hideApart(){
 			$('.menu2-apart').hide();
+		}
+		function hideAllServices(){
+			$('.menu2-services').hide();
+		}
+
+		function staystillServices(){
+			$('.menu2-hotel').show();
 		}
 
 
@@ -996,16 +1005,18 @@ $(document).ready(function()
 		$('.hamburger2-hotel').click(function(){
 			
 			$('.menu2-hotel').show();
-			
 		});
 		
 		
 		$('.hamburger2-apartment').click(function(){
 			
 			$('.menu2-apart').show();
-			
 		});
-
+		
+		$('.hamburger2-services').click(function(){
+			
+			$('.menu2-services').show();
+		});
 
 
 
@@ -1071,6 +1082,17 @@ $(document).ready(function()
 		}
 	});
 
+	
+	$('#myform2 :checkbox').change(function() {
+		// this will contain a reference to the checkbox   
+		if (this.checked) { 
+			// the checkbox is now checked 
+			$('#add-drop-location-return').show();
+		} else {
+			// the checkbox is now no longer checked
+			$('#add-drop-location-return').hide();
+		}
+	});
 
 
 	  $("#roundedk1").change(function(){
