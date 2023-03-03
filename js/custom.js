@@ -57,7 +57,16 @@ $(function() {
 	$('.mkids-age4').hide();
 	$('.mkids-age5').hide();
 	$('.mkids-age6').hide();
-	$('.red-notification').hide();
+
+	$('.mkids-apart-age1').hide();
+	$('.mkids-apart-age2').hide();
+	$('.mkids-apart-age3').hide();
+	$('.mkids-apart-age4').hide();
+	$('.mkids-apart-age5').hide();
+	$('.mkids-apart-age6').hide();
+
+
+	
 	
 	$('#add-drop-location').hide();
 	$('#add-drop-location-return').hide();
@@ -67,7 +76,10 @@ $(function() {
 	$('.mkids-hotel-age4').hide();
 	$('.mkids-hotel-age5').hide();
 	$('.mkids-hotel-age6').hide();
+
+	$('.red-notification').hide();
 	$('.red-notification-hotel').hide();
+	$('.red-notification-apart').hide();
 
 	$('.dash-book-trans').hide();
 	$('.dash-hire-driv').hide();
@@ -106,6 +118,17 @@ $(document).ready(function()
 			else if ( $('.selec-Children-hotel').val() == '4' ) kid4Hotel();
 			else if ( $('.selec-Children-hotel').val() == '5' ) kid5Hotel();
 			else if ( $('.selec-Children-hotel').val() == '6' ) kid6Hotel();
+		  });
+
+		  $('.selec-Children-apart').on('change', function() {
+    
+			if ( $('.selec-Children-apart').val() == '0' ) kidzApart();
+			else if ( $('.selec-Children-apart').val() == '1' ) kid1Apart();
+			else if ( $('.selec-Children-apart').val() == '2' ) kid2Apart();
+			else if ( $('.selec-Children-apart').val() == '3' ) kid3Apart();
+			else if ( $('.selec-Children-apart').val() == '4' ) kid4Apart();
+			else if ( $('.selec-Children-apart').val() == '5' ) kid5Apart();
+			else if ( $('.selec-Children-apart').val() == '6' ) kid6Apart();
 		  });
 
 

@@ -1009,10 +1009,19 @@ table {
 	
 }
 
+
+
 .mkids-hotel-age1 {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
+}
+
+.mkids-apart-age1 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	
 }
 
 .mkids-hotel-age2 {
@@ -1020,7 +1029,11 @@ table {
 	border-style: solid;
 	border-color: #ffffff;
 }
-
+.lil_kid {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
 
 
 .mkids-age2 {
@@ -1028,6 +1041,9 @@ table {
 	border-style: solid;
 	border-color: #ffffff;
 }
+
+
+
 
 .mkids-hotel-age4 {
 	border-radius: 5px;
@@ -1698,6 +1714,12 @@ table {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
+}
+.mkids-apart-age1 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	
 }
 
 
@@ -2374,6 +2396,13 @@ table {
 	border-color: #ffffff;
 }
 
+.mkids-apart-age1 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	
+}
+
 .mkids-age2 {
 	
 	border-radius: 5px;
@@ -3042,6 +3071,13 @@ table {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
+}
+
+.mkids-apart-age1 {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+	
 }
 
 .mkids-age2 {

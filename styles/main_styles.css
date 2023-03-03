@@ -652,6 +652,9 @@ section
 .selec-Children-hotel {
 	width: 42px;
 }
+.selec-Children-apart {
+	width: 42px;
+}
 
 
 select{
@@ -1157,6 +1160,23 @@ select{
 	
 }
 
+#lil_kid {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+
+
+.red-notification-apart {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
 
 .search_tab_lil {
 	position: relative;
