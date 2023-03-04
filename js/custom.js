@@ -1608,7 +1608,7 @@ function hero1Apart () {
 		pair: $('#roundedk-serv-out')
 	}); 
 	$('#roundedk-serv-out').Zebra_DatePicker({
-		direction: 1
+		direction: true,
 	});
 
 
@@ -1618,13 +1618,12 @@ function hero1Apart () {
 		pair: $('#roundedk-trans-out')
 	}); 
 	$('#roundedk-trans-out').Zebra_DatePicker({
-		direction: 1,
+		direction: true,
 		
 	});
 
 
 	$('#roundedk-reservaton').Zebra_DatePicker({
-		
 		direction: true,
 	});
 
@@ -1637,7 +1636,6 @@ function hero1Apart () {
 
 	
 	$('#roundedk-trans-in-hire').Zebra_DatePicker({
-		
 		direction: true,
 	});
 
