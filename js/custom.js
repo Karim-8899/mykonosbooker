@@ -65,9 +65,6 @@ $(function() {
 	$('.mkids-apart-age5').hide();
 	$('.mkids-apart-age6').hide();
 
-
-	
-	
 	$('#add-drop-location').hide();
 	$('#add-drop-location-return').hide();
 	$('.mkids-hotel-age1').hide();
@@ -77,9 +74,18 @@ $(function() {
 	$('.mkids-hotel-age5').hide();
 	$('.mkids-hotel-age6').hide();
 
+
+	$('.mkids-services-age1').hide();
+	$('.mkids-services-age2').hide();
+	$('.mkids-services-age3').hide();
+	$('.mkids-services-age4').hide();
+	$('.mkids-services-age5').hide();
+	$('.mkids-services-age6').hide();
+
 	$('.red-notification').hide();
 	$('.red-notification-hotel').hide();
 	$('.red-notification-apart').hide();
+
 
 	$('.dash-book-trans').hide();
 	$('.dash-hire-driv').hide();
@@ -277,7 +283,7 @@ function re1l2Apart() {
 			if ($('.5kid-apart').val() == '0') doAgeApart();
 			else if ($('.5kid-apart').val() >= '1'  &&  $('.4rthkid-apart').val() >= '1'  &&  $('.3rdkid-apart').val() >= '1'  &&  $('.2kid-apart').val() >= '1'  &&  $('.1stkid-apart').val() >= '1') ageDoneApart();
 		}
-		function re1l6Hotel() {
+		function re1l6Apart() {
 			if ($('.2kid-apart').val() == '0') doAgeApart();
 			if ($('.3rdkid-apart').val() == '0') doAgeApart();
 			if ($('.4rthkid-apart').val() == '0') doAgeApart();
@@ -286,11 +292,9 @@ function re1l2Apart() {
 			else if ($('.6kid-apart').val() >= '1'  &&  $('.5kid-apart').val() >= '1'  &&  $('.4rthkid-apart').val() >= '1'  &&  $('.3rdkid-apart').val() >= '1'  &&  $('.2kid-apart').val() >= '1'  &&  $('.1stkid-apart').val() >= '1') ageDoneApart();
 		}
 
+/* End  Apartement Logics 1 */
 
 
-
-
-/* End  Apartement Logics  */
 
 		$('.2kid').on('change', function(){
 			if ($('.2kid').val() == '0') doAge();
@@ -692,6 +696,38 @@ function re4l6Apart() {
 
 
 /*end Logic5*/
+			
+
+/*  Apartment Logic 5 */
+
+$('.5kid-apart').on('change', function(){
+	if ($('.5kid-apart').val() == '0') doAgeApart();
+	else if ($('.5kid-apart').val() >= '1') agelogic5Apart();
+})
+function agelogic5Apart() {
+	if ($('.1stkid-apart').val() == '0') doAgeApart();
+	if ($('.2kid-apart').val() == '0') doAgeApart();
+	if ($('.3rdkid-apart').val() == '0') doAgeApart();
+	if ($('.4rthkid-apart').val() == '0') doAgeApart();
+	else if ( $('.1stkid-apart').val() >= '1'  &&  $('.2kid-apart').val() >= '1'  &&   $('.3rdkid-apart').val() >= '1'  &&  $('.4rthkid-apart').val() >= '1'  ) ageDoneApart();
+	if ($('.selec-Children-apart').val() == '6') re5l6Apart();
+}
+
+function re5l6Apart() {
+	if ($('.1stkid-apart').val() == '0') doAgeApart();
+	if ($('.2kid-apart').val() == '0') doAgeApart();
+	if ($('.3rdkid-apart').val() == '0') doAgeApart();
+	if ($('.4rthkid-apart').val() == '0') doAgeApart();
+	if ($('.6kid-apart').val() == '0') doAgeApart();
+	else if ( $('.1stkid-apart').val() >= '1'  &&  $('.2kid-apart').val() >= '1'  &&   $('.3rdkid-apart').val() >= '1'  &&  $('.4rthkid-apart').val() >= '1'  &&  $('6kid-apart').val() >= '1' ) ageDoneApart();
+}
+
+
+/* End  Apartment Logic 5 */
+
+
+
+
 		$('.6kid').on('change', function(){
 			if ($('.6kid').val() == '0') doAge();
 			else if ($('.6kid').val()  >= '1') agelogic6();
@@ -742,7 +778,32 @@ function re4l6Apart() {
 
 /*End Logic6*/
 
+/*  Apartment Logic 6 */
 
+$('.6kid-apart').on('change', function(){
+	if ($('.6kid-apart').val() == '0') doAgeApart();
+	else if ($('.6kid-apart').val()  >= '1') agelogic6Apart();
+})
+function agelogic6Apart() {
+	if ($('.1stkid-apart').val() == '0') doAgeApart();
+	if ($('.2kid-apart').val() == '0') doAgeApart();
+	if ($('.3rdkid-apart').val() == '0') doAgeApart();
+	if ($('.4rthkid-apart').val() == '0') doAgeApart();
+	if ($('.5kid-apart').val() == '0') doAgeApart();
+	else if ($('.1stkid-apart').val() >= '1'  &&  $('.2kid-apart').val() >= '1'  &&   $('.3rdkid-apart').val() >= '1' &&  $('.4rthkid-apart').val() >= '1'  &&   $('.5kid-apart').val() >= '1') ageDoneApart();
+	else if ($('.selec-Children-apart').val() == '6') re6l6Apart();
+}
+function re6l6Apart() {
+	if ($('.1stkid-apart').val() == '0') doAgeApart();
+	if ($('.2kid-apart').val() == '0') doAgeApart();
+	if ($('.3rdkid-apart').val() == '0') doAgeApart();
+	if ($('.4rthkid-apart').val() == '0') doAgeApart();
+	if ($('.5kid-apart').val() == '0') doAgeApart();
+	else if ( $('.1stkid-apart').val() >= '1'  &&  $('.2kid-apart').val() >= '1'  &&   $('.3rdkid-apart').val() >= '1'  &&  $('.4rthkid-apart').val() >= '1'   &&  $('.5kid-apart').val() >= '1' ) ageDoneApart();
+}
+
+
+/* End  Apartment Logic 6 */
 
 
 
@@ -825,7 +886,36 @@ function re4l6Apart() {
 				if ($('.6kid-hotel').val() == '0'  &  $('.selec-Children-hotel').val() >= '6') staystillHotel();
 			}
 
-/*End Done Control*/		
+/*End Done Control*/	
+
+/*Apart Done Control*/
+function hero1Apart () {
+	if ($('.1stkid-apart').val() == '0' & $('.selec-Children-apart').val() == '0' ) hideApart();
+	else if ($('.1stkid-apart').val() == '0' & $('.selec-Children-apart').val() >= '1' ) staystillApart();
+	else if ($('.1stkid-apart').val() >= '1' & $('.selec-Children-apart').val() >= '1' ) hideApart();
+	}
+	function hero2Apart () {
+		if ($('.2kid-apart').val() == '0' & $('.selec-Children-apart').val() >= '2' ) staystillApart();
+		else if ($('.2kid-apart').val() >= '1' & $('.selec-Children-apart').val() >= '2' ) hideApart();
+		
+		}
+	function hero3Apart () {
+		if ($('.3rdkid-apart').val() == '0' & $('.selec-Children-apart').val() >= '3' ) staystillApart();
+	}	
+
+	function hero4Apart () {
+		if ($('.4rthkid-apart').val() == '0' & $('.selec-Children-apart').val() >= '4') staystillApart();
+	}
+	function hero5Apart() {
+		if ($('.5kid-apart').val() == '0' & $('.selec-Children-apart').val() >= '5') staystillApart();
+	}
+	
+	function hero6Apart() {
+		if ($('.6kid-apart').val() == '0'  &  $('.selec-Children-apart').val() >= '6') staystillApart();
+	}
+
+
+/* End Apart Done Control*/
 
 
 		$('.done-close').click(function(){
@@ -856,8 +946,14 @@ function re4l6Apart() {
 
 		$('.done-close-apart').click(function(){
 			
+			hero1Apart();
+			hero2Apart();
+			hero3Apart();
+			hero4Apart();
+			hero5Apart();
+			hero6Apart();
 			allpersonsApart();
-			hideApart();
+			
 		});
 
 		
@@ -936,8 +1032,8 @@ function re4l6Apart() {
 			$('.menu2-services').hide();
 		}
 
-		function staystillServices(){
-			$('.menu2-hotel').show();
+		function staystillApart(){
+			$('.menu2-apart').show();
 		}
 
 
@@ -1529,19 +1625,20 @@ function re4l6Apart() {
 
 	$('#roundedk-reservaton').Zebra_DatePicker({
 		format: 'Y-m-d H:i',
+		direction: true,
 	});
 
 
 	$('#date-book-trans').Zebra_DatePicker({
 		format: 'Y-m-d H:i',
-		direction: 1,
+		direction: true,
 	});
 	
 
 	
 	$('#roundedk-trans-in-hire').Zebra_DatePicker({
 		
-		direction: 1,
+		direction: true,
 	});
 
 
