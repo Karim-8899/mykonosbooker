@@ -1624,7 +1624,7 @@ function hero1Apart () {
 
 
 	$('#roundedk-reservaton').Zebra_DatePicker({
-		format: 'Y-m-d H:i',
+		
 		direction: true,
 	});
 
