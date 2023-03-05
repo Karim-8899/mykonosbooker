@@ -498,7 +498,46 @@ function re2l6Apart() {
 
 /*    Services Logics2 */
 
+$('.2kid-services').on('change', function(){
+	if ($('.2kid-services').val() == '0') doAgeServices();
+	else if ($('.2kid-services').val() >= '1') agelogic2Services();
 
+})
+function agelogic2Services() {
+	if ($('.selec-Children-services').val() >= '2'  &  $('.1stkid-services').val() == '0') doAgeServices();
+	else if ($('.selec-Children-services').val() == '2' &  $('.1stkid-services').val() >= '1' ) ageDoneServices();
+	if ($('.selec-Children-services').val() == '3') re2l3Services();
+	if ($('.selec-Children-services').val() == '4') re2l4Services();
+	if ($('.selec-Children-services').val() == '5') re2l5Services();
+	if ($('.selec-Children-services').val() == '6') re2l6Services();
+}
+function re2l3Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.3rdkid-services').val() == '0') doAgeServices();
+	if ($('.3rdkid-services').val() >= '1' &&  $('.2kid-services').val() >= '1'  &&  $('.1stkid-services').val() >= '1' ) ageDoneServices();
+}
+function re2l4Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.4rthkid-services').val() == '0') doAgeServices();
+	if ($('.3rdkid-services').val() == '0') doAgeServices();
+	else if ($('.1stkid-services').val() >= '1'  &&  $('.3rdkid-services').val() >= '1' &&  $('.4rthkid-services').val() >= '1' ) ageDoneServices(); 
+
+}
+function re2l5Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.4rthkid-services').val() == '0') doAgeServices();
+	if ($('.3rdkid-services').val() == '0') doAgeServices();
+	if ($('.5kid-services').val() == '0') doAgeServices();
+	else if ($('.5kid-services').val() >= '1' && $('.1stkid-services').val() >= '1'  &&  $('.3rdkid-services').val() >= '1' &&  $('.4rthkid-services').val() >= '1') ageDoneServices();
+}
+function re2l6Services() {
+	if ($('.1stkid-apart').val() == '0') doAgeServices();
+	if ($('.4rthkid-apart').val() == '0') doAgeServices();
+	if ($('.3rdkid-apart').val() == '0') doAgeServices();
+	if ($('.5kid-apart').val() == '0') doAgeServices();
+	if ($('.6kid-apart').val() == '0') doAgeServices();
+	else if ($('.6kid-services').val() >= '1' && $('.5kid-services').val() >= '1' && $('.1stkid-services').val() >= '1'  &&  $('.3rdkid-services').val() >= '1' &&  $('.4rthkid-services').val() >= '1') ageDoneServices();
+}
 
 /*  End  Services Logics2 */
 
@@ -623,6 +662,47 @@ function re3l6Apart() {
 
 
 
+/*    Services Logics 3 */
+
+$('.3rdkid-services').on('change', function(){
+	if($('.3rdkid-services').val() == '0' ) doAgeServices();
+	else if ($('.3rdkid-services').val() >= '1' ) agelogic3Services();
+})
+
+function agelogic3Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.2kid-services').val() == '0') doAgeServices();
+	else if ($('.1stkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1') ageDoneServices();
+	if ($('.selec-Children-services').val() == '4') re3l4Services();
+	if ($('.selec-Children-services').val() == '5') re3l5Services();
+	if ($('.selec-Children-services').val() == '6') re3l6Services();
+}
+function re3l4Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.2kid-services').val() == '0') doAgeServices();
+	if ($('.4rthkid-services').val() == '0') doAgeServices();
+	else if ($('.1stkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&   $('.4rthkid-services').val() >= '1') ageDoneServices();
+	
+}
+
+function re3l5Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.2kid-services').val() == '0') doAgeServices();
+	if ($('.4rthkid-services').val() == '0') doAgeServices();
+	if ($('.5kid-services').val() == '0') doAgeServices();
+	else if ($('.5kid-services').val() >= '1'  &&  $('.1stkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&   $('.4rthkid-services').val() >= '1') ageDoneServices();
+}
+function re3l6Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.2kid-services').val() == '0') doAgeServices();
+	if ($('.4rthkid-services').val() == '0') doAgeServices();
+	if ($('.5kid-services').val() == '0') doAgeServices();
+	if ($('.6kid-services').val() == '0') doAgeServices();
+	else if ($('.1stkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'   &&     $('.4rthkid-services').val() >= '1'    &&  $('.5kid-services').val() >= '1' &&  $('6kid-services').val() >= '1' ) ageDoneServices();
+	
+}
+
+/* End   Services Logics 3 */
 
 
 		$('.4rthkid').on('change', function(){
@@ -724,6 +804,44 @@ function re4l6Apart() {
 
 /* End  Apartment Logic 4 */
 
+
+
+/* Services Logics 4 */
+
+$('.4rthkid-services').on('change', function(){
+	if($('.4rthkid-services').val() == '0') doAgeServices();
+	else if($('.4rthkid-services').val() >= '1') agelogic4AServices();
+})
+
+function agelogic4AServices() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.2kid-services').val() == '0') doAgeServices();
+	if ($('.3rdkid-services').val() == '0') doAgeServices();
+	else if ($('.1stkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&  $('.3rdkid-services').val() >= '1') ageDoneServices();
+	if ($('.selec-Children-services').val() == '5') re4l5Services();
+	if ($('.selec-Children-services').val() == '6') re4l6Services();
+	
+}
+
+function re4l5Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.2kid-services').val() == '0') doAgeServices();
+	if ($('.3rdkid-services').val() == '0') doAgeServices();
+	if ($('.5kid-services').val() == '0') doAgeServices();
+	else if ($('.5kid-services').val() >= '1'  &&  $('.1stkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&   $('.3rdkid-services').val() >= '1') ageDoneServices();
+	
+}
+function re4l6Services() {
+	if ($('.1stkid-servies').val() == '0') doAgeServices();
+	if ($('.2kid-servies').val() == '0') doAgeServices();
+	if ($('.3rdkid-servies').val() == '0') doAgeServices();
+	if ($('.5kid-servies').val() == '0') doAgeServices();
+	if ($('.6kid-servies').val() == '0') doAgeServices();
+	else if ($('6kid-services').val() >= '1'  &&  $('.5kid-services').val() >= '1'  &&  $('.1stkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&   $('.3rdkid-services').val() >= '1') ageDoneServices();
+}
+
+/* End   Services Logics 4 */
+
 		$('.5kid').on('change', function(){
 			if ($('.5kid').val() == '0') doAge();
 			else if ($('.5kid').val() >= '1') agelogic5();
@@ -800,7 +918,33 @@ function re5l6Apart() {
 /* End  Apartment Logic 5 */
 
 
+/*    Services Logics 5 */
 
+$('.5kid-services').on('change', function(){
+	if ($('.5kid-services').val() == '0') doAgeServices();
+	else if ($('.5kid-services').val() >= '1') agelogic5Services();
+})
+function agelogic5Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.2kid-services').val() == '0') doAgeServices();
+	if ($('.3rdkid-services').val() == '0') doAgeServices();
+	if ($('.4rthkid-services').val() == '0') doAgeServices();
+	else if ( $('.1stkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&   $('.3rdkid-services').val() >= '1'  &&  $('.4rthkid-services').val() >= '1'  ) ageDoneServices();
+	if ($('.selec-Children-services').val() == '6') re5l6Services();
+}
+
+function re5l6Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.2kid-services').val() == '0') doAgeServices();
+	if ($('.3rdkid-services').val() == '0') doAgeServices();
+	if ($('.4rthkid-services').val() == '0') doAgeServices();
+	if ($('.6kid-services').val() == '0') doAgeServices();
+	else if ( $('.1stkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&   $('.3rdkid-services').val() >= '1'  &&  $('.4rthkid-services').val() >= '1'  &&  $('6kid-services').val() >= '1' ) ageDoneServices();
+}
+
+
+
+/* End   Services Logics 5 */
 
 		$('.6kid').on('change', function(){
 			if ($('.6kid').val() == '0') doAge();
@@ -878,6 +1022,36 @@ function re6l6Apart() {
 
 
 /* End  Apartment Logic 6 */
+
+
+
+/*    Services Logics 6 */
+
+$('.6kid-services').on('change', function(){
+	if ($('.6kid-services').val() == '0') doAgeServices();
+	else if ($('.6kid-services').val()  >= '1') agelogic6Services();
+})
+function agelogic6Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.2kid-services').val() == '0') doAgeServices();
+	if ($('.3rdkid-services').val() == '0') doAgeServices();
+	if ($('.4rthkid-services').val() == '0') doAgeServices();
+	if ($('.5kid-services').val() == '0') doAgeServices();
+	else if ($('.1stkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&   $('.3rdkid-services').val() >= '1' &&  $('.4rthkid-services').val() >= '1'  &&   $('.5kid-services').val() >= '1') ageDoneServices();
+	else if ($('.selec-Children-services').val() == '6') re6l6Services();
+}
+function re6l6Services() {
+	if ($('.1stkid-services').val() == '0') doAgeServices();
+	if ($('.2kid-services').val() == '0') doAgeServices();
+	if ($('.3rdkid-services').val() == '0') doAgeServices();
+	if ($('.4rthkid-services').val() == '0') doAgeServices();
+	if ($('.5kid-services').val() == '0') doAgeServices();
+	else if ( $('.1stkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&   $('.3rdkid-services').val() >= '1'  &&  $('.4rthkid-services').val() >= '1'   &&  $('.5kid-services').val() >= '1' ) ageDoneServices();
+}
+
+
+
+/* End   Services Logics 6 */
 
 
 
@@ -1000,6 +1174,37 @@ function hero1Apart () {
 /* End Apart Done Control*/
 
 
+
+/*   Services Done Control*/
+
+function hero1Services () {
+	if ($('.1stkid-services').val() == '0' & $('.selec-Children-services').val() == '0' ) hideAllServices();
+	else if ($('.1stkid-services').val() == '0' & $('.selec-Children-services').val() >= '1' ) staystillServices();
+	else if ($('.1stkid-services').val() >= '1' & $('.selec-Children-services').val() >= '1' ) hideAllServices();
+	}
+	function hero2Services () {
+		if ($('.2kid-services').val() == '0' & $('.selec-Children-services').val() >= '2' ) staystillServices();
+		else if ($('.2kid-services').val() >= '1' & $('.selec-Children-services').val() >= '2' ) hideAllServices();
+		
+		}
+	function hero3Services () {
+		if ($('.3rdkid-services').val() == '0' & $('.selec-Children-services').val() >= '3' ) staystillServices();
+	}	
+
+	function hero4Services () {
+		if ($('.4rthkid-services').val() == '0' & $('.selec-Children-services').val() >= '4') staystillServices();
+	}
+	function hero5Services() {
+		if ($('.5kid-services').val() == '0' & $('.selec-Children-services').val() >= '5') staystillServices();
+	}
+	
+	function hero6Services() {
+		if ($('.6kid-services').val() == '0'  &  $('.selec-Children-services').val() >= '6') staystillServices();
+	}
+
+/* End  Services Done Control*/
+
+
 		$('.done-close').click(function(){
 			hero1();
 			hero2();
@@ -1035,10 +1240,20 @@ function hero1Apart () {
 			hero5Apart();
 			hero6Apart();
 			allpersonsApart();
-			
 		});
 
 		
+
+		$('.done-close-services').click(function(){
+			
+			hero1Services();
+			hero2Services();
+			hero3Services();
+			hero4Services();
+			hero5Services();
+			hero6Services();
+			allpersonsServices();
+		});
 
 
 
@@ -1066,6 +1281,16 @@ function hero1Apart () {
 
 			document.getElementById("aladults-apart").innerHTML = tradults;
 			document.getElementById("alkids-apart").innerHTML = allkids;
+			
+		}
+
+
+		function allpersonsServices() {
+			var tradults = $("#qty1-services").val();
+			var allkids = $(".selec-Children-services").val();
+
+			document.getElementById("aladults-services").innerHTML = tradults;
+			document.getElementById("alkids-services").innerHTML = allkids;
 			
 		}
 
@@ -1102,22 +1327,25 @@ function hero1Apart () {
 		function hideHotels(){
 			$('.menu2-hotel').hide();
 		}
-
 		function staystillHotel(){
 			$('.menu2-hotel').show();
 		}
 
+
 		function hideApart(){
 			$('.menu2-apart').hide();
 		}
-		function hideAllServices(){
-			$('.menu2-services').hide();
-		}
-
 		function staystillApart(){
 			$('.menu2-apart').show();
 		}
 
+
+		function hideAllServices(){
+			$('.menu2-services').hide();
+		}
+		function staystillServices() {
+			$('.menu2-services').show();
+		}
 
 
 		function kidz() {
@@ -1717,7 +1945,7 @@ function hero1Apart () {
 		
 		$('.hamburger2-services').click(function(){
 			
-			$('.menu2-services').show();
+			staystillServices();
 		});
 
 

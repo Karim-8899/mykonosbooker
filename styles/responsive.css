@@ -1017,23 +1017,14 @@ table {
 	border-color: #ffffff;
 }
 
-.mkids-apart-age1 {
-	border-radius: 5px;
-	border-style: solid;
-	border-color: #ffffff;
-	
-}
+
 
 .mkids-hotel-age2 {
 	border-radius: 5px;
 	border-style: solid;
 	border-color: #ffffff;
 }
-.lil_kid {
-	border-radius: 5px;
-	border-style: solid;
-	border-color: #ffffff;
-}
+
 
 
 .mkids-age2 {
@@ -1163,6 +1154,17 @@ table {
 }
 
 .done-close-apart {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+}
+
+.done-close-services {
 	text-align: center;
 	background: #722df3;
 		color: #ffffff;
@@ -1715,12 +1717,7 @@ table {
 	border-style: solid;
 	border-color: #ffffff;
 }
-.mkids-apart-age1 {
-	border-radius: 5px;
-	border-style: solid;
-	border-color: #ffffff;
-	
-}
+
 
 
 .mkids-age2 {
@@ -1857,6 +1854,16 @@ table {
 		
 }
 .done-close-apart {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+}
+.done-close-services {
 	text-align: center;
 	background: #722df3;
 		color: #ffffff;
@@ -2396,12 +2403,7 @@ table {
 	border-color: #ffffff;
 }
 
-.mkids-apart-age1 {
-	border-radius: 5px;
-	border-style: solid;
-	border-color: #ffffff;
-	
-}
+
 
 .mkids-age2 {
 	
@@ -2539,6 +2541,17 @@ table {
 }
 
 .done-close-apart {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+}
+
+.done-close-services {
 	text-align: center;
 	background: #722df3;
 		color: #ffffff;
@@ -3073,12 +3086,7 @@ table {
 	border-color: #ffffff;
 }
 
-.mkids-apart-age1 {
-	border-radius: 5px;
-	border-style: solid;
-	border-color: #ffffff;
-	
-}
+
 
 .mkids-age2 {
 	
@@ -3214,6 +3222,17 @@ table {
 }
 
 .done-close-apart {
+	text-align: center;
+	background: #722df3;
+		color: #ffffff;
+		border-radius: 15px;
+		width: 70%;
+		margin-left: 50px;
+		height: 50%;
+		font-size: 20px;
+}
+
+.done-close-services {
 	text-align: center;
 	background: #722df3;
 		color: #ffffff;
