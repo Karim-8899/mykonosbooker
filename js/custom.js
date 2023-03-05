@@ -138,6 +138,17 @@ $(document).ready(function()
 		  });
 
 
+		  $('.selec-Children-apart').on('change', function() {
+    
+			if ( $('.selec-Children-apart').val() == '0' ) kidzApart();
+			else if ( $('.selec-Children-apart').val() == '1' ) kid1Apart();
+			else if ( $('.selec-Children-apart').val() == '2' ) kid2Apart();
+			else if ( $('.selec-Children-apart').val() == '3' ) kid3Apart();
+			else if ( $('.selec-Children-apart').val() == '4' ) kid4Apart();
+			else if ( $('.selec-Children-apart').val() == '5' ) kid5Apart();
+			else if ( $('.selec-Children-apart').val() == '6' ) kid6Apart();
+		  });
+
 
 		  
 		
@@ -1575,7 +1586,7 @@ function hero1Apart () {
 		pair: $('#roundedk-out')
 	}); 
 	$('#roundedk-out').Zebra_DatePicker({
-		direction: 1
+		direction: 1,
 	});
 	  
 
@@ -1585,7 +1596,7 @@ function hero1Apart () {
 		pair: $('#roundedk-hotl-out')
 	}); 
 	$('#roundedk-hotl-out').Zebra_DatePicker({
-		direction: 1
+		direction: 1,
 	});
 
 
@@ -1594,12 +1605,14 @@ function hero1Apart () {
 		pair: $('#roundedk-apart-out')
 	}); 
 	$('#roundedk-apart-out').Zebra_DatePicker({
-		direction: 1
+		direction: 1,
 	});
 
 
 		
-	$('#roundedk-activity').Zebra_DatePicker();
+	$('#roundedk-activity').Zebra_DatePicker({
+		direction: true,
+	});
 
 
 
