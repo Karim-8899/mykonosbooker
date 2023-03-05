@@ -85,6 +85,7 @@ $(function() {
 	$('.red-notification').hide();
 	$('.red-notification-hotel').hide();
 	$('.red-notification-apart').hide();
+	$('.red-notification-services').hide()
 
 
 	$('.dash-book-trans').hide();
@@ -138,15 +139,15 @@ $(document).ready(function()
 		  });
 
 
-		  $('.selec-Children-apart').on('change', function() {
+		  $('.selec-Children-services').on('change', function() {
     
-			if ( $('.selec-Children-apart').val() == '0' ) kidzApart();
-			else if ( $('.selec-Children-apart').val() == '1' ) kid1Apart();
-			else if ( $('.selec-Children-apart').val() == '2' ) kid2Apart();
-			else if ( $('.selec-Children-apart').val() == '3' ) kid3Apart();
-			else if ( $('.selec-Children-apart').val() == '4' ) kid4Apart();
-			else if ( $('.selec-Children-apart').val() == '5' ) kid5Apart();
-			else if ( $('.selec-Children-apart').val() == '6' ) kid6Apart();
+			if ( $('.selec-Children-services').val() == '0' ) kidzServices();
+			else if ( $('.selec-Children-services').val() == '1' ) kid1Services();
+			else if ( $('.selec-Children-services').val() == '2' ) kid2Services();
+			else if ( $('.selec-Children-services').val() == '3' ) kid3Services();
+			else if ( $('.selec-Children-services').val() == '4' ) kid4Services();
+			else if ( $('.selec-Children-services').val() == '5' ) kid5Services();
+			else if ( $('.selec-Children-services').val() == '6' ) kid6Services();
 		  });
 
 
@@ -305,6 +306,61 @@ function re1l2Apart() {
 
 /* End  Apartement Logics 1 */
 
+
+
+					/*    Services Logics1 */
+
+					$('.1stkid-services').on('change', function(){
+						if ($('.1stkid-services').val() == '0') doAgeServices();
+						else if ($('.1stkid-services').val() >= '1') agelogic1Services();
+					});
+
+					function agelogic1Services() {
+						if ($('.selec-Children-services').val() >= '2'  &  $('.2kid-services').val() == '0') doAgeServices();
+						if ($('.selec-Children-services').val() == '1') doAgeServices();
+						if ($('.selec-Children-services').val() == '2') re1l2Services();
+						if ($('.selec-Children-services').val() == '3') re1l3Services();
+						if ($('.selec-Children-services').val() == '4') re1l4Services();
+						if ($('.selec-Children-services').val() == '5') re1l5Services();
+						if ($('.selec-Children-services').val() == '6') re1l6Services();	
+					}
+
+
+
+
+					function re1l2Services() {
+						if ($('.2kid-services').val() == '0') doAgeServices();
+						else if ($('.2kid-services').val() >= '1'  &&  $('.1stkid-services').val() >= '1') ageDoneServices();
+					}
+			
+					function re1l3Services() {
+						if ($('.2kid-services').val() == '0') doAgeServices();
+						if ($('.3rdkid-services').val() == '0') doAgeServices();
+						if ($('.3rdkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&  $('.1stkid-services').val() >= '1') ageDoneServices();
+					}
+					function re1l4Services() {
+						if ($('.2kid-apart').val() == '0') doAgeServices();
+						if ($('.3rdkid-apart').val() == '0') doAgeServices();
+						if ($('.4rthkid-apart').val() == '0') doAgeServices();
+						else if ($('.4rthkid-services').val() >= '1'  &&  $('.3rdkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&  $('.1stkid-services').val() >= '1') ageDoneServices();
+					}
+					function re1l5Services() {
+						if ($('.2kid-services').val() == '0') doAgeServices();
+						if ($('.3rdkid-services').val() == '0') doAgeServices();
+						if ($('.4rthkid-services').val() == '0') doAgeServices();
+						if ($('.5kid-services').val() == '0') doAgeServices();
+						else if ($('.5kid-services').val() >= '1'  &&  $('.4rthkid-services').val() >= '1'  &&  $('.3rdkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&  $('.1stkid-services').val() >= '1') ageDoneServices();
+					}
+					function re1l6Services() {
+						if ($('.2kid-services').val() == '0') doAgeServices();
+						if ($('.3rdkid-services').val() == '0') doAgeServices();
+						if ($('.4rthkid-services').val() == '0') doAgeServices();
+						if ($('.5kid-services').val() == '0') doAgeServices();
+						if ($('.6kid-services').val() == '0') doAgeServices();
+						else if ($('.6kid-services').val() >= '1'  &&  $('.5kid-services').val() >= '1'  &&  $('.4rthkid-services').val() >= '1'  &&  $('.3rdkid-services').val() >= '1'  &&  $('.2kid-services').val() >= '1'  &&  $('.1stkid-services').val() >= '1') ageDoneServices();
+					}
+
+					/* End   Services Logics1 */
 
 
 		$('.2kid').on('change', function(){
@@ -843,6 +899,14 @@ function re6l6Apart() {
 		}
 
 
+		function doAgeServices() {
+			$('.red-notification-services').show();	
+		}
+
+		function ageDoneServices() {
+			$('.red-notification-services').hide();	
+		}
+
 
 		function hero1 () {
 		if ($('.1stkid').val() == '0' & $('.selec-Children').val() == '0' ) hideAll();
@@ -1070,6 +1134,32 @@ function hero1Apart () {
 
 		}
 		
+		function kidzApart() 
+		{
+			$('.mkids-apart-age1').hide()
+			$('.mkids-apart-age2').hide()
+			$('.mkids-apart-age3').hide()
+			$('.mkids-apart-age4').hide()
+			$('.mkids-apart-age5').hide()
+			$('.mkids-apart-age6').hide()
+			$('.red-notification-apart').hide()
+			
+		}
+
+		function kidzServices() 
+		{
+			$('.mkids-services-age1').hide()
+			$('.mkids-services-age2').hide()
+			$('.mkids-services-age3').hide()
+			$('.mkids-services-age4').hide()
+			$('.mkids-services-age5').hide()
+			$('.mkids-services-age6').hide()
+			$('.red-notification-services').hide()
+			
+		}
+
+
+
 
 
 		
@@ -1107,6 +1197,9 @@ function hero1Apart () {
 			}
 
 
+			
+
+
 			function kid1Apart() 
 			{
 				$('.mkids-apart-age1').show()
@@ -1123,6 +1216,25 @@ function hero1Apart () {
 				else if($('.1stkid-apart').val() == '0') doAgeApart();
 				}
 
+			
+				function kid1Services() 
+			{
+				$('.mkids-services-age1').show()
+				$('.mkids-services-age2').hide()
+				$('.mkids-services-age3').hide()
+				$('.mkids-services-age4').hide()
+				$('.mkids-services-age5').hide()
+				$('.mkids-services-age6').hide()
+				ageNote1Services()
+			}	
+			
+			function ageNote1Services() {
+				if($('.1stkid-services').val() >= '1') ageDoneServices();
+				else if($('.1stkid-services').val() == '0') doAgeServices();
+				}
+
+
+
 
 
 
@@ -1133,14 +1245,13 @@ function hero1Apart () {
 			$('.mkids-age4').hide();
 			$('.mkids-age5').hide();
 			$('.mkids-age6').hide();
-			
-			ageNote1();
 			ageNote2();
 			
 		}
 
 
 		function ageNote2() {
+			ageNote1();
 			if ($('.2kid').val() == '0') doAge();
 			else if($('.2kid').val() >= '1') ageDone();
 		}
@@ -1187,6 +1298,24 @@ function hero1Apart () {
 		}
 
 
+
+
+		function kid2Services() 
+		{
+			$('.mkids-services-age1').show()
+			$('.mkids-services-age2').show()
+			$('.mkids-services-age3').hide()
+			$('.mkids-services-age4').hide()
+			$('.mkids-services-age5').hide()
+			$('.mkids-services-age6').hide()
+			ageNote2Services()
+		}
+		
+		function ageNote2Services() {
+			ageNote1Services();
+			if ($('.2kid-services').val() == '0') doAgeServices();
+			else if($('.2kid-services').val() >= '1') ageDoneServices();
+		}
 
 
 
@@ -1252,6 +1381,27 @@ function hero1Apart () {
 
 		}
 
+
+
+		
+		function kid3Services() 
+		{
+			$('.mkids-services-age1').show()
+			$('.mkids-services-age2').show()
+			$('.mkids-services-age3').show()
+			$('.mkids-services-age4').hide()
+			$('.mkids-services-age5').hide()
+			$('.mkids-services-age6').hide()
+			ageNote3Services()
+		}
+
+		function ageNote3Services() {
+			ageNote1Services();
+			ageNote2Services();
+			if($('.3rdkid-services').val() == '0') doAgeServices();
+			else if ($('.3rdkid-services').val() >= '1') ageDoneServices();
+
+		}
 
 
 
@@ -1322,6 +1472,25 @@ function hero1Apart () {
 
 
 
+		function kid4Services() 
+		{
+			$('.mkids-services-age1').show()
+			$('.mkids-services-age2').show()
+			$('.mkids-services-age3').show()
+			$('.mkids-services-age4').show()
+			$('.mkids-services-age5').hide()
+			$('.mkids-services-age6').hide()
+			ageNote4Services()
+		}
+		function ageNote4Services() {
+			ageNote1Services();
+			ageNote2Services();
+			ageNote3Services();
+			
+			if ($('.4rthkid-services').val() == '0') doAgeServices();
+			else if ($('.4rthkid-services').val() >= '1') ageDoneServices();
+		};
+
 
 
 		function kid5() {
@@ -1390,6 +1559,31 @@ function hero1Apart () {
 			
 			if ($('.5kid-apart').val() == '0') doAgeApart();
 			else if ($('.5kid-apart').val() >= '1') ageDoneApart();
+		};
+
+
+
+
+
+
+		function kid5Services() 
+		{
+			$('.mkids-services-age1').show()
+			$('.mkids-services-age2').show()
+			$('.mkids-services-age3').show()
+			$('.mkids-services-age4').show()
+			$('.mkids-services-age5').show()
+			$('.mkids-services-age6').hide()
+			ageNote5Services()
+		}
+		function ageNote5Services() {
+			ageNote1Services();
+			ageNote2Services();
+			ageNote3Services();
+			ageNote4Services();
+			
+			if ($('.5kid-services').val() == '0') doAgeServices();
+			else if ($('.5kid-services').val() >= '1') ageDoneServices();
 		};
 
 
@@ -1468,6 +1662,34 @@ function hero1Apart () {
 			if ($('.6kid-apart').val() == '0') doAgeApart();
 			else if ($('.6kid-apart').val() >= '1') ageDoneApart();
 		};
+
+
+		
+
+
+		function kid6Services() 
+		{
+			$('.mkids-services-age1').show()
+			$('.mkids-services-age2').show()
+			$('.mkids-services-age3').show()
+			$('.mkids-services-age4').show()
+			$('.mkids-services-age5').show()
+			$('.mkids-services-age6').show()
+			ageNote6Services()
+		}
+		function ageNote6Services() {
+			ageNote1Services();
+			ageNote2Services();
+			ageNote3Services();
+			ageNote4Services();
+			ageNote5Services();
+			
+			if ($('.6kid-services').val() == '0') doAgeServices();
+			else if ($('.6kid-services').val() >= '1') ageDoneServices();
+		};
+
+
+
 
 		
 		$('.hamburger2').click(function(){
