@@ -326,8 +326,6 @@ function re1l2Apart() {
 					}
 
 
-
-
 					function re1l2Services() {
 						if ($('.2kid-services').val() == '0') doAgeServices();
 						else if ($('.2kid-services').val() >= '1'  &&  $('.1stkid-services').val() >= '1') ageDoneServices();
@@ -494,6 +492,15 @@ function re2l6Apart() {
 
 
 /*  End  Apartment Logic 2 */
+
+
+
+
+/*    Services Logics2 */
+
+
+
+/*  End  Services Logics2 */
 
 		$('.3rdkid').on('change', function(){
 			if($('.3rdkid').val() == '0' ) doAge();
