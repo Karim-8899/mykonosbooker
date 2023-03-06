@@ -512,7 +512,7 @@ section
 	bottom: -11px;
 	width: calc(100% + 2px);
 	height: 2px;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	content: '';
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
@@ -1114,7 +1114,7 @@ section
 	width: 100%;
 	padding-top: 113px;
 	padding-bottom: 104px;
-	background: #31124b;
+	background: linear-gradient(to right, #585ba9 0%, #3a8587 100%);
 }
 .footer_title
 {
@@ -1271,7 +1271,7 @@ section
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 .tag_item:hover
 {
@@ -1330,7 +1330,7 @@ section
 
 .copyright
 {
-	background: #1f0733;
+	background: #252646 ;
 }
 .copyright_content
 {
