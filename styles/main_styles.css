@@ -654,7 +654,15 @@ section
 	margin-right: 5px;
 }
 
+.room-1 {
+	overflow-y: auto;
+}
 
+#room2 {
+	height: 30px;
+    text-align: left;
+    font-weight: 800;
+}
 
 
 .selec-Children {

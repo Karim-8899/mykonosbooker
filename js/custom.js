@@ -90,6 +90,14 @@ $(function() {
 
 	$('.dash-book-trans').hide();
 	$('.dash-hire-driv').hide();
+
+
+	$('#room2').hide();
+	$('#room2-adult').hide();
+	$('#room2-adult-valu').hide();
+	$('#room2-kids').hide();
+	$('#room2-kids-valu').hide();
+	$('.add-2nd-room').hide();
  });
 
 
@@ -1096,7 +1104,7 @@ function re6l6Services() {
 		}
 		function hero2 () {
 			if ($('.2kid').val() == '0' & $('.selec-Children').val() >= '2' ) staystill();
-			else if ($('.2kid').val() >= '1' & $('.selec-Children').val() >= '2' ) hideAll();
+			else if ($('.2kid').val() >= '1' & $('.selec-Children').val() >= '2' & $('.1stkid').val() >= '1') hideAll();
 			
 			}
 		function hero3 () {
@@ -1124,7 +1132,7 @@ function re6l6Services() {
 			}
 			function hero2Hotel () {
 				if ($('.2kid-hotel').val() == '0' & $('.selec-Children-hotel').val() >= '2' ) staystillHotel();
-				else if ($('.2kid-hotel').val() >= '1' & $('.selec-Children-hotel').val() >= '2' ) hideHotels();
+				else if ($('.2kid-hotel').val() >= '1' & $('.selec-Children-hotel').val() >= '2' & $('.1stkid-hotel').val() >= '1') hideHotels();
 				
 				}
 			function hero3Hotel () {
@@ -1152,7 +1160,7 @@ function hero1Apart () {
 	}
 	function hero2Apart () {
 		if ($('.2kid-apart').val() == '0' & $('.selec-Children-apart').val() >= '2' ) staystillApart();
-		else if ($('.2kid-apart').val() >= '1' & $('.selec-Children-apart').val() >= '2' ) hideApart();
+		else if ($('.2kid-apart').val() >= '1' & $('.selec-Children-apart').val() >= '2' & $('.1stkid-apart').val() >= '1') hideApart();
 		
 		}
 	function hero3Apart () {
@@ -1184,7 +1192,7 @@ function hero1Services () {
 	}
 	function hero2Services () {
 		if ($('.2kid-services').val() == '0' & $('.selec-Children-services').val() >= '2' ) staystillServices();
-		else if ($('.2kid-services').val() >= '1' & $('.selec-Children-services').val() >= '2' ) hideAllServices();
+		else if ($('.2kid-services').val() >= '1' & $('.selec-Children-services').val() >= '2' & $('.1stkid-services').val() >= '1' ) hideAllServices();
 		
 		}
 	function hero3Services () {
@@ -2112,6 +2120,21 @@ function hero1Services () {
 
 
 
+	$('.add-1st-room').click(function(){
+		$('#room1-hide').hide();
+		
+	$('#room2').show();
+	$('#room2-adult').show();
+	$('#room2-adult-valu').show();
+	$('#room2-kids').show();
+	$('#room2-kids-valu').show();
+	$('.add-2nd-room').show();
+		
+	})
+
+
+
+
 
 
 
@@ -2124,16 +2147,6 @@ function hero1Services () {
 	1. Vars and Inits
 
 	*/
-
-
-
-
-
-
-
-
-
-
 
 
 
