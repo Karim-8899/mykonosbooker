@@ -2416,7 +2416,7 @@ select{
 
 .copyright
 {
-	background: #252646 ;
+	background: #252646;
 }
 .copyright_content
 {
@@ -2488,4 +2488,8 @@ select{
 }
 #hire-hours {
 	margin-left: 5px;
+}
+
+#hire-tdays {
+	padding-left: 10px;
 }

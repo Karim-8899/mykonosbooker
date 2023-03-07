@@ -2083,11 +2083,9 @@ function hero1Services () {
 
 	$('#roundedk-serv-in').Zebra_DatePicker({
 		direction: true,
-		pair: $('#roundedk-serv-out')
+		
 	}); 
-	$('#roundedk-serv-out').Zebra_DatePicker({
-		direction: true,
-	});
+
 
 
 	$('#roundedk-trans-in').Zebra_DatePicker({
@@ -2107,7 +2105,6 @@ function hero1Services () {
 
 
 	$('#date-book-trans').Zebra_DatePicker({
-		format: 'Y-m-d H:i',
 		direction: true,
 	});
 	
