@@ -684,6 +684,11 @@ section
 }
 
 
+#flight-number {
+	padding-left: 10px;
+}
+
+
 select{
 	word-wrap: normal;
     border-radius: 11px;
@@ -871,6 +876,7 @@ select{
 4.1 Home Slider
 *********************************/
 
+
 .home_slider_container
 {
 	position: absolute;
@@ -880,6 +886,7 @@ select{
 	height: 100%;
 	z-index: 1;
 	background: #31124bbb;
+	
 	
 
 }
@@ -1045,7 +1052,15 @@ select{
 /*********************************
 5. Search
 *********************************/
-
+.vehicle1 {
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+	height: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-right: 70%;
+    padding-top: 1px;
+    text-align: center;
+}
 
 
 #reservlogo {
@@ -1063,7 +1078,7 @@ select{
 {
 	width: 100%;
 	height: 192px;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	z-index: 10;
 }
 .search_tabs_container

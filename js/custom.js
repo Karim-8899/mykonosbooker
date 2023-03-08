@@ -90,7 +90,7 @@ $(function() {
 
 	$('.dash-book-trans').hide();
 	$('.dash-hire-driv').hide();
-
+	$("#return-day").hide();
 
 	$('#room2').hide();
 	$('#room2-adult').hide();
@@ -2021,17 +2021,22 @@ function hero1Services () {
 	});
 
 	
-	$('#myform2 :checkbox').change(function() {
-		// this will contain a reference to the checkbox   
-		if (this.checked) { 
-			// the checkbox is now checked 
-			$('#add-drop-location-return').show();
-		} else {
-			// the checkbox is now no longer checked
-			$('#add-drop-location-return').hide();
-		}
-	});
+	
 
+
+
+
+	$('.vehicle1').click(function(){
+		$("#return-day").toggle();
+		console.log('rico is not working')
+
+	})
+
+
+
+
+
+	
 
 	  $("#roundedk1").change(function(){
         $(this).find("option:selected").each(function(){
@@ -2114,6 +2119,11 @@ function hero1Services () {
 		direction: true,
 	});
 
+
+
+	$('#return-date-hide').Zebra_DatePicker({
+		direction: true,
+	})
 
 
 
