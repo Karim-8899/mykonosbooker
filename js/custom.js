@@ -2027,8 +2027,8 @@ function hero1Services () {
 
 
 	$('.vehicle1').click(function(){
-		$("#return-day").toggle();
-		console.log('rico is not working')
+		$("#return-day").toggle(500);
+		
 
 	})
 
