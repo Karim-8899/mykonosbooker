@@ -214,6 +214,10 @@ section
 {
 	height: 100%;
 }
+
+.main-hide {
+	display: none;
+}
 .super_container
 {
 	width: 100%;
@@ -671,6 +675,11 @@ section
 .selec-Children-hotel {
 	width: 42px;
 }
+.selec-Children-hotelR1 {
+	width: 42px;
+}
+	
+
 .selec-Children-apart {
 	width: 42px;
 }
@@ -865,6 +874,12 @@ select{
 4. Home
 *********************************/
 
+#loading {
+	display: none;
+	/* add styles for the loading div here */
+  }
+  
+
 .home
 {
 	width: 100%;
@@ -894,7 +909,6 @@ select{
 	right: 0;
 	margin: auto;
 }
-
 /*********************************
 4.1 Home Slider
 *********************************/
@@ -908,7 +922,7 @@ select{
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	background: #31124bbb;
+	background: #31124b;
 	
 	
 
