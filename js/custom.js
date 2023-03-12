@@ -29,18 +29,15 @@ document.getElementById("apparts-smenu").style.display = "none";
 
 
 
-
 window.onload = myFunction();
 
 function myFunction () {
-	$('.super_container').hide()
 	console.log("should be hidin all")
-	
 }
 
 
 window.addEventListener('load', (event) => {
-	$('.super_container').show() 
+	
 });
 
 
@@ -48,9 +45,10 @@ window.onload = function() {
 	
 	var loadingDiv = document.getElementById('loader');
 	loadingDiv.style.display = 'none';
+	$('#good-div').removeClass('main-hide')
 	
+	console.log("should be hidin all")
  }
-
 
 
 
