@@ -91,6 +91,9 @@ $(function() {
 	$('.mkids-hotel-age6').hide();
 	$('.mkids-hotelR1-age1').hide();
 	$('.mkids-hotelR1-age2').hide();
+	$('.mkids-hotelR1-age3').hide();
+	$('.mkids-hotelR1-age4').hide();
+
 
 	$('.mkids-services-age1').hide();
 	$('.mkids-services-age2').hide();
@@ -1685,6 +1688,14 @@ function hero1Services () {
 		}
 
 
+		function kid3HotelR1() {
+			$('.mkids-hotelR1-age1').show()
+			$('.mkids-hotelR1-age2').show()
+			$('.mkids-hotelR1-age3').show()
+			$('.mkids-hotelR1-age4').hide()
+			$('.mkids-hotelR1-age5').hide()
+			$('.mkids-hotelR1-age6').hide()
+		}
 
 
 
