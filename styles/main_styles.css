@@ -928,7 +928,7 @@ select{
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	
+	background-size: 100%;
 	background-image: url(../images/mykonos6.png)
 	
 	
@@ -954,7 +954,7 @@ select{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	opacity:0.9;
+	
 }
 .home_slider_content
 {
