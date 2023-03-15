@@ -1140,12 +1140,16 @@ select{
 {
 	font-size: 14px;
 	font-weight: 700;
-	color: #2d2c2c;
+	color: #ffffff;
 	text-transform: uppercase;
 	text-align: center;
 	height: 100%;
 	flex-grow: 1;
-	background: #fa9d1b;
+	background: #0a2b2c99;
+	border-radius: 12px;
+	border-width: 0.5px;
+	border-style: solid ;
+	border-color: rgba(255, 255, 255, 0.982);
 	cursor: pointer;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -1162,16 +1166,6 @@ select{
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.search_tab:first-child
-{
-	border-top-left-radius: 94px;
-	padding-left: 0px;
-}
-.search_tab:last-child
-{
-	border-top-right-radius: 94px;
-	padding-right: 0px;
-}
 
 
 
@@ -1181,8 +1175,8 @@ select{
 
 .search_tab.active
 {
-	background: #fa9e1b;
-	color: #FFFFFF;
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
+		color: #ffffff;
 }
 .search_tab.active img
 {
@@ -1194,7 +1188,7 @@ select{
 }
 .search_tab:hover
 {
-	background: #fa9e1b;
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	color: #FFFFFF;
 }
 .search_tab:hover img
