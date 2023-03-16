@@ -29,7 +29,7 @@
 @media screen and (max-width: 4100px) and (min-width: 1190px), (min-width: 4200px)
 {
 	#main2img {
-		display: none;
+		display: flex;
 	}
 }
 
@@ -1105,6 +1105,16 @@ table {
 	margin-bottom: 10px;
 }
 
+.red-notificationR3-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
 .notifi-red {
 	align-items: center;
 	width: 40%;
@@ -1802,6 +1812,15 @@ table {
 	height: 20px;
 	margin-bottom: 10px;
 }
+.red-notificationR3-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
 
 .notifi-red {
 	align-items: center;
@@ -2491,6 +2510,15 @@ table {
 	height: 20px;
 	margin-bottom: 10px;
 }
+.red-notificationR3-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
 
 .notifi-red {
 	align-items: center;
@@ -3166,6 +3194,15 @@ table {
 }
 
 .red-notificationR1-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+.red-notificationR3-hotel {
 	align-items: center;
 	text-align: center;
 	border-radius: 5px;
