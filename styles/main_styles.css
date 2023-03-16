@@ -1061,11 +1061,11 @@ select{
 }
 .home_slider_custom_dot:hover
 {
-	color: #fa9e1c;
+	color: #7f82f0 ;
 }
 .home_slider_custom_dot:hover.active div
 {
-	border-color: #fa9e1c;
+	border-color: #7f82f0 ;
 }
 .home_slider_custom_dot.active
 {
