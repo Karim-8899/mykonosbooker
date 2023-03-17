@@ -102,7 +102,7 @@
 6. 991px
 ************/
 
-@media only screen and (max-width: 4200px)
+@media only screen and (max-width: 991px)
 {
 	.selector-for-some-widget {
 		box-sizing: content-box;
@@ -1115,6 +1115,16 @@ table {
 	margin-bottom: 10px;
 }
 
+.red-notificationR4-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
 .notifi-red {
 	align-items: center;
 	width: 40%;
@@ -1822,6 +1832,17 @@ table {
 	margin-bottom: 10px;
 }
 
+
+.red-notificationR4-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
 .notifi-red {
 	align-items: center;
 	width: 100%;
@@ -2520,6 +2541,16 @@ table {
 	margin-bottom: 10px;
 }
 
+.red-notificationR4-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
 .notifi-red {
 	align-items: center;
 	width: 100%;
@@ -3203,6 +3234,16 @@ table {
 	margin-bottom: 10px;
 }
 .red-notificationR3-hotel {
+	align-items: center;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(197, 24, 24, 0.955);
+	width: 40%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.red-notificationR4-hotel {
 	align-items: center;
 	text-align: center;
 	border-radius: 5px;
