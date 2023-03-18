@@ -19,12 +19,6 @@
 
 
 
-/** document.getElementById("villas-smenu").style.display = "visible";
-document.getElementById("hotels-smenu").style.display = "none";
-document.getElementById("apparts-smenu").style.display = "none";
-*/
-
-/**Adults   */
 
 window.onload = myFunction();
 
