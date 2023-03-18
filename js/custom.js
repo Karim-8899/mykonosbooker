@@ -396,7 +396,7 @@ function re1l6HotelR2() {
 /*  Hotel Logic1 Room3*/
 
 $('.1stkid-R3hotel').on('change', function(){
-	if ($('.1stkid-32hotel').val() == '0') doAgeR3Hotel();
+	if ($('.1stkid-R3hotel').val() == '0') doAgeR3Hotel();
 	else if ($('.1stkid-R3hotel').val() >= '1') ageR3logic1hotel();
 });
 
@@ -420,7 +420,7 @@ function re1l3HotelR3() {
 			if ($('.3rdkid-R3hotel').val() >= '1'  &&  $('.2kid-R3hotel').val() >= '1'  &&  $('.1stkid-R3hotel').val() >= '1') ageDoneR3Hotel();
 		}
 
-	function re1l4HotelR3() {
+function re1l4HotelR3() {
 			if ($('.2kid-R3hotel').val() == '0') doAgeR3Hotel();
 			if ($('.3rdkid-R3hotel').val() == '0') doAgeR3Hotel();
 			if ($('.4rthkid-R3hotel').val() == '0') doAgeR3Hotel();
@@ -443,6 +443,62 @@ function re1l6HotelR3() {
 		}
 
 /* End Hotel Logic1 Room3*/
+
+
+/*   Hotel Logic1 Room4*/
+
+$('.1stkid-R4hotel').on('change', function(){
+		 if ($('.1stkid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.1stkid-R4hotel').val() >= '1') ageR4logic1hotel();
+});
+
+function ageR4logic1hotel() {
+	if ($('.selec-Children-hotelR4').val() >= '2'  &  $('.2kid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.selec-Children-hotelR4').val() == '1') ageDoneR4Hotel();
+	if ($('.selec-Children-hotelR4').val() == '2') re1l2HotelR4();
+	if ($('.selec-Children-hotelR4').val() == '3') re1l3HotelR4();
+	if ($('.selec-Children-hotelR4').val() == '4') re1l4HotelR4();
+	if ($('.selec-Children-hotelR4').val() == '5') re1l5HotelR4();
+	if ($('.selec-Children-hotelR4').val() == '6') re1l6HotelR4();	
+}
+
+function re1l2HotelR4() {
+	if ($('.2kid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.2kid-R4hotel').val() >= '1'  &&  $('.1stkid-R4hotel').val() >= '1') ageDoneR4Hotel();
+}
+
+function re1l3HotelR4() {
+	if ($('.2kid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.3rdkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.3rdkid-R4hotel').val() >= '1'  &&  $('.2kid-R4hotel').val() >= '1'  &&  $('.1stkid-R4hotel').val() >= '1') ageDoneR4Hotel();
+}
+
+function re1l4HotelR4() {
+	if ($('.2kid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.3rdkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.4rthkid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.4rthkid-R4hotel').val() >= '1'  &&  $('.3rdkid-R4hotel').val() >= '1'  &&  $('.2kid-R4hotel').val() >= '1'  &&  $('.1stkid-R4	hotel').val() >= '1') ageDoneR4Hotel();
+}
+
+function re1l5HotelR4() {
+	if ($('.2kid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.3rdkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.4rthkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.5kid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.5kid-R4hotel').val() >= '1'  &&  $('.4rthkid-R4hotel').val() >= '1'  &&  $('.3rdkid-R4hotel').val() >= '1'  &&  $('.2kid-R4hotel').val() >= '1'  &&  $('.1stkid-R4hotel').val() >= '1') ageDoneR4Hotel();
+}
+function re1l6HotelR4() {
+	if ($('.2kid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.3rdkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.4rthkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.5kid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.6kid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.6kid-R4hotel').val() >= '1'  &&  $('.5kid-R4hotel').val() >= '1'  &&  $('.4rthkid-R4hotel').val() >= '1'  &&  $('.3rdkid-R4hotel').val() >= '1'  &&  $('.2kid-R4hotel').val() >= '1'  &&  $('.1stkid-R4hotel').val() >= '1') ageDoneR4Hotel();
+}
+
+
+
+/* End Hotel Logic1 Room4*/
 
 /*   Apartment Logic 1 */
 
@@ -734,6 +790,54 @@ function re2l6HotelR3() {
 /* End Hotel Logic2 Room3*/
 
 
+/*  Hotel Logic2 Room4*/
+
+$('.2kid-R4hotel').on('change', function(){
+	if ($('.2kid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.2kid-R4hotel').val() >= '1') agelogic2HotelR4();
+
+})
+
+function agelogic2HotelR4() {
+	if ($('.selec-Children-hotelR4').val() >= '2'  &  $('.1stkid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.selec-Children-hotelR4').val() == '2' &  $('.1stkid-R4hotel').val() >= '1' ) ageDoneR4Hotel();
+	if ($('.selec-Children-hotelR4').val() == '3') re2l3HotelR4();
+	if ($('.selec-Children-hotelR4').val() == '4') re2l4HotelR4();
+	if ($('.selec-Children-hotelR4').val() == '5') re2l5HotelR4();
+	if ($('.selec-Children-hotelR4').val() == '6') re2l6HotelR4();
+}
+
+function re2l3HotelR4() {
+	if ($('.1stkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.3rdkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.3rdkid-R4hotel').val() >= '1' &&  $('.2kid-R4hotel').val() >= '1'  &&  $('.1stkid-R4hotel').val() >= '1' ) ageDoneR4Hotel();
+}
+function re2l4HotelR4() {
+	if ($('.1stkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.4rthkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.3rdkid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.1stkid-R4hotel').val() >= '1'  &&  $('.3rdkid-R4hotel').val() >= '1' &&  $('.4rthkid-R4hotel').val() >= '1' ) ageDoneR4Hotel(); 
+
+}
+
+function re2l5HotelR4() {
+	if ($('.1stkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.4rthkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.3rdkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.5kid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.5kid-R4hotel').val() >= '1' && $('.1stkid-R4hotel').val() >= '1'  &&  $('.3rdkid-R4hotel').val() >= '1' &&  $('.4rthkid-R4hotel').val() >= '1') ageDoneR4Hotel();
+}
+function re2l6HotelR4() {
+	if ($('.1stkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.4rthkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.3rdkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.5kid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.6kid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.6kid-R4hotel').val() >= '1' && $('.5kid-R4hotel').val() >= '1' && $('.1stkid-R4hotel').val() >= '1'  &&  $('.3rdkid-R4hotel').val() >= '1' &&  $('.4rthkid-R4hotel').val() >= '1') ageDoneR4Hotel();
+}
+
+
+/* End Hotel Logic2 Room4*/
 
 /*   Apartment Logic 2 */
 $('.2kid-apart').on('change', function(){
@@ -978,7 +1082,7 @@ function re3l4HotelR3() {
 
 function re3l5HotelR3() {
 	if ($('.1stkid-R3hotel').val() == '0') doAgeR3Hotel();
-	if ($('.2kid-32hotel').val() == '0') doAgeR3Hotel();
+	if ($('.2kid-R4hotel').val() == '0') doAgeR3Hotel();
 	if ($('.4rthkid-R3hotel').val() == '0') doAgeR3Hotel();
 	if ($('.5kid-R3hotel').val() == '0') doAgeR3Hotel();
 	else if ($('.5kid-R3hotel').val() >= '1'  &&  $('.1stkid-R3hotel').val() >= '1'  &&  $('.2kid-R3hotel').val() >= '1'  &&   $('.4rthkid-R3hotel').val() >= '1') ageDoneR3Hotel();
@@ -996,6 +1100,51 @@ function re3l6HotelR3() {
 
 
 /* End   Hotel Logic3 Room3*/
+
+/*     Hotel Logic3 Room4*/
+
+
+$('.3rdkid-R4hotel').on('change', function(){
+	if($('.3rdkid-R4hotel').val() == '0' ) doAgeR4Hotel();
+	else if ($('.3rdkid-R4hotel').val() >= '1' ) agelogic3HotelR4();
+})
+
+function agelogic3HotelR4() {
+	if ($('.1stkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.2kid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.1stkid-R4hotel').val() >= '1'  &&  $('.2kid-R4hotel').val() >= '1') ageDoneR4Hotel();
+	if ($('.selec-Children-hotelR4').val() == '4') re3l4HotelR4();
+	if ($('.selec-Children-hotelR4').val() == '5') re3l5HotelR4();
+	if ($('.selec-Children-hotelR4').val() == '6') re3l6HotelR4();
+}
+
+function re3l4HotelR4() {
+	if ($('.1stkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.2kid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.4rthkid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.1stkid-R4hotel').val() >= '1'  &&  $('.2kid-R4hotel').val() >= '1'  &&   $('.4rthkid-R4hotel').val() >= '1') ageDoneR4Hotel();
+	
+}
+
+function re3l5HotelR4() {
+	if ($('.1stkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.2kid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.4rthkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.5kid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.5kid-R4hotel').val() >= '1'  &&  $('.1stkid-R4hotel').val() >= '1'  &&  $('.2kid-R4hotel').val() >= '1'  &&   $('.4rthkid-R4hotel').val() >= '1') ageDoneR4Hotel();
+}
+
+function re3l6HotelR4() {
+	if ($('.1stkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.2kid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.4rthkid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.5kid-R4hotel').val() == '0') doAgeR4Hotel();
+	if ($('.6kid-R4hotel').val() == '0') doAgeR4Hotel();
+	else if ($('.1stkid-R4hotel').val() >= '1'  &&  $('.2kid-R4hotel').val() >= '1'   &&     $('.4rthkid-R4hotel').val() >= '1'    &&  $('.5kid-R4hotel').val() >= '1' &&  $('6kid-R4hotel').val() >= '1' ) ageDoneR4Hotel();
+	
+}
+
+/* End   Hotel Logic3 Room4*/
 
 
 /*   Apartment Logic 3 */
