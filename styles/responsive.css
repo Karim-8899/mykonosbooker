@@ -28,17 +28,27 @@
 
 @media screen and (max-width: 4100px) and (min-width: 1190px), (min-width: 4200px)
 {
-	#main2img {
-		display: flex;
+	#search_form_1 {
+		padding-top: 30px;
 	}
+
+	#villas-smenu {
+		padding-top: 30px;
+	}
+	
 }
 
 /************
 3. 1380px
 ************/
 
-@media only screen and (max-width: 1380px)
+@media only screen and (max-width: 4200px)
 {
+	#main2img {
+		display: flex;
+
+	}
+
 	
 }
 
