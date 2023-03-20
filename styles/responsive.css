@@ -34,7 +34,21 @@
 
 	#villas-smenu {
 		padding-top: 30px;
+		width: 100%;
 	}
+
+	#hotels-smenu {
+		width: 100%;
+	}
+
+	#apparts-smenu {
+		width: 100%;
+	}
+
+	.search_panel {
+		padding-top: 40px;
+	}
+	
 	
 }
 
