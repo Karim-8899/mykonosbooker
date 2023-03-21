@@ -404,6 +404,7 @@
 
 	.hamburger2-hotel {
 		border-radius: 10px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: #0a2b2c99;
 		border-style: solid ;
@@ -444,7 +445,7 @@
 	#roundedk {
 		border-radius: 10px;
 		border-width: 0.5px;
-		border-color: rgba(255, 255, 255, 0.982);
+		border-color: rgb(255, 255, 255);
 		background:#0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
@@ -828,6 +829,7 @@
 	}
 	.hamburger2-hotel {
 		border-radius: 10px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: #0a2b2c99;
 		border-style: solid ;
@@ -1378,6 +1380,7 @@ table {
 	}
 	.hamburger2-hotel {
 		border-radius: 10px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: #0a2b2c99;
 		border-style: solid ;
@@ -1403,7 +1406,7 @@ table {
 	#roundedk {
 		border-radius: 10px;
 		border-width: 0.5px;
-		border-color: rgba(255, 255, 255, 0.982);
+		border-color: rgb(255, 255, 255);
 		background:#0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
@@ -1605,6 +1608,7 @@ table {
 	}
 	.hamburger2-hotel {
 		border-radius: 10px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: #0a2b2c99;
 		border-style: solid ;
@@ -2092,6 +2096,7 @@ table {
 	}
 	.hamburger2-hotel {
 		border-radius: 10px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: #0a2b2c99;
 		border-style: solid ;
@@ -2121,7 +2126,7 @@ table {
 	#roundedk {
 		border-radius: 10px;
 		border-width: 0.5px;
-		border-color: rgba(255, 255, 255, 0.982);
+		border-color: rgb(255, 255, 255);
 		background:#0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
@@ -2323,6 +2328,7 @@ table {
 	}
 	.hamburger2-hotel {
 		border-radius: 10px;
+		border-width: 0.5px;
 		border-color: rgba(255, 255, 255, 0.871);
 		background: #0a2b2c99;
 		border-style: solid ;
@@ -2838,7 +2844,7 @@ table {
 	#roundedk {
 		border-radius: 10px;
 		border-width: 0.5px;
-		border-color: rgba(255, 255, 255, 0.25);
+		border-color: rgb(255, 255, 255);
 		background:#0a2b2c99;
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
@@ -3028,7 +3034,8 @@ table {
 	}
 	.hamburger2-hotel {
 		border-radius: 10px;
-		border-color: rgba(255, 255, 255, 0.871);
+		border-color: rgb(255, 255, 255);
+		border-width: 0.5px;
 		background: #0a2b2c99;
 		border-style: solid ;
 		color: rgb(255, 255, 255);
