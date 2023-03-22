@@ -331,18 +331,18 @@
 										<div class="check-in">
 											<div class="search_item">
 												<div>Check in</div>
-												<input id="roundedk-in" name="villas-in-date" type="text" class="check_in search_input d-flex flex-lg-row" placeholder="YYYY-MM-DD">
+												<input id="roundedk-in" name="villas-in-date" type="text" class="check_in search_input d-flex flex-lg-row" placeholder="Check In Date">
 											</div>
 											<div class="search_item">
 												<div>Check out</div>
-												<input id="roundedk-out" name="villas-out-date" type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
+												<input id="roundedk-out" name="villas-out-date" type="text" class="check_out search_input" placeholder="Check out Date">
 											</div>
 	
 										</div>
 										<div class="search_item" id="hire-days">
-											<div>How Many Rooms</div>
+											<div>Number of rooms</div>
 											<select name="villas-bedrooms" id="roundedk" class="dropdown_item_select search_input">
-												<option value="1">1 Bedroom</option>
+												<option >How Many Rooms?</option>
 												<option value="2">2 Bedrooms</option>
 												<option value="3">3 Bedrooms</option>
 												<option value="4">4 Bedrooms</option>
@@ -357,6 +357,7 @@
 												<option value="13">13 Bedrooms</option>
 												<option value="14">14 Bedrooms</option>
 												<option value="15">15 Bedrooms</option>
+												<option value="16">16 Bedrooms</option>
 												
 											</select>
 										</div>
@@ -1865,7 +1866,7 @@
 									</div>
 									<div class="search_item" id="hire-tdays">
 										<div>Pick Up Time</div>
-										<select name="adults" id="roundedk" class="dropdown_item_select search_input">
+										<select aria-label="Pick-up time" name="adults" id="roundedk" class="dropdown_item_select search_input" placeholder="06:00">
 											<option>00:00</option>
 											<option>00:15</option>
 											<option>00:30</option>
@@ -1964,7 +1965,7 @@
 									</div>
 									<div class="search_item" id="flight-number">
 										<div>Flight Number</div>
-										<input id="" type="text" class="check_in search_input" placeholder="Fligh No">
+										<input id="" type="text" class="check_in search_input" placeholder="Flight No">
 									</div>
 
 								</div>
@@ -2084,7 +2085,7 @@
 									</div>
 									<div class="search_item" id="flight-number">
 										<div>Flight Number</div>
-										<input id="" type="text" class="check_in search_input" placeholder="Fligh No">
+										<input id="" type="text" class="check_in search_input" placeholder="Flight No">
 									</div>
 								</div>
 
@@ -2120,9 +2121,9 @@
 										</select>
 									</div>
 									<div class="search_item tranfer-bok">
-										<div>Kids</div>
+										<div>children</div>
 										<select name="children" id="roundedk" class="dropdown_item_select search_input">
-											<option>kids</option>
+											<option>children</option>
 											<option>1</option>
 											<option>2</option>
 											<option>3</option>
@@ -2349,7 +2350,7 @@
 							<div class="search_item">
 								<div>Category</div>
 								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-									<option>Select Category</option>
+									<option>Select type of Venue</option>
 									<option>Restaurants</option>
 									<option>Beach clubs</option>
 									<option>Night Clubs</option>
@@ -2365,7 +2366,7 @@
 									<input id="roundedk-reservaton" type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 								</div>
 								<div class="search_item" id="hire-days">
-									<div>Pick Up Time</div>
+									<div>Reservation Time</div>
 									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
 										<option>08:00</option>
 										<option>08:30</option>
@@ -2477,7 +2478,7 @@
 							<div class="search_item">
 								<div>Category</div>
 								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-									<option>Select Category</option>
+									<option>Select Type of Activities</option>
 									<option>Yachts</option>
 									<option>Helicopter Ride</option>
 									<option>Horse Riding</option>
@@ -2779,7 +2780,7 @@
 							<div class="search_item">
 								<div>Category</div>
 								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-									<option>Select Category</option>
+									<option>Select Type of Service</option>
 									<option>Private Chef</option>
 									<option>Private Security</option>
 									<option>Private Concierge</option>
