@@ -328,12 +328,12 @@
 							
 								<div id="villas-smenu">
 									<form  action="#" id="villa-Form">
-										<div class="check-in">
-											<div class="search_item">
+										<div class="check-in-hire justify-content-around">
+											<div class="search_item" id="hire-days">
 												<div>Check in</div>
 												<input id="roundedk-in" name="villas-in-date" type="text" class="check_in search_input d-flex flex-lg-row" placeholder="Check In Date">
 											</div>
-											<div class="search_item">
+											<div class="search_item" id="hire-hours">
 												<div>Check out</div>
 												<input id="roundedk-out" name="villas-out-date" type="text" class="check_out search_input" placeholder="Check out Date">
 											</div>
@@ -373,12 +373,12 @@
 								<div id="hotels-smenu">
 
 									<form id="hotel-Form">
-										<div class="check-in">
-											<div class="search_item">
+										<div class="check-in-hire justify-content-around">
+											<div class="search_item" id="hire-days">
 												<div>Check in</div>
 												<input name="hotel-datein" id="roundedk-hotl-in" type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 											</div>
-											<div class="search_item">
+											<div class="search_item" id="hire-hours">
 												<div>Check out</div>
 												<input name="hotel-dateout" id="roundedk-hotl-out" type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 											</div>
@@ -1391,12 +1391,12 @@
 
 	
 								<div id="apparts-smenu">
-									<div class="check-in">
-										<div class="search_item">
+									<div class="check-in-hire justify-content-around">
+										<div class="search_item" id="hire-days">
 											<div>Check in</div>
 											<input id="roundedk-apart-in" type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 										</div>
-										<div class="search_item">
+										<div class="search_item" id="hire-hours">
 											<div>Check out</div>
 											<input id="roundedk-apart-out" type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 										</div>
@@ -1709,13 +1709,13 @@
 									<input id="add-drop-location" type="text" class="check_in search_input" placeholder="Drop-Off">
 								</div>
 
-								<div class="check-in">
+								<div class="check-in-hire justify-content-around">
 									
-									<div class="search_item">
+									<div class="search_item" id="hire-days">
 										<div>Pick Up Date</div>
 										<input id="roundedk-trans-in" type="text" class="check_in search_input" placeholder="YYYY-MM-DD">
 									</div>
-									<div class="search_item">
+									<div class="search_item" id="hire-hours">
 										<div>Drop-off Date</div>
 										<input id="roundedk-trans-out" type="text" class="check_out search_input" placeholder="YYYY-MM-DD">
 									</div>
@@ -2535,7 +2535,7 @@
 							<div class="search_item">
 								<div>Category</div>
 								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-									<option>Select Type of Activities</option>
+									<option selected="selected" disabled="disabled">Select Type of Activities</option>
 									<option>Yachts</option>
 									<option>Helicopter Ride</option>
 									<option>Horse Riding</option>
@@ -2837,7 +2837,7 @@
 							<div class="search_item">
 								<div>Category</div>
 								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-									<option>Select Type of Service</option>
+									<option selected="selected" disabled="disabled">Select Type of Service</option>
 									<option>Private Chef</option>
 									<option>Private Security</option>
 									<option>Private Concierge</option>
@@ -2862,7 +2862,7 @@
 									<div>how many days</div>
 									
 									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-											<option>How Many Days</option>
+											<option selected="selected" disabled="disabled">How Many Days</option>
 											<option value="1">1 Day</option>
 											<option value="2">2 Days</option>
 											<option value="3">3 Days</option>
