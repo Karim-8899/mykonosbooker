@@ -2286,7 +2286,7 @@
 													<div>Adult</div>
 													<select name="adults" id="roundedk" class="dropdown_item_select search_input">
 														<option>0</option>
-														<option>1</option>
+														<option selected="selected">1</option>
 														<option>2</option>
 														<option>3</option>
 														<option>4</option>
@@ -2313,7 +2313,7 @@
 													
 													<select id="roundedk" class="dropdown_item_select search_input">
 														<option>0</option>
-														<option>1</option>
+														<option selected="selected">1</option>
 														<option>2</option>
 														<option>3</option>
 														<option>4</option>
@@ -2394,7 +2394,7 @@
 
 											<div class="search_item">
 												<div>Special request</div>
-												<input type="text"  id="roundedk" class="check_out search_input">
+												<input type="text"  id="roundedk" class="check_out search_input" placeholder="Note any special request" >
 											</div>
 										</div>
 							
@@ -2518,7 +2518,7 @@
 								</div>
 								<div class="search_item">
 									<div>Special request</div>
-									<input type="text"  id="roundedk" class="check_out search_input">
+									<input type="text"  id="roundedk" class="check_out search_input" placeholder="Any Notes" >
 								</div>
 
 							</div>
@@ -2550,7 +2550,7 @@
 							
 							<div class="search_item">
 								<div>Book a day</div>
-								<input type="text" id="roundedk-activity" class="check_out search_input" placeholder="YYYY-MM-DD">
+								<input type="text" id="roundedk-activity" class="check_out search_input" placeholder="Activity Date">
 							</div>
 
 							<div class="dash-hire-activ">	
@@ -2588,7 +2588,7 @@
 							</div>
 							<div class="search_item">
 								<div>Special request</div>
-								<input type="text"  id="roundedk" class="check_out search_input">
+								<input type="text"  id="roundedk" class="check_out search_input" placeholder="Note any special request">
 							</div>
 							
 							<button class="button search_button">search<span></span><span></span><span></span></button>
@@ -2854,13 +2854,13 @@
 	
 								</select>
 							</div>
-							<div class="check-in"> 
-								<div class="search_item">
+							<div class="check-in-hire justify-content-around"> 
+								<div class="search_item" id="hire-days">
 									<div>Date</div>
 									<input  type="text" id="roundedk-serv-in" class="check_out search_input" placeholder="Service Date">
 									
 								</div>
-								<div class="search_item" style="width: 100%;">
+								<div class="search_item" id="hire-hours">
 									<div>how many days</div>
 									
 									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
@@ -2904,7 +2904,7 @@
 							
 
 							<div class="check-in-hire justify-content-around" style="width: 100%;">
-								<div class="search_item" id="hire-days">
+								<div class="search_item" >
 									<div>Hours Per Day</div>
 									<select name="adults" id="roundedk" class="dropdown_item_select search_input">
 											<option>1 Hour </option>
