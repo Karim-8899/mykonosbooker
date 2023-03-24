@@ -250,6 +250,7 @@ $(document).ready(function()
 		/*Activity Logic*/
 
 		function agelogic1() {
+			
 			if ($('.selec-Children').val() >= '2'  &  $('.2kid').val() == '0') doAge();
 			if ($('.selec-Children').val() == '1') ageDone();
 			if ($('.selec-Children').val() == '2') re1l2();
@@ -2007,10 +2008,16 @@ function hero1Apart () {
 
 /*   Services Done Control*/
 
+function onlyAdultServ (){
+	if ($('.selec-Children-services').val() == '0' & $('#qty1-services').val() >= '1') hideAllServices();
+}
+
+
 function hero1Services () {
 	if ($('.1stkid-services').val() == '0' & $('.selec-Children-services').val() == '0' ) hideAllServices();
 	else if ($('.1stkid-services').val() == '0' & $('.selec-Children-services').val() >= '1' ) staystillServices();
 	else if ($('.1stkid-services').val() >= '1' & $('.selec-Children-services').val() >= '1' ) hideAllServices();
+	
 	}
 	function hero2Services () {
 		if ($('.2kid-services').val() == '0' & $('.selec-Children-services').val() >= '2' ) staystillServices();
@@ -2075,7 +2082,7 @@ function hero1Services () {
 		
 
 		$('.done-close-services').click(function(){
-			
+			onlyAdultServ();
 			hero1Services();
 			hero2Services();
 			hero3Services();
