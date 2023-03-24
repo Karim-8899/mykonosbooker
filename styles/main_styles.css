@@ -656,6 +656,8 @@ section
 	color: #ffff;
 	font-weight: 600;
 	margin-right: 5px;
+	margin-top: -2px;
+	font-size: 15px;
 }
 
 .room-1 {
