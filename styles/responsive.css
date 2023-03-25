@@ -48,7 +48,17 @@
 	.search_panel {
 		padding-top: 40px;
 	}
-	
+
+	.check-in-hire {
+		display: flex;
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+.menu-nav {
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
 	
 }
 
