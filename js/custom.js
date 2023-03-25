@@ -1919,6 +1919,9 @@ function re6l6Services() {
 			$('.red-notification-services').hide();	
 		}
 
+		function onlyAdultActivity() {
+			if ($('.selec-Children').val() == '0' & $('.qty-activity').val() >= '1') hideAll();
+		}
 
 		function hero1 () {
 		if ($('.1stkid').val() == '0' & $('.selec-Children').val() == '0' ) hideAll();
@@ -2043,6 +2046,7 @@ function hero1Services () {
 
 
 		$('.done-close').click(function(){
+			onlyAdultActivity();
 			hero1();
 			hero2();
 			hero3();
