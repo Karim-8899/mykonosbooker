@@ -1979,6 +1979,10 @@ function re6l6Services() {
 /*End Done Control*/	
 
 /*Apart Done Control*/
+function onlyAdultApart () {
+	if ($('.selec-Children-apart').val() == '0' & $('#qty1-apart').val() >= '1') hideApart();
+}
+
 function hero1Apart () {
 	if ($('.1stkid-apart').val() == '0' & $('.selec-Children-apart').val() == '0' ) hideApart();
 	else if ($('.1stkid-apart').val() == '0' & $('.selec-Children-apart').val() >= '1' ) staystillApart();
@@ -2073,7 +2077,7 @@ function hero1Services () {
 
 
 		$('.done-close-apart').click(function(){
-			
+			onlyAdultApart();
 			hero1Apart();
 			hero2Apart();
 			hero3Apart();
