@@ -582,6 +582,7 @@ padding-left: 15px;
 
 .hamburger2-services {
 	border-radius: 10px;
+	border-width: 0.5px;
 	border-color: rgba(255, 255, 255, 0.871);
 	background: #0a2b2c99;
 	border-style: solid ;
