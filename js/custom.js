@@ -20,18 +20,10 @@
 
 
 
-window.onload = myFunction();
-
-function myFunction () {
-	
-	console.log("should be hidin all")
-	
-}
 
 
-window.addEventListener('load', (event) => {
-	
-});
+
+
 
 
 window.onload = function() {
@@ -40,7 +32,7 @@ window.onload = function() {
 	loadingDiv.style.display = 'none';
 	$('#good-div').removeClass('main-hide')
 	
-	console.log("should be hidin all")
+	
  }
 
 
