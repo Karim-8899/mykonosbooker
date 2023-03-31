@@ -2104,12 +2104,18 @@ function hero1Services () {
 		}
 
 		function allpersonsHotels() {
-			var tradults = $("#qty1-hotel").val();
-			var allkids = $(".selec-Children-hotel").val();
-			var hallrooms = $(".selec-Rooms-hotel").val();
+			let adultsRoom1 = $("#qty1-hotel").val();
+			let adultsRoom2 = $('#qty1-hotelR2').val();
+			let kidsRoom1 = $(".selec-Children-hotel").val();
+			let kidsRoom2 = $('.selec-Children-hotelR1').val();
+
+			let hallrooms = $(".selec-Rooms-hotel").val();
+
+			let allkids = kidsRoom1 + kidsRoom2;
+			let allHoteladults = adultsRoom1 + adultsRoom2;
 
 			document.getElementById("alrooms").innerHTML = hallrooms;
-			document.getElementById("aladults-hotel").innerHTML = tradults;
+			document.getElementById("aladults-hotel").innerHTML = allHoteladults;
 			document.getElementById("alkids-hotel").innerHTML = allkids;
 			
 		}
