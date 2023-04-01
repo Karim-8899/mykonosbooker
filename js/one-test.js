@@ -60,7 +60,7 @@ villaform.addEventListener('submit', (event) => {
     console.log(`kid1: ${hotelkid4}`);
     console.log(`kid1: ${hotelkid5}`);
     console.log(`kid1: ${hotelkid6}`);
-    window.location.href = `https://bookings.mykonosbooker.com/#/search/2023~2F03~2F11/2023~2F03~2F25/Athens%20Center,%20Athens/OT-LOC-GEO-9186/(nationality:75,rooms:!(('$$hashKey':'object:51',adults:${halladult},children:${hallkids},childrenAges:!(${hotelkid1},${hotelkid2},${hotelkid3},${hotelkid3},${hotelkid4},${hotelkid5},${hotelkid6}),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
+    window.location.href = `https://bookings.mykonosbooker.com/#/search/2023~2F03~2F11/2023~2F03~2F25/Mykonos%20Island/OT-LOC-GEO-257055/(nationality:75,rooms:!(('$$hashKey':'object:51',adults:${halladult},children:${hallkids},childrenAges:!(${hotelkid1},${hotelkid2},${hotelkid3},${hotelkid3},${hotelkid4},${hotelkid5},${hotelkid6}),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
  
 
 });
