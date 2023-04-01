@@ -34,7 +34,7 @@ villaform.addEventListener('submit', (event) => {
     console.log(`day: ${dayout}`);
 
     console.log(`rooms: ${bedrooms}`);
-    window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearout}~2F${monthout}~2F${dayout}/Athens%20Center,%20Athens/OT-LOC-GEO-9186/(nationality:75,rooms:!(('$$hashKey':'object:45',adults:2,children:0,childrenAges:!(),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0)) `;    
+    window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearout}~2F${monthout}~2F${dayout}/Mykonos%20Island/OT-LOC-GEO-257055/(nationality:75,rooms:!(('$$hashKey':'object:45',adults:2,children:0,childrenAges:!(),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0)) `;    
 
   });
 

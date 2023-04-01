@@ -2106,13 +2106,21 @@ function hero1Services () {
 		function allpersonsHotels() {
 			let adultsRoom1 = $("#qty1-hotel").val();
 			let adultsRoom2 = $('#qty1-hotelR2').val();
+			let adultsRoom3 = $('#qty1-hotelR3').val();
+			let adultsRoom4 = $('#qty1-hotelR4').val();
+
+
 			let kidsRoom1 = $(".selec-Children-hotel").val();
 			let kidsRoom2 = $('.selec-Children-hotelR1').val();
+			let kidsRoom3 = $('.selec-Children-hotelR3').val();
+			let kidsRoom4 = $('.selec-Children-hotelR4').val();
 
 			let hallrooms = $(".selec-Rooms-hotel").val();
 
-			let allkids = kidsRoom1 + kidsRoom2;
-			let allHoteladults = adultsRoom1 + adultsRoom2;
+			
+
+			let allHoteladults = parseInt(adultsRoom1) + parseInt(adultsRoom2) + parseInt(adultsRoom3) + parseInt(adultsRoom4);
+			let allkids = parseInt(kidsRoom1) + parseInt(kidsRoom2) + parseInt(kidsRoom3) + parseInt(kidsRoom4);
 
 			document.getElementById("alrooms").innerHTML = hallrooms;
 			document.getElementById("aladults-hotel").innerHTML = allHoteladults;
