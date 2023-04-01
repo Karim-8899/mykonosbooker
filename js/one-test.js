@@ -40,6 +40,34 @@ villaform.addEventListener('submit', (event) => {
 
   hotelform.addEventListener('submit', (event) => {
     event.preventDefault(); // prevent the form from submitting
+
+    const hoteldatein = hotelform.elements['hotel-datein'].value;
+    const hoteldateout = hotelform.elements['hotel-dateout'].value;
+
+
+    const dateComponents = hoteldatein.split("-");
+    const year = dateComponents[0];
+    const month = dateComponents[1];
+    const day = dateComponents[2];
+
+    console.log(`In: ${hoteldatein}`);
+    console.log(`year: ${year}`);
+    console.log(`month: ${month}`);
+    console.log(`day: ${day}`);
+
+
+    const dateOutComponents = hoteldateout.split("-");
+    const yearOut = dateOutComponents[0];
+    const monthOut = dateOutComponents[1];
+    const dayOut = dateOutComponents[2];
+
+    console.log(`In: ${hoteldateout}`);
+    console.log(`year: ${yearOut}`);
+    console.log(`month: ${monthOut}`);
+    console.log(`day: ${dayOut}`);
+
+
+
   
     const hallkids = hotelform.elements['hotel-allkids'].value;
     const hallrooms = hotelform.elements['hotel-allrooms'].value;
@@ -60,8 +88,12 @@ villaform.addEventListener('submit', (event) => {
     console.log(`kid1: ${hotelkid4}`);
     console.log(`kid1: ${hotelkid5}`);
     console.log(`kid1: ${hotelkid6}`);
-    window.location.href = `https://bookings.mykonosbooker.com/#/search/2023~2F03~2F11/2023~2F03~2F25/Mykonos%20Island/OT-LOC-GEO-257055/(nationality:75,rooms:!(('$$hashKey':'object:51',adults:${halladult},children:${hallkids},childrenAges:!(${hotelkid1},${hotelkid2},${hotelkid3},${hotelkid3},${hotelkid4},${hotelkid5},${hotelkid6}),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
+
+
+     window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearOut}~2F${monthOut}~2F${dayOut}/Mykonos%20Island/OT-LOC-GEO-257055/(nationality:75,rooms:!(('$$hashKey':'object:51',adults:2,children:2,childrenAges:!(2,3),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
  
+     
+    
 
 });
 
