@@ -1106,9 +1106,6 @@ select{
 }
 
 
-#reservlogo {
-	width: 45px;
-}
 
 
 .nav-item active {
@@ -2645,10 +2642,6 @@ select{
 	}
 
 	
-	#reservlogo {
-		width: 28px;
-		
-	}
 
 
 	.msmall-search {
@@ -2996,9 +2989,7 @@ select{
 		}
 
 
-	#reservlogo {
-		width: 28px;
-	}
+	
 
 
 
@@ -3544,9 +3535,7 @@ table {
 }
 
 
-#reservlogo {
-	width: 28px;
-}
+
 
 
 .msmall-search {
@@ -3559,7 +3548,9 @@ table {
   }
 
 
-
+  .fa-solid {
+	font-size: 24px;
+}
 
 
 

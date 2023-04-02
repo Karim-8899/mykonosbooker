@@ -23,7 +23,7 @@
 
 
 /************
-2. 1440px
+2. PC Versoin
 ************/
 
 @media screen and (max-width: 4100px) and (min-width: 992px), (min-width: 4200px)
@@ -90,9 +90,14 @@
 }
 
 
+.las {
+	font-size: 50px;
+}
 
 
-
+.fa-solid {
+	font-size: 40px;
+}
 
 
 
@@ -175,9 +180,14 @@
 
 
 #reservlogo {
-	width: 28px;
+	width: 50px;
 	
 }
+
+#reservlogo-yacht {
+	width: 73px;
+}
+
 
 
 .msmall-search {
@@ -525,9 +535,6 @@ padding-left: 15px;
 	}
 
 
-#reservlogo {
-	width: 28px;
-}
 
 
 
@@ -1075,9 +1082,7 @@ margin-top: -20px;
 }
 
 
-#reservlogo {
-width: 28px;
-}
+
 
 
 .msmall-search {
@@ -1129,32 +1134,8 @@ width: 100%;
 	}
 }
 
-/************
-4. 1199px
-************/
 
-@media only screen and (max-width: 1200px)
-{
-	
-}
 
-/************
-4. 1100px
-************/
-
-@media only screen and (max-width: 1100px)
-{
-	
-}
-
-/************
-5. 1024px
-************/
-
-@media only screen and (max-width: 1024px)
-{
-	
-}
 
 /************
 6. 991px
@@ -1384,44 +1365,6 @@ width: 100%;
 	}
 }
 
-/************
-7. 1180px
-************/
-
-
-
-@media only screen and (max-width: 1190px)
-{
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1478,9 +1421,7 @@ width: 100%;
 	}
 
 	
-	#reservlogo {
-		width: 28px;
-	}
+	
 
 
 	.msmall-search {
@@ -1638,9 +1579,7 @@ width: 100%;
 		padding-left: 8px;
 		}
 
-	#reservlogo {
-		width: 28px;
-	}
+
 
 
 
@@ -2139,7 +2078,13 @@ table {
 #reservlogo {
 	width: 28px;
 }
+.fa-solid {
+	font-size: 24px;
+}
 
+#reservlogo-yacht {
+	width: 44px;
+}
 
 .msmall-search {
 	width: 100%;
@@ -2194,9 +2139,7 @@ table {
 	}
 
 	
-	#reservlogo {
-		width: 28px;
-	}
+	
 
 
 	.msmall-search {
@@ -2358,9 +2301,8 @@ table {
 		margin-top: -19px;
 		padding-left: 8px;
 		}
-	#reservlogo {
-		width: 28px;
-	}
+
+	
 
 
 
@@ -2850,7 +2792,12 @@ table {
 #reservlogo {
 	width: 28px;
 }
-
+.fa-solid {
+	font-size: 24px;
+}
+#reservlogo-yacht {
+	width: 44px;
+}
 
 .msmall-search {
 	width: 100%;
@@ -2912,9 +2859,7 @@ table {
 	}
 
 
-	#reservlogo {
-		width: 28px;
-	}
+	
 
 
 	.msmall-search {
@@ -3063,12 +3008,18 @@ table {
 		}
 
 	#reservlogo {
-		width: 28px;
-		
+		width: 28px;	
 		
 	}
 
 
+
+	.fa-solid {
+		font-size: 24px;
+	}
+	#reservlogo-yacht {
+		width: 44px;
+	}
 
 	.count-person {
 		
