@@ -1942,6 +1942,10 @@ function re6l6Services() {
 
 
 /*Hotel Done Control*/
+
+			function onlyAdultHotel () {
+				if ($('#qty1-hotel').val() >= '1' & $('.selec-Children-hotel').val() == '0') hideHotels();
+			}
 		
 			function hero1Hotel () {
 			if ($('.1stkid-hotel').val() == '0' & $('.selec-Children-hotel').val() == '0' ) hideHotels();
@@ -2054,6 +2058,7 @@ function hero1Services () {
 
 
 		$('.done-close-hotel').click(function(){
+			onlyAdultHotel();
 			hero1Hotel();
 			hero2Hotel();
 			hero3Hotel();
