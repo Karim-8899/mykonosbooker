@@ -1751,7 +1751,7 @@ select{
 }
 .offers_col
 {
-	margin-bottom: 83px;
+	margin-bottom: 40px;
 }
 
 
@@ -1780,7 +1780,7 @@ select{
 	bottom: 27px;
 	width: 180px;
 	height: 33px;
-	background: #fa9e1b;
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	overflow: hidden;
 }
 .offer_name a
@@ -1838,7 +1838,7 @@ select{
 }
 .offers_link
 {
-	margin-top: 54px;
+	margin-top: 20px;
 }
 .offers_link a
 {
@@ -2234,6 +2234,7 @@ select{
 	font-weight: 700;
 	color: #FFFFFF;
 	text-transform: uppercase;
+	padding-bottom: 25px;
 }
 
 /*********************************
