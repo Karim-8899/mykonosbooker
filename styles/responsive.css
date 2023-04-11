@@ -1142,7 +1142,19 @@ width: 100%;
 ************/
 
 @media only screen and (max-width: 991px)
+
 {
+
+
+	.any-search {
+		width: -webkit-fill-available;
+	}
+
+	.input-box.open {
+		max-width: 166px;
+	  }
+
+
 	.selector-for-some-widget {
 		box-sizing: content-box;
 	  }
