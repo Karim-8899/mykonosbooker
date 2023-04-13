@@ -1922,7 +1922,7 @@ select{
 	bottom: 0;
 	width: 100%;
 	height: 44.1%;
-	background: rgba(49, 18, 75, 0.8);
+	background: linear-gradient(to right, #4b4d8ec7 0%, #2d6a6bd4 100%);
 	border-radius: 30px;
 }
 .test_content
