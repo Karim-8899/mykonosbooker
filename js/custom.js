@@ -3631,10 +3631,8 @@ function showRoom4() {
 		}
 		
 
-
-
-
-
+		
+		
 
 
 
