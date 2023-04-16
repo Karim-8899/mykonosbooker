@@ -819,13 +819,14 @@ section
 }
 .blog_post_date
 {
+	display: none;
 	position: absolute;
 	top: 30px;
 	left: 27px;
 	width: 114px;
 	height: 74px;
 	border-radius: 37px;
-	background: #fa9e1b;
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 }
 .blog_post_day
 {
@@ -901,7 +902,7 @@ section
 }
 .blog_post_title a:hover
 {
-	color: #fa9e1b;
+	color: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 }
 .blog_post_text
 {
@@ -924,7 +925,7 @@ section
 {
 	font-size: 14px;
 	font-weight: 700;
-	color: #fa9e1b;
+	color: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	text-transform: uppercase;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -1021,7 +1022,7 @@ section
 }
 .sidebar_search_button .mag_glass
 {
-	fill: #fa9e1b;
+	fill: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 }
 .sidebar_search_button:hover .mag_glass
 {
@@ -1088,7 +1089,7 @@ section
 }
 .latest_post_title a:hover
 {
-	color: #fa9e1b;
+	color: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 }
 .latest_post_meta
 {
@@ -1234,7 +1235,7 @@ section
 }
 .footer_social_item:hover
 {
-	background: #fa9e1b;
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 }
 .footer_social_item:hover a i
 {
@@ -1318,7 +1319,7 @@ section
 }
 .tag_item:hover
 {
-	background: #fa9e1b;
+	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);;
 }
 .tag_item a
 {
