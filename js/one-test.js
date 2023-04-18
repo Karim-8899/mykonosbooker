@@ -1,5 +1,8 @@
 const villaform = document.getElementById('villa-Form');
 const hotelform = document.getElementById('hotel-Form');
+const apartform = document.getElementById('apart-Form');
+
+// vilaa Form
 
 
 villaform.addEventListener('submit', (event) => {
@@ -37,6 +40,9 @@ villaform.addEventListener('submit', (event) => {
     window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearout}~2F${monthout}~2F${dayout}/Mykonos%20Island/OT-LOC-GEO-257055/(category:villa,nationality:75,rooms:!(('$$hashKey':'object:46',adults:2,children:0,childrenAges:!(),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0)) `;    
 
   });
+
+
+// hotel Form
 
   hotelform.addEventListener('submit', (event) => {
     event.preventDefault(); // prevent the form from submitting
@@ -97,6 +103,9 @@ villaform.addEventListener('submit', (event) => {
 
 });
 
+
+
+// Apartement form
 
 
 
