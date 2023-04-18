@@ -99,15 +99,43 @@ villaform.addEventListener('submit', (event) => {
      window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearOut}~2F${monthOut}~2F${dayOut}/Mykonos%20Island/OT-LOC-GEO-257055/(category:hotel,nationality:75,rooms:!(('$$hashKey':'object:51',adults:2,children:2,childrenAges:!(2,3),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
  
      
-    
-
 });
 
 
 
 // Apartement form
 
+apartform.addEventListener('submit', (event) => {
+  event.preventDefault(); // prevent the form from submitting
+  const apartdatein = apartform.elements['apart-indate'].value;
+  const apartdateout = apartform.elements['apart-outdate'].value;
 
+  const dateinComponents = apartdatein.split("-");
+
+    const year  = dateinComponents[0];
+    const month = dateinComponents[1];
+    const day   = dateinComponents[2];
+
+
+console.log(`In: ${apartdatein}`);
+console.log(`year: ${year}`);
+console.log(`month: ${month}`);
+console.log(`day: ${day}`);
+
+const dateoutComponents = apartdateout.split("-");
+
+    const yearOut  = dateoutComponents[0];
+    const monthOut = dateoutComponents[1];
+    const dayOut   = dateoutComponents[2];
+
+    console.log(`In: ${apartdateout}`);
+
+
+
+    window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearOut}~2F${monthOut}~2F${dayOut}/Mykonos%20Island/OT-LOC-GEO-257055/(category:apartment,nationality:75,rooms:!(('$$hashKey':'object:51',adults:2,children:2,childrenAges:!(2,3),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
+
+
+})
 
 
 
