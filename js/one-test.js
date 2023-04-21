@@ -77,26 +77,27 @@ villaform.addEventListener('submit', (event) => {
   
     const hallkids = hotelform.elements['hotel-allkids'].value;
     const hallrooms = hotelform.elements['hotel-allrooms'].value;
-    const halladult = hotelform.elements['hotel-alladult'].value;
+    const halladultR1 = hotelform.elements['hotel-alladult'].value;
     const hotelkid1 = hotelform.elements['hotel-kid1-age'].value;
     const hotelkid2 = hotelform.elements['hotel-kid2-age'].value;
     const hotelkid3 = hotelform.elements['hotel-kid3-age'].value;
     const hotelkid4 = hotelform.elements['hotel-kid4-age'].value;
     const hotelkid5 = hotelform.elements['hotel-kid5-age'].value;
     const hotelkid6 = hotelform.elements['hotel-kid6-age'].value;
+    
   
     console.log(`allkids: ${hallkids}`);
     console.log(`allrooms: ${hallrooms}`);
-    console.log(`alladult: ${halladult}`);
+    console.log(`alladult: ${halladultR1}`);
     console.log(`kid1: ${hotelkid1}`);
-    console.log(`kid1: ${hotelkid2}`);
-    console.log(`kid1: ${hotelkid3}`);
-    console.log(`kid1: ${hotelkid4}`);
-    console.log(`kid1: ${hotelkid5}`);
-    console.log(`kid1: ${hotelkid6}`);
+    console.log(`kid2: ${hotelkid2}`);
+    console.log(`kid3: ${hotelkid3}`);
+    console.log(`kid4: ${hotelkid4}`);
+    console.log(`kid5: ${hotelkid5}`);
+    console.log(`kid6: ${hotelkid6}`);
 
 
-     window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearOut}~2F${monthOut}~2F${dayOut}/Mykonos%20Island/OT-LOC-GEO-257055/(category:hotel,nationality:75,rooms:!(('$$hashKey':'object:51',adults:2,children:2,childrenAges:!(2,3),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
+ window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearOut}~2F${monthOut}~2F${dayOut}/Mykonos%20Island/OT-LOC-GEO-257055/(category:hotel,nationality:75,rooms:!(('$$hashKey':'object:51',adults:${halladultR1},children:${hallkids},childrenAges:!(${hotelkid1},${hotelkid2},${hotelkid3},${hotelkid4},${hotelkid5},${hotelkid6}),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
  
      
 });
