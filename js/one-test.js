@@ -132,8 +132,28 @@ const dateoutComponents = apartdateout.split("-");
     console.log(`In: ${apartdateout}`);
 
 
+let apartAdults = apartform.elements['apart-alladult'].value,
+    apartkids = apartform.elements['apart-allKids'].value,
+    apartAge1 = apartform.elements['apart-age1'].value,
+    apartAge2 = apartform.elements['apart-age2'].value,
+    apartAge3 = apartform.elements['apart-age3'].value,
+    apartAge4 = apartform.elements['apart-age4'].value,
+    apartAge5 = apartform.elements['apart-age5'].value,
+    apartAge6 = apartform.elements['apart-age6'].value;
 
-    window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearOut}~2F${monthOut}~2F${dayOut}/Mykonos%20Island/OT-LOC-GEO-257055/(category:apartment,nationality:75,rooms:!(('$$hashKey':'object:51',adults:2,children:2,childrenAges:!(2,3),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
+
+
+console.log(`Adults: ${apartAdults}`)
+console.log(`All Kids: ${apartkids}`)
+
+console.log(`Age-1: ${apartAge1}`)
+console.log(`Age-2: ${apartAge2}`)
+console.log(`Age-3: ${apartAge3}`)
+console.log(`Age-4: ${apartAge4}`)
+console.log(`Age-5: ${apartAge5}`)
+console.log(`Age-6: ${apartAge6}`)
+
+window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearOut}~2F${monthOut}~2F${dayOut}/Mykonos%20Island/OT-LOC-GEO-257055/(category:apartment,nationality:75,rooms:!(('$$hashKey':'object:51',adults:${apartAdults},children:${apartkids},childrenAges:!(${apartAge1},${apartAge2},${apartAge3},${apartAge4},${apartAge5},${apartAge6}),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
 
 
 })
