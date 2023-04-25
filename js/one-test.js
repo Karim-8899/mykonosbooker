@@ -37,7 +37,10 @@ villaform.addEventListener('submit', (event) => {
     console.log(`day: ${dayout}`);
 
     console.log(`rooms: ${bedrooms}`);
-    window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearout}~2F${monthout}~2F${dayout}/Mykonos%20Island/OT-LOC-GEO-257055/(category:villa,nationality:75,rooms:!(('$$hashKey':'object:46',adults:2,children:0,childrenAges:!(),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0)) `;    
+
+
+
+    window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearout}~2F${monthout}~2F${dayout}/Mykonos%20Island/OT-LOC-GEO-257055/(category:villa,nationality:75,rooms:!(('$$hashKey':'object:46',adults:${bedrooms},children:0,childrenAges:!(),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0)) `;    
 
   });
 
