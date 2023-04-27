@@ -38,6 +38,10 @@ window.onload = function() {
 
 
 
+ $('#up-logo').click(function(){
+	window.location.reload(true);
+	console.log("Cash is cleard")
+ })
 
 
 
