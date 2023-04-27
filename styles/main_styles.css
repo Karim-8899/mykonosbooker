@@ -1481,6 +1481,7 @@ select{
 	color: #2d2c2c;
 	margin-top: -8px;
 	text-transform: uppercase;
+	padding-bottom: 20px;
 }
 
 /*********************************
@@ -2016,7 +2017,7 @@ select{
 .trending
 {
 	width: 100%;
-	padding-top: 105px;
+	padding-top: 35px;
 	padding-bottom: 50px;
 }
 .trending_container
