@@ -3370,6 +3370,31 @@ function showRoom4() {
 
 
 
+$('#villa-short').click(function() {
+	var today = new Date();
+	
+	const day = today.getDate();
+	const month = today.getMonth() + 2; // Note: month is zero-indexed, so add 1 to get the correct month
+	const year = today.getFullYear();
+
+console.log(`Today is ${day}/${month}/${year}`);
+
+    var todayOut = new Date();
+
+	todayOut.setDate(todayOut.getDate() + 5);
+	const dayOut = todayOut.getDate();
+	const monthOut = todayOut.getMonth() + 2;
+	const yearOut = today.getFullYear();
+
+
+	
+window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearOut}~2F${monthOut}~2F${dayOut}/Mykonos%20Island/OT-LOC-GEO-257055/(category:villa,nationality:75,rooms:!(('$$hashKey':'object:46',adults:4,children:0,childrenAges:!(),quantity:1)),searchOnRequestRooms:!t,stars:(max:5,min:0))`
+
+})
+
+
+
+
 
 
 
