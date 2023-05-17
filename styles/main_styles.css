@@ -896,11 +896,11 @@ select{
 }
 
 #loader {
-	border: 12px solid #f3f3f3;
+	border: 7px solid #f3f3f3;
 	border-radius: 50%;
-	border-top: 12px solid #444444;
-	width: 70px;
-	height: 70px;
+	border-top: 7px solid #444444;
+	width: 45px;
+	height: 45px;
 	animation: spin 1s linear infinite;
 }
   
@@ -967,6 +967,7 @@ select{
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	z-index: 11;
+	padding-top: 185px;
 }
 .home_slider_content h1
 {
@@ -978,14 +979,16 @@ select{
 	font-weight: 900;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	padding-bottom: 20px;
+	padding-bottom: 12px;
+	font-family: 'Times New Roman', Times, serif;
 }
 .home_slider_content h1:nth-child(2)
 {
-	font-family: 'Beyond';
+	text-transform: uppercase;
 	font-size: 100px;
 	color: #FFFFFF;
 	margin-top: -34px;
+	font-family: 'Times New Roman', Times, serif;
 }
 .home_slider_button
 {
@@ -1784,6 +1787,7 @@ select{
 	height: 33px;
 	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 100%);
 	overflow: hidden;
+	border-radius: 0 15px 15px 0;
 }
 .offer_name a
 {
