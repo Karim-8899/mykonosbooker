@@ -984,11 +984,13 @@ select{
 }
 .home_slider_content h1:nth-child(2)
 {
-	text-transform: uppercase;
+	
 	font-size: 100px;
 	color: #FFFFFF;
 	margin-top: -34px;
-	font-family: 'Times New Roman', Times, serif;
+	
+	font-family: 'Minimal', sans-serif;
+                                                
 }
 .home_slider_button
 {
