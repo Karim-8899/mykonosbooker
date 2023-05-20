@@ -39,6 +39,36 @@ villaform.addEventListener('submit', (event) => {
     console.log(`rooms: ${bedrooms}`);
 
 
+  var dateInput = document.getElementById('roundedk-in').value;
+  var dateInput2 = document.getElementById('roundedk-out').value;
+  var isValidDate = isValidDateFormat(dateInput);
+  var isValidDate2 = isValidDateFormat(dateInput2);
+
+  if (!isValidDate) {
+    alert('Invalid date format. Please enter a valid date.');
+    return false; // Prevent form submission
+  }
+
+  function isValidDateFormat(dateString) {
+    // Check if the date matches the desired format (YYYY-MM-DD)
+    var dateRegex = /^\d{4}-\d{2}-\d{2}$/;
+    return dateRegex.test(dateString);
+  }
+
+
+  if (!isValidDate2) {
+    alert('Invalid date format. Please enter a valid date.');
+    return false; // Prevent form submission
+  }
+
+
+  function isValidDate2(dateString) {
+    // Check if the date matches the desired format (YYYY-MM-DD)
+    var dateRegex = /^\d{4}-\d{2}-\d{2}$/;
+    return dateRegex.test(dateString);
+  }
+
+
 
     window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearout}~2F${monthout}~2F${dayout}/Mykonos%20Island/OT-LOC-GEO-257055/(category:villa,nationality:75,rooms:!(('$$hashKey':'object:46',adults:${bedrooms},children:0,childrenAges:!(),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0)) `;    
 

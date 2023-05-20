@@ -3438,19 +3438,12 @@ window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${
 
 })
 
-function validateForm() {
-    var name = document.getElementById("roundedk-in").value;
-    var email = document.getElementById("roundedk-out").value;
 
-    if (name === "" || email === "") {
-      alert("Please fill out all fields");
-      return false; // Prevent form submission
-    }
 
-    // Proceed with form submission
-    return true;
-  }
 
+
+  
+  
 
 
 

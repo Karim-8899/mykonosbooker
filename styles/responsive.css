@@ -1256,11 +1256,12 @@ width: 100%;
 	}
 	.home_slider_content h1:first-child
 	{
-		font-size: 72px;
+		
+		font-size: 250% !important;
 	}
 	.home_slider_content h1:nth-child(2)
 	{
-		font-size: 60px;
+		font-size: 90px;
 		margin-top: -18px;
 	}
 	.home_slider_button
@@ -2929,7 +2930,9 @@ table {
 
 
 	.home_slider_content h1:first-child {
-		font-size: 18px;
+		
+		padding: 0;
+		font-size: 130% !important;
 	}
 
 
@@ -3660,10 +3663,11 @@ table {
 	.home_slider_content h1:first-child
 	{
 		font-size: 48px;
+		font-size: 130% !important;
 	}
 	.home_slider_content h1:nth-child(2)
 	{
-    	font-size: 65px;
+    	font-size: 58px;
     	margin-top: -12px;	
 	}
 	.home_slider_button

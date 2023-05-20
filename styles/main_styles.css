@@ -978,9 +978,9 @@ select{
 	font-size: 112px;
 	font-weight: 900;
 	color: #FFFFFF;
-	text-transform: uppercase;
+	
 	padding-bottom: 12px;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Minimal', sans-serif;
 }
 .home_slider_content h1:nth-child(2)
 {
@@ -2710,6 +2710,7 @@ select{
 		width: 100%;
 		margin: 0 auto;
 		height: 45px;	
+		font-size: 16px;
 	}
 
 	
@@ -2812,6 +2813,7 @@ select{
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		margin: 0 auto;	
+		font-size: 16px;
 	}
 
 	#roundedk-hotl-out {
