@@ -130,6 +130,38 @@ villaform.addEventListener('submit', (event) => {
     console.log(`kid6: ${hotelkid6}`);
 
 
+    
+  var dateInput = document.getElementById('roundedk-hotl-in').value;
+  var dateInput2 = document.getElementById('roundedk-hotl-out').value;
+  var isValidDate = isValidDateFormat(dateInput);
+  var isValidDate2 = isValidDateFormat(dateInput2);
+
+
+  if (!isValidDate) {
+    alert('Invalid date format. Please enter a valid date.');
+    return false; // Prevent form submission
+  }
+
+  function isValidDateFormat(dateString) {
+    // Check if the date matches the desired format (YYYY-MM-DD)
+    var dateRegex = /^\d{4}-\d{2}-\d{2}$/;
+    return dateRegex.test(dateString);
+  }
+
+
+  if (!isValidDate2) {
+    alert('Invalid date format. Please enter a valid date.');
+    return false; // Prevent form submission
+  }
+
+
+  function isValidDate2(dateString) {
+    // Check if the date matches the desired format (YYYY-MM-DD)
+    var dateRegex = /^\d{4}-\d{2}-\d{2}$/;
+    return dateRegex.test(dateString);
+  }
+
+
  window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearOut}~2F${monthOut}~2F${dayOut}/Mykonos%20Island/OT-LOC-GEO-257055/(category:hotel,nationality:75,rooms:!(('$$hashKey':'object:51',adults:${halladultR1},children:${hallkids},childrenAges:!(${hotelkid1},${hotelkid2},${hotelkid3},${hotelkid4},${hotelkid5},${hotelkid6}),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
  
      
@@ -185,6 +217,8 @@ console.log(`Age-3: ${apartAge3}`)
 console.log(`Age-4: ${apartAge4}`)
 console.log(`Age-5: ${apartAge5}`)
 console.log(`Age-6: ${apartAge6}`)
+
+
 
 window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${month}~2F${day}/${yearOut}~2F${monthOut}~2F${dayOut}/Mykonos%20Island/OT-LOC-GEO-257055/(category:apartment,nationality:75,rooms:!(('$$hashKey':'object:51',adults:${apartAdults},children:${apartkids},childrenAges:!(${apartAge1},${apartAge2},${apartAge3},${apartAge4},${apartAge5},${apartAge6}),quantity:1)),searchOnRequestRooms:!f,stars:(max:5,min:0))`;
 

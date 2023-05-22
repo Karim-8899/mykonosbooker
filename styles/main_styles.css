@@ -2684,6 +2684,7 @@ select{
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
 		display:flex;	
+		font-size: 16px;
 	}
 
 	
@@ -2695,7 +2696,8 @@ select{
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
-		display:flex;	
+		display:flex;
+		font-size: 16px;	
 	}
 
 	
@@ -2724,6 +2726,8 @@ select{
 		width: 100%;
 		margin: 0 auto;
 		height: 45px;	
+		font-size: 16px;
+		
 	}
 
 	#roundedk-apart-in {
@@ -2736,6 +2740,7 @@ select{
 		width: 100%;
 		margin: 0 auto;
 		height: 45px;	
+		font-size: 16px;
 	}
 
 	#roundedk-serv-in {
@@ -2747,7 +2752,8 @@ select{
 		color: rgba(255, 255, 255, 0.961);
 		width: 100%;
 		margin: 0 auto;
-		height: 45px;	
+		height: 45px;
+		font-size: 16px;	
 	}
 
 	#roundedk-trans-in {
@@ -2760,6 +2766,7 @@ select{
 		width: 100%;
 		margin: 0 auto;
 		height: 45px;	
+		font-size: 16px;
 	}
 	#roundedk-trans-in-hire {
 		border-radius: 10px;
@@ -2771,6 +2778,7 @@ select{
 		width: 100%;
 		margin: 0 auto;
 		height: 45px;	
+		font-size: 16px;
 	}
 	
 
@@ -2802,6 +2810,7 @@ select{
 		width: 100%;
 		margin: 0 auto;
 		height: 45px;
+		font-size: 16px;
 	}
 
 
@@ -2824,6 +2833,7 @@ select{
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		margin: 0 auto;	
+		font-size: 16px;
 	}
 
 
@@ -2835,6 +2845,7 @@ select{
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		margin: 0 auto;	
+		font-size: 16px;
 	}
 
 	#roundedk-serv-out {
@@ -2845,6 +2856,7 @@ select{
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		margin: 0 auto;	
+		font-size: 16px;
 	}
 
 	#roundedk-trans-out {
@@ -2855,6 +2867,7 @@ select{
 		border-style: solid ;
 		color: rgba(255, 255, 255, 0.961);
 		margin: 0 auto;	
+		font-size: 16px;
 	}
 
 	
