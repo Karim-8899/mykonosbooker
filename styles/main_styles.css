@@ -967,7 +967,7 @@ select{
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	z-index: 11;
-	padding-top: 185px;
+	padding-top: 213px;
 }
 .home_slider_content h1
 {
@@ -980,7 +980,7 @@ select{
 	color: #FFFFFF;
 	
 	padding-bottom: 12px;
-	font-family: 'Minimal', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 }
 .home_slider_content h1:nth-child(2)
 {

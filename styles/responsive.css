@@ -3663,11 +3663,11 @@ table {
 	.home_slider_content h1:first-child
 	{
 		font-size: 48px;
-		font-size: 130% !important;
+		font-size: 113% !important;
 	}
 	.home_slider_content h1:nth-child(2)
 	{
-    	font-size: 58px;
+    	font-size: 55px;
     	margin-top: -12px;	
 	}
 	.home_slider_button
