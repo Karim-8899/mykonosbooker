@@ -3895,7 +3895,7 @@ href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
 				<div class="col-lg-7">
 					<div class="contact_form_container">
 						<div class="contact_title">get in touch</div>
-						<form action="databaseconnect.php" method="post" id="contact_form" class="contact_form">
+						<form  id="contact_form" class="contact_form">
 							<input type="text" id="contact_form_name" name="name"  class="contact_form_name input_field" placeholder="Name" required="required" data-error="Name is required.">
 							<input type="email" id="contact_form_email" name="email" class="contact_form_email input_field" placeholder="E-mail" required="required" data-error="Email is required.">
 							<input required type="tel" id="contact_form_subject"  name="subject" class="contact_form_subject input_field" placeholder="Phone Number" required="required" data-error="Phone is required.">
@@ -4047,7 +4047,26 @@ href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
 	</div>
 
 </div>
+<script>
+	var form = document.getElementById('contact_form');
+	
+	form.addEventListener('submit', function(event) {
+	  event.preventDefault(); // prevent default form submission
+	
+	  // submit form data to first PHP page using AJAX
+	  var xhr = new XMLHttpRequest();
+	  xhr.open('POST', 'databaseconnect.php', true);
+	  xhr.onload = function() {
+		// send another request to second PHP page
+		var xhr2 = new XMLHttpRequest();
+		xhr2.open('POST', 'phpmailer.php', true);
+		xhr2.send();
+	  };
+	  xhr.send(new FormData(form));
 
+	 
+	});
+	</script>
 
 <script src="js/jquery-3.5.0.min.js"></script>
 <script src="js/jquery-3.2.1.min.js"></script>
