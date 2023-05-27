@@ -5,6 +5,7 @@
    use PHPMailer\PHPMailer\PHPMailer;
    use PHPMailer\PHPMailer\Exception;
    use PHPMailer\PHPMailer\SMTP;
+   use PHPMailer\PHPMailer\PHPMailerAutoload;
 
 require 'PHPMailer-master/src/Exception.php';
 require 'PHPMailer-master/src/PHPMailer.php';
@@ -26,7 +27,7 @@ $email = $_POST['email'];
    $mail->SMTPSecure = 'ssl';
    
    $mail->setFrom('no-reply@mykonosbooker.com', 'Mykonos Booker');
-   $mail->addAddress(`$email`, `$name`);
+   $mail->addAddress($email, $name);
    $mail->Subject = 'Welcome to MykonosBooker';
    $mail->Body = 'Thank you For Contacting MykonosBooker';
    //$mail->msgHTML(file_get_contents('message.html'), __DIR__);
