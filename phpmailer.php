@@ -27,7 +27,7 @@ $email = $_POST['email'];
    $mail->SMTPSecure = 'ssl';
    
    $mail->setFrom('no-reply@mykonosbooker.com', 'Mykonos Booker');
-   $mail->addAddress($email, $name);
+   $mail->addAddress('freerapper666@gmail.com', $name);
    $mail->Subject = 'Welcome to MykonosBooker';
    $mail->Body = 'Thank you For Contacting MykonosBooker';
    //$mail->msgHTML(file_get_contents('message.html'), __DIR__);
