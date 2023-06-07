@@ -1,19 +1,27 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\PHPMailerAutoload;
 
-require 'vendor/autoload.php';
+//require 'vendor/autoload.php';
+
+require 'PHPMailer-master/src/Exception.php';
+require 'PHPMailer-master/src/PHPMailer.php';
+require 'PHPMailer-master/src/SMTP.php';
+require 'PHPMailer-master/PHPMailerAutoload.php';
 
 // Retrieve form data
-$sender_email = $_POST['sender_email'];
-$recipient_email = $_POST['recipient_email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+
+$email = $_POST['email'];
+//$sender_email = $_POST['sender_email'];
+//$subject = $_POST['subject'];
+//$message = $_POST['message'];
 
 // Create a new PHPMailer instance
 $mail = new PHPMailer(true);
 
-try {
+
     // Server settings
     $mail = new PHPMailer();
    $mail->isSMTP();
@@ -25,17 +33,27 @@ try {
    $mail->SMTPSecure = 'ssl';                                 // TCP port to connect to
 
     // Recipients
-    $mail->setFrom($sender_email);
-    $mail->addAddress($recipient_email);     // Add a recipient
+    $mail->setFrom('no-reply@mykonosbooker.com', 'Mykonos Booker');
+    $mail->addAddress($email);     // Add a recipient
+
+    $mail->Subject = 'Welcome to MykonosBooker';
+    $mail->Body = 'Thank you For Contacting MykonosBooker';
+
+
 
     // Content
-    $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = $subject;
-    $mail->Body    = $message;
+   // $mail->isHTML(true);                                  // Set email format to HTML
+   // $mail->Subject = $subject;
+   // $mail->Body    = $message;
 
-    $mail->send();
-    echo 'Message has been sent';
-} catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+
+   if(!$mail->send()) {
+    echo 'Email could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+} else {
+    echo '<center><h1>Email has been sent.</h1></center>';
 }
+
+
+
 ?>

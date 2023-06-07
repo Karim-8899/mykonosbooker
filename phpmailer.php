@@ -13,8 +13,8 @@ require 'PHPMailer-master/src/SMTP.php';
 require 'PHPMailer-master/PHPMailerAutoload.php';
 
 // Get form data
-$name = $_POST['name'];
-$email = $_POST['email'];
+//$name = $_POST['name'];
+//$email = $_POST['email'];
 
 
    $mail = new PHPMailer();
