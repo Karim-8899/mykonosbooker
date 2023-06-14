@@ -38,6 +38,7 @@ $mail = new PHPMailer(true);
 
     $mail->Subject = 'Welcome to MykonosBooker';
     $mail->Body = 'Thank you For Contacting MykonosBooker';
+     $mail->msgHTML(file_get_contents('message.html'), __DIR__);
 
 
 

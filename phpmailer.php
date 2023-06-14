@@ -13,8 +13,8 @@ require 'PHPMailer-master/src/SMTP.php';
 require 'PHPMailer-master/PHPMailerAutoload.php';
 
 // Get form data
-//$name = $_POST['name'];
-//$email = $_POST['email'];
+$name = $_POST['name'];
+$email = $_POST['email'];
 
 
    $mail = new PHPMailer();
@@ -29,7 +29,7 @@ require 'PHPMailer-master/PHPMailerAutoload.php';
    $mail->setFrom('no-reply@mykonosbooker.com', 'Mykonos Booker');
    $mail->addAddress('freerapper666@gmail.com', $name);
    $mail->Subject = 'Welcome to MykonosBooker';
-   $mail->Body = 'Thank you For Contacting MykonosBooker';
+   $mail->Body = 'A Clint has been submit our Form. Kindly contact ASAP';
    //$mail->msgHTML(file_get_contents('message.html'), __DIR__);
   // $mail->addReplyTo('info@mykonosbooker.com', 'Mykonos Booker');
    // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';

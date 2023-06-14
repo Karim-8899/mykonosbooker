@@ -135,10 +135,10 @@
 					<!-- Contact Form -->
 					<div class="contact_form_container">
 						<div class="contact_title text-center">get in touch</div>
-						<form action="#" id="contact_form" class="contact_form text-center">
-							<input type="text" id="contact_form_name" class="contact_form_name input_field" placeholder="Name" required="required" data-error="Name is required.">
-							<input type="text" id="contact_form_email" class="contact_form_email input_field" placeholder="E-mail" required="required" data-error="Email is required.">
-							<input type="text" id="contact_form_subject" class="contact_form_subject input_field" placeholder="Subject" required="required" data-error="Subject is required.">
+						<form  id="contact_form" class="contact_form text-center">
+							<input type="text" id="contact_form_name" name="name" class="contact_form_name input_field" placeholder="Name" required="required" data-error="Name is required.">
+							<input type="text" id="contact_form_email" name="email" class="contact_form_email input_field" placeholder="E-mail" required="required" data-error="Email is required.">
+							<input type="text" id="contact_form_subject" name="subject" class="contact_form_subject input_field" placeholder="Subject" required="required" data-error="Subject is required.">
 							<textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
 							<button type="submit" id="form_submit_button" class="form_submit_button button trans_200">send message<span></span><span></span><span></span></button>
 						</form>
@@ -363,6 +363,36 @@
 	</div>
 
 </div>
+
+<script>
+	const form = document.getElementById('contact_form');
+	
+	form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const formData = new FormData(form);
+
+  const xhr1 = new XMLHttpRequest();
+  xhr1.open('POST', 'databaseconnect.php');
+  xhr1.onload = () => {
+    // handle response from page1.php
+  };
+  xhr1.send(formData);
+
+  const xhr2 = new XMLHttpRequest();
+  xhr2.open('POST', 'clientmail.php');
+  xhr2.onload = () => {
+    // handle response from page2.php
+  };
+  xhr2.send(formData);
+
+  const xhr3 = new XMLHttpRequest();
+  xhr3.open('POST', 'phpmailer.php');
+  xhr3.onload = () => {
+    // handle response from page3.php
+  };
+  xhr3.send(formData);
+});
+	</script>
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
