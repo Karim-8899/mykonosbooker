@@ -93,7 +93,7 @@ href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
 				<div class="row">
 					<div class="col main_nav_col d-flex flex-row align-items-center justify-content-start">
 						<div class="logo_container">
-							<div class="logo"><a href="#"><img id="up-logo" src="images/logo.png" alt="" ></a></div>
+							<div class="logo"><a href="#"><img id="up-logo" src="images/logo.png" alt="mykonosbooker from www.mykonosbooker.com" ></a></div>
 						</div>
 						<div class="main_nav_container ml-auto">
 							<ul class="main_nav_list">
@@ -134,7 +134,7 @@ href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
 	<div class="menu trans_500">
 		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
 			<div class="menu_close_container"><div class="menu_close"></div></div>
-			<div class="logo menu_logo"><a href="index.html"><img src="images/logow.png" alt="" ></a></div>
+			<div class="logo menu_logo"><a href="index.html"><img src="images/logow.png" alt="mykonosbooker from www.mykonosbooker.com" ></a></div>
 			<ul>
 				<li class="menu_item"><a href="#">home</a></li>
 				<li class="menu_item"><a href="about.html">about us</a></li>
@@ -4074,7 +4074,23 @@ href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
     // handle response from page3.php
   };
   xhr3.send(formData);
+
+reloadPage()
+
 });
+
+function reloadPage() {
+	
+
+	setTimeout(() => {
+    // Enable the button after the delay
+	window.location.reload(true);
+    
+    // Run the function
+   // runAfterDelay();
+  }, 60000);
+	
+}
 	</script>
 
 <script src="js/jquery-3.5.0.min.js"></script>
