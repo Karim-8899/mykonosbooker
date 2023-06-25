@@ -28,6 +28,11 @@
 
 @media screen and (max-width: 4100px) and (min-width: 992px), (min-width: 4200px)
 {
+
+
+
+
+	
 	.contact_background {
 		background-image:url(../images/contact.jpg);
 	}
@@ -3856,8 +3861,31 @@ table {
 	{
 		font-size: 13px;
 	}
+
+
+	
+
+.container-load {
+    position: relative;
+    padding: 40px;
+    scale: .8;
+    margin-left: -100px;
+	margin-left: -100px;
+    margin-right: -100px;
 }
 
+.notify-1 {
+	font-weight: 650;
+	
+}
+
+.notify-2, .notify-3 {
+	font-size: 20px;
+}
+ 
+.notify-4 {
+	font-size: 15px;
+}
 /************
 11. 539px
 ************/
