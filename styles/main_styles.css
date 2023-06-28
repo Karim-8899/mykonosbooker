@@ -2122,6 +2122,7 @@ select{
 	padding-bottom: 88px;
 	background: linear-gradient(to right, #7f82f0 0%, #5ad2d4 50%);
 	border-radius: 30px;
+	font-size: 16px;
 }
 .contact_form
 {
@@ -2143,15 +2144,18 @@ select{
 {
 	width: calc((100% - 30px) / 2);
 	margin-right: 30px;
+	font-size: 16px;
 }
 .contact_form_email
 {
 	width: calc((100% - 30px) / 2);
+	font-size: 16px;
 }
 .contact_form_subject
 {
 	width: 100%;
 	margin-top: 11px;
+	font-size: 16px;
 }
 .contact_form_message
 {
@@ -2166,6 +2170,7 @@ select{
 	color: #FFFFFF;
 	border-bottom: solid 2px #e1e1e1;
 	padding-top: 11px;
+	font-size: 16px;
 }
 .form_submit_button
 {
