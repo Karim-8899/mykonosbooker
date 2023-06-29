@@ -216,6 +216,12 @@
 
 @media only screen and (max-width: 575px)
 {
+
+	.container-load {
+		margin-right: -65px;
+		margin-left: -65px;
+	}
+
 	p{font-size: 13px;}
 	h1{font-size: 28px;}
 	.top_bar

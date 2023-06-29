@@ -37,7 +37,7 @@
 								<li class="social_list_item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
-						<div class="user_box ml-auto">
+						<div class="user_box ml-auto d-none">
 							<div class="user_box_login user_box_link"><a href="#">login</a></div>
 							<div class="user_box_register user_box_link"><a href="#">register</a></div>
 						</div>
@@ -59,7 +59,7 @@
 							<ul class="main_nav_list">
 								<li class="main_nav_item"><a href="index.html">home</a></li>
 								<li class="main_nav_item"><a href="about.html">about us</a></li>
-								<li class="main_nav_item"><a href="#">offers</a></li>
+								<li class="main_nav_item d-none"><a href="#">offers</a></li>
 								<li class="main_nav_item"><a href="blog.html">news</a></li>
 								<li class="main_nav_item"><a href="#">contact</a></li>
 							</ul>
@@ -109,7 +109,7 @@
 			<ul>
 				<li class="menu_item"><a href="index.html">home</a></li>
 				<li class="menu_item"><a href="about.html">about us</a></li>
-				<li class="menu_item"><a href="#">offers</a></li>
+				<li class="menu_item d-none"><a href="#">offers</a></li>
 				<li class="menu_item"><a href="blog.html">news</a></li>
 				<li class="menu_item"><a href="#">contact</a></li>
 			</ul>
@@ -125,6 +125,38 @@
 		</div>
 	</div>
 
+
+	<dialog id="my-dialog">
+
+		<div>
+			<center>
+				<h2 class="notify-1">Thank you for contacting MYKONOSBOOKER</h2>
+				<h2 class="notify-1">We will contact you shortly</h2>
+				<h2 class="notify-3">Enjoy, And have fun..</h2>
+			  
+			  
+			  </center>
+	  
+		  <div class="container-load">
+			  <div class="loading">
+				<span class="text">Loading</span>
+				<div class="percent">
+				  <div class="progress"></div>
+				</div>
+			  </div>
+			</div>
+	  
+			  
+			  <center>
+				  
+				  <h3 class="notify-4">Redirecting to the home Page . . .</h3>
+	  
+			  </center>
+			  
+		</div>
+		
+	  </dialog>
+
 	<!-- Contact -->
 
 	<div class="contact_form_section">
@@ -138,7 +170,7 @@
 						<form  id="contact_form" class="contact_form text-center">
 							<input type="text" id="contact_form_name" name="name" class="contact_form_name input_field" placeholder="Name" required="required" data-error="Name is required.">
 							<input type="text" id="contact_form_email" name="email" class="contact_form_email input_field" placeholder="E-mail" required="required" data-error="Email is required.">
-							<input type="text" id="contact_form_subject" name="subject" class="contact_form_subject input_field" placeholder="Subject" required="required" data-error="Subject is required.">
+							<input required type="tel" id="contact_form_subject"  name="subject" class="contact_form_subject input_field" placeholder="Phone Number" required="required" data-error="Phone is required.">
 							<textarea id="contact_form_message" class="text_field contact_form_message" name="message" rows="4" placeholder="Message" required="required" data-error="Please, write us a message."></textarea>
 							<button type="submit" id="form_submit_button" class="form_submit_button button trans_200">send message<span></span><span></span><span></span></button>
 						</form>
@@ -151,7 +183,7 @@
 
 	<!-- About -->
 	<div class="about">
-		<div class="container">
+		<div class="container d-none">
 			<div class="row">
 				<div class="col-lg-5">
 					
@@ -216,7 +248,7 @@
 
 	<!-- Google Map -->
 		
-	<div class="travelix_map">
+	<div class="travelix_map d-none">
 		<div id="google_map" class="google_map">
 			<div class="map_container">
 				<div id="map"></div>
@@ -365,10 +397,17 @@
 </div>
 
 <script>
+	const openButton = document.getElementById('form_submit_button');
+	const myDialog = document.getElementById('my-dialog');
 	const form = document.getElementById('contact_form');
+
+//   openButton.addEventListener('click', () => {
+//       myDialog.showModal();
+//     });
 	
 	form.addEventListener('submit', (event) => {
   event.preventDefault();
+  myDialog.showModal();
   const formData = new FormData(form);
 
   const xhr1 = new XMLHttpRequest();
@@ -391,7 +430,24 @@
     // handle response from page3.php
   };
   xhr3.send(formData);
+
+
+  reloadPage()
 });
+
+
+function reloadPage() {
+	
+
+	setTimeout(() => {
+    // Enable the button after the delay
+	window.location.reload(true);
+    
+    // Run the function
+   // runAfterDelay();
+  }, 9000);
+	
+}
 	</script>
 
 <script src="js/jquery-3.2.1.min.js"></script>
