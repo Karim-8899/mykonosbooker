@@ -126,6 +126,10 @@ $(function() {
 	$('#dash-room2').hide();
 	$('#dash-room3').hide();
 	$('#dash-room4').hide();
+
+
+
+	
 	
  });
 
@@ -140,7 +144,21 @@ $(function() {
 
 $(document).ready(function()
 {
+	function hideActivityMenu() {
+		$("#sub-activity").hide();
+	}
+
+	function showActivityMenu() {
+		$("#sub-activity").show();
+	}
+
+	$('#roundedk-ferry').on('change', function() {
+		if ($('#roundedk-ferry').val() == "ferryboat") hideActivityMenu();
+		else if ($('#roundedk-ferry').val() == "2") showActivityMenu();
 		
+	})
+
+
 
 		$('.selec-Children').on('change', function() {
     
@@ -3443,7 +3461,32 @@ window.location.href = `https://bookings.mykonosbooker.com/#/search/${year}~2F${
 
 
   
+
+
   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
