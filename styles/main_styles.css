@@ -1424,7 +1424,15 @@ select{
 
 .dropdown_item_select
 {
-	-webkit-appearance:none;
+
+	border-radius: 10px;
+		border-width: 0.5px;
+		border-color: rgba(255, 255, 255, 0.982);
+		background:#0a2b2c99;
+		border-style: solid ;
+		color: rgba(255, 255, 255, 0.961);
+		width: 100%;
+	/* -webkit-appearance:none;
     -moz-appearance:none;
     -ms-appearance:none;
     -o-appearance:none;
@@ -1437,7 +1445,7 @@ select{
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	cursor: pointer;
+	cursor: pointer; */
 	
 	/* background-image: url(../images/dropdown.png);
 	background-position: center right;
