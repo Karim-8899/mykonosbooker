@@ -23,6 +23,7 @@ href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
 
 
 
+
 <script src="https://kit.fontawesome.com/016f3a8fdd.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 <link href="https://fonts.cdnfonts.com/css/minimal" rel="stylesheet">
@@ -43,7 +44,7 @@ href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
   <link rel="stylesheet" href="./dist/css/default/zebra_datepicker.min.css">
  
   <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/zebra_pin@2.0.0/dist/zebra_pin.min.js"></script>
+      
         <script src="dist/zebra_datepicker.min.js"></script>
 		<script src="js/jquery-3.5.0.min.js"></script>
 
@@ -2542,62 +2543,70 @@ href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
 						<form action="#" id="search_form_4" class="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start">
 							<div class="search_item" id="activity-pcv">
 								<div>Category</div>
-								<select name="adults" id="roundedk" class="dropdown_item_select search_input">
-									<option selected="selected" disabled="disabled">Select Type of Activity</option>
-									<option>Yachts</option>
-									<option>Helicopter Ride</option>
-									<option>Horse Riding</option>
-									<option>Wine Tasting</option>
-									<option>Beer Tasting</option>
-									<option>Watersports</option>
+								<select name="adults" id="roundedk-ferry" class="dropdown_item_select search_input" >
+									<option value="2" selected="selected" disabled="disabled">Select Type of Activity</option>
+									<option value="2">Yachts</option>
+									<option value="2">Helicopter Ride</option>
+									<option value="ferryboat">Ferry Boats</option>
+									<option value="2">Horse Riding</option>
+									<option value="2">Wine Tasting</option>
+									<option value="2">Beer Tasting</option>
+									<option value="2">Watersports</option>
 	
 								</select>
 							</div>
+
+<div id="sub-activity" style="display: contents;">
+
+
+	<div class="search_item" id="activity-pcv">
+		<div>Book a day</div>
+		<input type="text" id="roundedk-activity" class="check_out search_input" placeholder="Activity Date">
+	</div>
+
+	<div class="dash-hire-activ" id="activity-pcv">	
+
+		<div class="hamburger2">
+				
+			<table class="tablez" id="smview-dash" >
+				<tr>
+					<th rowspan="2" style="white-space:nowrap; height: 10px; width: 40px;">
+						<div class="booking-person-villa d-flex">
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+								<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+							  </svg>
+							  
+						</div>
+					</th>
+					<td style="white-space:nowrap; height: 10px; font-size: 12px;">Travelers</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="travler-display" >
+							<p id="aladults" value=" "> 1  </p>  Adults,  <p id="alkids" value=" "> 0  </p> Children</p>
+						</div>
+					</td>
+				  </tr>
+			</table>
+		</div>
+		
+
+
+
+
+
+
+	</div>
+	<div class="search_item" id="activity-pcv">
+		<div>Special request</div>
+		<input type="text"  id="roundedk" class="check_out search_input" placeholder="Note any special request">
+	</div>
+	
+	<button class="button search_button">search<span></span><span></span><span></span></button>
+</div>
+
 							
-							<div class="search_item" id="activity-pcv">
-								<div>Book a day</div>
-								<input type="text" id="roundedk-activity" class="check_out search_input" placeholder="Activity Date">
-							</div>
-
-							<div class="dash-hire-activ" id="activity-pcv">	
-
-								<div class="hamburger2">
-										
-									<table class="tablez" id="smview-dash" >
-										<tr>
-											<th rowspan="2" style="white-space:nowrap; height: 10px; width: 40px;">
-												<div class="booking-person-villa d-flex">
-													<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-														<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
-													  </svg>
-													  
-												</div>
-											</th>
-											<td style="white-space:nowrap; height: 10px; font-size: 12px;">Travelers</td>
-										</tr>
-										<tr>
-											<td>
-												<div class="travler-display" >
-													<p id="aladults" value=" "> 1  </p>  Adults,  <p id="alkids" value=" "> 0  </p> Children</p>
-												</div>
-											</td>
-										  </tr>
-									</table>
-								</div>
-								
-
-
-
-
-
-
-							</div>
-							<div class="search_item" id="activity-pcv">
-								<div>Special request</div>
-								<input type="text"  id="roundedk" class="check_out search_input" placeholder="Note any special request">
-							</div>
 							
-							<button class="button search_button">search<span></span><span></span><span></span></button>
 
 							<div class="menu2 trans_500" id="pmenu">
 								<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
@@ -4144,6 +4153,16 @@ function reloadPage() {
   }, 9000);
 	
 }
+	
+	
+
+
+
+
+
+	
+	
+	
 	</script>
 
 <script src="js/jquery-3.5.0.min.js"></script>
@@ -4157,12 +4176,11 @@ function reloadPage() {
 
 <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
-		rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
-		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/zebra_pin@2.0.0/dist/zebra_pin.min.js"></script>
+		
+		
+       
         <script src="dist/zebra_datepicker.min.js"></script>
+		
 
 	
 		
